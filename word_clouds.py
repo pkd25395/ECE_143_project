@@ -104,10 +104,10 @@ import pandas as pd
 
 #import .csvs as dataframes
 col_list = ["Job_title","Company","State","City","Min_Salary","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]
-files_list = ["/Users/harkerrussell/Desktop/ece143/project/datasets/Data_Job_NY.csv"
-                ,"/Users/harkerrussell/Desktop/ece143/project/datasets/Data_Job_SF.csv"
-                ,"/Users/harkerrussell/Desktop/ece143/project/datasets/Data_Job_TX.csv"
-                ,"/Users/harkerrussell/Desktop/ece143/project/datasets/Data_Job_WA.csv"]
+files_list = ["Data_Job_NY.csv"
+                ,"Data_Job_SF.csv"
+                ,"Data_Job_TX.csv"
+                ,"Data_Job_WA.csv"]
 df_NY = pd.read_csv(files_list[0],usecols=col_list)
 df_SF = pd.read_csv(files_list[1],usecols=col_list)
 df_TX = pd.read_csv(files_list[2],usecols=col_list)
@@ -163,15 +163,15 @@ str_Business = remove_non_keywords(str_Business, keyword_list)
 
 #create wordcloud object for:
 ## Health Care
-generate_and_display_wordcloud(str_HealthCare,"Health Care","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #8iGbRApyT.png")
+generate_and_display_wordcloud(str_HealthCare,"Health Care","cloud.png") #8iGbRApyT.png")
 ## Finance
-generate_and_display_wordcloud(str_Finance,"Finance","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #dollar.jpg")
+generate_and_display_wordcloud(str_Finance,"Finance","cloud.png") #dollar.jpg")
 ## IT
-generate_and_display_wordcloud(str_IT,"Information Technology","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #cursor.jpg")
+generate_and_display_wordcloud(str_IT,"Information Technology","cloud.png") #cursor.jpg")
 ## Biotech
-generate_and_display_wordcloud(str_Biotech,"Biotech & Pharmaceuticals","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #flask.jpg")
+generate_and_display_wordcloud(str_Biotech,"Biotech & Pharmaceuticals","cloud.png") #flask.jpg")
 ## Business
-generate_and_display_wordcloud(str_Business,"Business Services","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #tie.jpg")
+generate_and_display_wordcloud(str_Business,"Business Services","cloud.png") #tie.jpg")
 
 ##===================BY COMPANY===================##
 
@@ -201,12 +201,12 @@ str_National = remove_non_keywords(str_National, keyword_list)
 
 #create wordcloud object for:
 ## Forescout Technologies Inc.
-generate_and_display_wordcloud(str_Forescout,"Forescout Technologies Inc.","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #8iGbRApyT.png")
+generate_and_display_wordcloud(str_Forescout,"Forescout Technologies Inc.","cloud.png") #8iGbRApyT.png")
 ## Booz Allen Hamilton
-generate_and_display_wordcloud(str_Booz,"Booz Allen Hamilton","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #dollar.jpg")
+generate_and_display_wordcloud(str_Booz,"Booz Allen Hamilton","cloud.png") #dollar.jpg")
 ## Genetech
-generate_and_display_wordcloud(str_Genentech,"Genentech","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #cursor.jpg")
+generate_and_display_wordcloud(str_Genentech,"Genentech","cloud.png") #cursor.jpg")
 ## Veterinary Emergency Group
-generate_and_display_wordcloud(str_Veterinary,"Veterinary Emergency Group","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #flask.jpg")
+generate_and_display_wordcloud(str_Veterinary,"Veterinary Emergency Group","cloud.png") #flask.jpg")
 ## National Debt Relief
-generate_and_display_wordcloud(str_National,"National Debt Relief","/Users/harkerrussell/Desktop/ece143/PythonFiles/cloud.png") #tie.jpg")
+generate_and_display_wordcloud(str_National,"National Debt Relief","cloud.png") #tie.jpg")
