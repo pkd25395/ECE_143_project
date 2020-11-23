@@ -78,6 +78,8 @@ def industry_avgs(fnames, org, ascend = False):
     
     avgs.to_csv(r'industry_avgs.csv')
 
+
+
 # This will obviously need to be changed for each person
 path = 'C:/Users/jakey/Documents/ECE_143/ECE_143_project/industry_data/'
 
