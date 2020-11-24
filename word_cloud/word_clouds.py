@@ -41,15 +41,9 @@ df_NY = df_NY[df_NY['Max_Salary'] >= 0]
 df_SF = df_SF[df_SF['Max_Salary'] >= 0]
 df_TX = df_TX[df_TX['Max_Salary'] >= 0]
 df_WA = df_WA[df_WA['Max_Salary'] >= 0]
-
-#create df only Job Desc and Industry
-#df_NY_2col = df_NY[["Job_Desc","Industry"]].copy()
-#df_SF_2col = df_SF[["Job_Desc","Industry"]].copy()
-#df_TX_2col = df_TX[["Job_Desc","Industry"]].copy()
-#df_WA_2col = df_WA[["Job_Desc","Industry"]].copy()
+# remove by if data isn't in job description
 
 #join all above dataframes into one dataframe
-#frames_all = [df_NY_2col, df_SF_2col, df_TX_2col, df_WA_2col]
 frames_all = [df_NY, df_SF, df_TX, df_WA]
 df_combined = pd.concat(frames_all)
 
