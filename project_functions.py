@@ -1,5 +1,93 @@
 ##==========WORD CLOUD FUNCTIONS==========##
 
+import pandas as pd
+import numpy as np
+
+def clean_data(x):
+    '''
+    Cleaning data by removing spurious entries
+    :x: dataframe
+    returns clean dataframe
+    '''
+    assert isinstance(x, pd.core.frame.DataFrame)
+    ind_fmin = x[x['Min_Salary'] == -1].index.values
+    ind_fmax = x[x['Max_Salary'] == -1].index.values
+    ind_f = np.union1d(ind_fmin, ind_fmax)
+    x_clean = x.drop(index=ind_f)
+    ind_fmin = x_clean[x_clean['Min_Salary'] == -1].index.values
+    ind_fmax = x_clean[x_clean['Max_Salary'] == -1].index.values
+    assert len(ind_fmin) == 0 or len(ind_fmax) == 0
+
+    rm_wlist = ['Ultrasound', 'Veterinarian', 'Veterinary', 'mechanic', 'Therapist', 'Mechanic',
+                'Regional Vice President',
+                'ADVOCACY', 'Construction', 'LPN']
+
+    a = x_clean.groupby('Job_title')
+    m = a.all().index.values
+    f = []
+    for j in rm_wlist:
+        for k in m:
+            if (j in k):
+                f.append(k)
+    for i in f:
+        ind = x_clean[x_clean['Job_title'] == i].index.values
+        x_clean = x_clean.drop(index=ind)
+
+    return x_clean
+
+
+def clean_and_merge(x_list):
+    '''
+    Cleaning and merging data.
+    :x_list: list of dataframes
+    returns a merged dataframe
+    '''
+    assert isinstance(x_list, list)
+
+    m_data = pd.DataFrame()
+
+    for i in x_list:
+        assert isinstance(i, pd.core.frame.DataFrame)
+        c_data = clean_data(i)
+        m_data = pd.concat([c_data, m_data], ignore_index=True, sort=False)
+
+    return m_data
+
+
+def merge_field(field, df_list):
+    '''
+    Groups the datas from df_list into a dictionary as per field
+    :field: field according to which data is to be splitted
+    :df_list: list of clean_data
+    returns a dictionary of separated datasets
+    '''
+    assert isinstance(field, str)
+    assert isinstance(df_list, list)
+
+    grp = []
+    ind = []
+
+    for i, df in enumerate(df_list):
+        assert isinstance(df, pd.core.frame.DataFrame)
+        grp.append(df.groupby(field))
+        ind.append(grp[i].all().index.values)
+
+    all_ind = np.array([])
+
+    for j in ind:
+        all_ind = np.union1d(all_ind, j)
+
+    dict_all = {}
+
+    for i in all_ind:
+        m_grp = pd.DataFrame()
+        for j, g_df in enumerate(grp):
+            if i in ind[j]:
+                m = g_df.get_group(i)
+                m_grp = pd.concat([m, m_grp], ignore_index=True, sort=False)
+        dict_all[i] = m_grp
+    return dict_all
+
 def remove_non_keywords(in_str,kwd_list):
     """ 
     Description: Takes in_str, and returns a string with only words from kwd_list
