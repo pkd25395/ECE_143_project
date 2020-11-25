@@ -1,12 +1,4 @@
 
-import numpy as np
-import pandas as pd
-# conda install seaborn
-import seaborn as sns
-import matplotlib.pyplot as plt
-#ensure file bw_functions.py is in same directory as box_and_whisker.py
-from bw_functions import merge_MinMax_Salary, count_members_by_column
-
 '''
 REDO THIS FOR ONLY for TOP 5 Industries: 
 INDUSTRY                            COUNT
@@ -24,6 +16,15 @@ Genentech                         118
 Veterinary Emergency Group        120
 National Debt Relief              120
 '''
+
+import numpy as np
+import pandas as pd
+# conda install seaborn
+import seaborn as sns
+import matplotlib.pyplot as plt
+#ensure file bw_functions.py is in same directory as box_and_whisker.py
+from project_functions import merge_MinMax_Salary, count_members_by_column
+
 # want to create new dataframe from job listings csv to have
 # a column with min or max corresponding to salary as the min or the max
 

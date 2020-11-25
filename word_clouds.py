@@ -21,13 +21,18 @@ Genentech                         118
 Veterinary Emergency Group        120 (Not Great)
 National Debt Relief              120
 """
+#try:
+#import os
+#import sys
 import pandas as pd
-#ensure file wc_functions.py is in same directory as word_clouds.py
-from wc_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud
+#ensure file project_functions.py is accessible as word_clouds.py
+from project_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud
+#except Exception as e:
+#    print("some modules are missing, try installing ")
 
 #import .csvs as dataframes
 col_list = ["Job_title","Company","State","City","Min_Salary","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]
-files_list = ["Data_Job_NY.csv"
+files_list =    ["Data_Job_NY.csv"
                 ,"Data_Job_SF.csv"
                 ,"Data_Job_TX.csv"
                 ,"Data_Job_WA.csv"]
