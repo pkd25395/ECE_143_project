@@ -104,13 +104,17 @@ def remove_non_keywords(in_str,kwd_list):
     in_str = in_str.lower()
     in_str = in_str.split(" ")
     result_list = []
-    for kwd in kwd_list:
-        for wrd in in_str:
-            if kwd==wrd:
-                result_list.append(wrd)
-            else:
-                pass
+    for wrd in in_str:
+        if wrd in kwd_list:
+            result_list.append(wrd)
+        else:
+            pass
+
+    result_list = [i for i in result_list if len(i) > 2]
+    #print(result_list)
     result_str = " ".join(result_list)
+    #result_str = "+".join(result_list)
+    #print(result_str)
     return(result_str)
 
 def create_JobDescription_string(in_df, col, target):
@@ -162,7 +166,7 @@ def generate_and_display_wordcloud(in_str,chart_title,img_path):
 
     wordcloud_object = WordCloud(mask=cloud_mask, collocations=False, min_font_size=5, max_font_size=100, 
                                 max_words=None, background_color="white", margin=0, 
-                                font_step=1).generate(in_str)
+                                font_step=1,).generate(in_str)#regexp=r"\w[\w' ]+").generate(in_str)
     plt.figure()
     plt.imshow(wordcloud_object, interpolation='bilinear')
     plt.title(chart_title)
