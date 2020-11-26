@@ -4,29 +4,28 @@ scraped from New York, Texas, Washington and San Francisco areas
 over March and April 2020. The idea is to see the prevalence of key
 terms from qualifications desired from companies looking for data scientists
 
-DO THIS ONLY for TOP 5 Industries: 
+REDO THIS FOR ONLY for TOP 5 Industries: 
 INDUSTRY                            COUNT
-Finance                             181.0
-Health Care                         193.0
-Biotech & Pharmaceuticals           289.0
-Business Services                   310.0
-Information Technology              508.0
+Aerospace & Defense                  252.0
+Finance                              302.0
+Biotech & Pharmaceuticals            518.0
+Business Services                    620.0
+Information Technology              1016.0
 
 AND FOR TOP 5 COMPANIES of those Industries:
 COMPANY                         COUNT
-Forescout Technologies Inc.        60 (Not Great)
-Banfield Pet Hospital              60 (NO GOOD)
-Booz Allen Hamilton                80
-Genentech                         118
-Veterinary Emergency Group        120 (Not Great)
-National Debt Relief              120
+Facebook                          42
+Amazon                            44
+Leidos                            46
+Genentech                        118
+National Debt Relief             120
 """
 #try:
 #import os
 #import sys
 import pandas as pd
 #ensure file project_functions.py is accessible as word_clouds.py
-from project_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud
+from project_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud, clean_and_merge
 #except Exception as e:
 #    print("some modules are missing, try installing ")
 
@@ -42,95 +41,103 @@ df_TX = pd.read_csv(files_list[2],usecols=col_list)
 df_WA = pd.read_csv(files_list[3],usecols=col_list)
 
 # remove non-data science jobs from dataset
-df_NY = df_NY[df_NY['Max_Salary'] >= 0]
+""" df_NY = df_NY[df_NY['Max_Salary'] >= 0]
 df_SF = df_SF[df_SF['Max_Salary'] >= 0]
 df_TX = df_TX[df_TX['Max_Salary'] >= 0]
-df_WA = df_WA[df_WA['Max_Salary'] >= 0]
+df_WA = df_WA[df_WA['Max_Salary'] >= 0] """
 # remove by if data isn't in job description
 
 #join all above dataframes into one dataframe
-frames_all = [df_NY, df_SF, df_TX, df_WA]
-df_combined = pd.concat(frames_all)
+""" frames_all = [df_NY, df_SF, df_TX, df_WA]
+df_combined = pd.concat(frames_all) """
 
-##===================BY INDUSTRY===================##
+# clean and merge data into single frame
+df_allFrames = [df_NY, df_SF, df_TX, df_WA]
+df_combined = clean_and_merge(df_allFrames)
 
-#create string of all Job_Desc values by Industry, from combined dataframe.
-## Health Care
-str_HealthCare = create_JobDescription_string(df_combined,"Industry","Health Care")
+##===============================================================================================##
+## INDUSTRY
+##===============================================================================================##
+
+##===================CREATE JOB DESCRIPTION STRINGS BY INDUSTRY===================##
+## Aerospace
+str_Aero = create_JobDescription_string(df_combined,"Industry","Aerospace & Defense")
 ## Finance 
 str_Finance = create_JobDescription_string(df_combined,"Industry","Finance")
-## IT
-str_IT = create_JobDescription_string(df_combined,"Industry","Information Technology")
 ## Biotech
 str_Biotech = create_JobDescription_string(df_combined,"Industry","Biotech & Pharmaceuticals")
 ## Business
 str_Business = create_JobDescription_string(df_combined,"Industry","Business Services")
+## IT
+str_IT = create_JobDescription_string(df_combined,"Industry","Information Technology")
 
+##===================REMOVE ALL NON-KEYWORDS FROM STRINGS===================##
 keyword_list = ["models","statistics","probability","machine learning","data science","numpy","pandas","sql","scikit-learn","r","databases","database","team",
 "MSc","PhD","mathematics","computer science","physics","research","data","relational databases","python","c++","matlab","modeling","dbt","snowflake",
 "mode analytics","fivetran","Census","amplitude","segment","tensorflow","optimization","prediction","engineering","data engineering","neural networks",
 "bigquery","pyspark","degree","bachelor","bachelors","scala","data analysis","analysis","data visualization","algorithms","classification",
 "model","java","javascript","caffe","deep learning","data processing","hpc","hadoop","ms","bs","m.s.","b.s.","masters","master","stem","postgres",
 "software development","agile","querying","experience","skills","credentials","hands-on","communication","presentation","ownership"]
-
-#remove all non-keywords from job descriptions for:
-## Health Care
-str_HealthCare = remove_non_keywords(str_HealthCare, keyword_list)
+## Aerospace
+str_Aero = remove_non_keywords(str_Aero, keyword_list)
 ## Finance 
 str_Finance = remove_non_keywords(str_Finance, keyword_list)
-## IT
-str_IT = remove_non_keywords(str_IT, keyword_list)
 ## Biotech
 str_Biotech = remove_non_keywords(str_Biotech, keyword_list)
 ## Business
 str_Business = remove_non_keywords(str_Business, keyword_list)
+## IT
+str_IT = remove_non_keywords(str_IT, keyword_list)
 
-#create wordcloud object for:
-## Health Care
-generate_and_display_wordcloud(str_HealthCare,"Health Care","cloud.png") #8iGbRApyT.png")
+##===================CREATE & DISPLAY WORDCLOUDS FOR INDUSTRIES===================##
+## Aerospace
+generate_and_display_wordcloud(str_Aero,"Aerospace & Defense","cloud.png") #8iGbRApyT.png")
 ## Finance
 generate_and_display_wordcloud(str_Finance,"Finance","cloud.png") #dollar.jpg")
-## IT
-generate_and_display_wordcloud(str_IT,"Information Technology","cloud.png") #cursor.jpg")
 ## Biotech
 generate_and_display_wordcloud(str_Biotech,"Biotech & Pharmaceuticals","cloud.png") #flask.jpg")
 ## Business
 generate_and_display_wordcloud(str_Business,"Business Services","cloud.png") #tie.jpg")
+## IT
+generate_and_display_wordcloud(str_IT,"Information Technology","cloud.png") #cursor.jpg")
 
-##===================BY COMPANY===================##
+##===============================================================================================##
+## COMPANY
+##===============================================================================================##
 
-#create string of all Job_Desc values by Company, from combined dataframe.
-## Forescout Technologies Inc.
-str_Forescout = create_JobDescription_string(df_combined,"Company","Forescout Technologies Inc.")
-## Booz Allen Hamilton 
-str_Booz = create_JobDescription_string(df_combined,"Company","Booz Allen Hamilton")
+##===================CREATE JOB DESCRIPTION STRINGS BY COMPANY===================##
+## Facebook
+str_Facebook = create_JobDescription_string(df_combined,"Company","Facebook")
+## Amazon 
+str_Amazon = create_JobDescription_string(df_combined,"Company","Amazon")
+## Leidos
+str_Leidos = create_JobDescription_string(df_combined,"Company","Leidos")
 ## Genentech
 str_Genentech = create_JobDescription_string(df_combined,"Company","Genentech")
-## Veterinary Emergency Group
-str_Veterinary = create_JobDescription_string(df_combined,"Company","Veterinary Emergency Group")
 ## National Debt Relief
 str_National = create_JobDescription_string(df_combined,"Company","National Debt Relief")
 
-#remove all non-keywords from job descriptions for:
-## Forescout Technologies Inc.
-str_Forescout = remove_non_keywords(str_Forescout, keyword_list)
-## Booz Allen Hamilton 
-str_Booz = remove_non_keywords(str_Booz, keyword_list)
+##===================REMOVE ALL NON-KEYWORDS FROM STRINGS===================##
+## Facebook
+#str_Facebook = remove_non_keywords(str_Facebook, keyword_list)
+""" facebook is covid surge listing--not useful """
+## Amazon 
+str_Amazon = remove_non_keywords(str_Amazon, keyword_list)
+## Leidos
+str_Leidos = remove_non_keywords(str_Leidos, keyword_list)
 ## Genentech
 str_Genentech = remove_non_keywords(str_Genentech, keyword_list)
-## Veterinary Emergency Group
-str_Veterinary = remove_non_keywords(str_Veterinary, keyword_list)
 ## National Debt Relief
 str_National = remove_non_keywords(str_National, keyword_list)
 
-#create wordcloud object for:
-## Forescout Technologies Inc.
-generate_and_display_wordcloud(str_Forescout,"Forescout Technologies Inc.","cloud.png") #8iGbRApyT.png")
-## Booz Allen Hamilton
-generate_and_display_wordcloud(str_Booz,"Booz Allen Hamilton","cloud.png") #dollar.jpg")
+##===================CREATE & DISPLAY WORDCLOUDS FOR INDUSTRIES===================##
+## Facebook
+generate_and_display_wordcloud(str_Facebook,"Facebook","cloud.png") #8iGbRApyT.png")
+## Amazon
+generate_and_display_wordcloud(str_Amazon,"Amazon","cloud.png") #dollar.jpg")
+## Leidos
+generate_and_display_wordcloud(str_Leidos,"Leidos","cloud.png") #flask.jpg")
 ## Genetech
 generate_and_display_wordcloud(str_Genentech,"Genentech","cloud.png") #cursor.jpg")
-## Veterinary Emergency Group
-generate_and_display_wordcloud(str_Veterinary,"Veterinary Emergency Group","cloud.png") #flask.jpg")
 ## National Debt Relief
 generate_and_display_wordcloud(str_National,"National Debt Relief","cloud.png") #tie.jpg")
