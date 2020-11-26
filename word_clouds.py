@@ -20,14 +20,14 @@ Leidos                            46
 Genentech                        118
 National Debt Relief             120
 """
-#try:
+try:
 #import os
 #import sys
-import pandas as pd
-#ensure file project_functions.py is accessible as word_clouds.py
-from project_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud, clean_and_merge
-#except Exception as e:
-#    print("some modules are missing, try installing ")
+    import pandas as pd
+    #ensure file project_functions.py is in same dir as word_clouds.py
+    from project_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud, clean_and_merge
+except Exception as e:
+    print("some modules are missing, check that project_functions.py is in same directory")
 
 #import .csvs as dataframes
 col_list = ["Job_title","Company","State","City","Min_Salary","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]
@@ -39,17 +39,6 @@ df_NY = pd.read_csv(files_list[0],usecols=col_list)
 df_SF = pd.read_csv(files_list[1],usecols=col_list)
 df_TX = pd.read_csv(files_list[2],usecols=col_list)
 df_WA = pd.read_csv(files_list[3],usecols=col_list)
-
-# remove non-data science jobs from dataset
-""" df_NY = df_NY[df_NY['Max_Salary'] >= 0]
-df_SF = df_SF[df_SF['Max_Salary'] >= 0]
-df_TX = df_TX[df_TX['Max_Salary'] >= 0]
-df_WA = df_WA[df_WA['Max_Salary'] >= 0] """
-# remove by if data isn't in job description
-
-#join all above dataframes into one dataframe
-""" frames_all = [df_NY, df_SF, df_TX, df_WA]
-df_combined = pd.concat(frames_all) """
 
 # clean and merge data into single frame
 df_allFrames = [df_NY, df_SF, df_TX, df_WA]
@@ -122,9 +111,11 @@ str_National = create_JobDescription_string(df_combined,"Company","National Debt
 #str_Facebook = remove_non_keywords(str_Facebook, keyword_list)
 """ facebook is covid surge listing--not useful """
 ## Amazon 
-str_Amazon = remove_non_keywords(str_Amazon, keyword_list)
+#str_Amazon = remove_non_keywords(str_Amazon, keyword_list)
+""" facebook is covid surge listing--not useful """
 ## Leidos
-str_Leidos = remove_non_keywords(str_Leidos, keyword_list)
+#str_Leidos = remove_non_keywords(str_Leidos, keyword_list)
+""" facebook is covid surge listing--not useful """
 ## Genentech
 str_Genentech = remove_non_keywords(str_Genentech, keyword_list)
 ## National Debt Relief

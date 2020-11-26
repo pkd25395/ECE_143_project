@@ -16,15 +16,16 @@ Leidos                            46
 Genentech                        118
 National Debt Relief             120
 '''
-
-import numpy as np
-import pandas as pd
-# conda install seaborn
-import seaborn as sns
-import matplotlib.pyplot as plt
-#ensure file bw_functions.py is in same directory as box_and_whisker.py
-from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge
-
+try:
+    import numpy as np
+    import pandas as pd
+    # conda install seaborn
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    #ensure file bw_functions.py is in same directory as box_and_whisker.py
+    from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge
+except Exception as e:
+    print("some modules are missing, try installing seaborn with 'conda install seaborn' and check that project_functions.py is in same directory")
 # want to create new dataframe from job listings csv to have
 # a column with min or max corresponding to salary as the min or the max
 
