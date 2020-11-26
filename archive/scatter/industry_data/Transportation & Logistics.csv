@@ -1,0 +1,184 @@
+,Job_title,Company,State,City,Min_Salary,Max_Salary,Job_Desc,Industry,Rating,Date_Posted,Valid_until,Job_Type
+0,Data Scientist - Mid Level,I-Link Solutions,DC,Washington,66348,115540,"Title Data Scientist - Mid LevelLocation Washington DCDuration Full Time Responsibilities Prepare data science business cases while working with domain experts and customers. Support defining the AI strategy within a federal government agency. Independently develops customized algorithms to solve analytical problems with incomplete data sets and implements automated processes for efficiently producing scale models. Independently conducts statistical modelling, machine learning modelling and experiment design, and tests and validates predictive models. Perform statistical analysis, data mining, temporal and pattern analysis, correlation of events, predictive modelling, and pattern recognition. Document and visualize analytics both temporally and spatially, and present analytic results and uncertainty to decision makers. Provide informational briefings to explain methodologies and analytical findings to peers and customer stakeholders. Investigate and implement new scientific analysis and methodologies to support big data analytics efforts and implement workflows, data models, indexes and templates and facilitate data movement on all associated systems and networks. Provide architecture analysis and design implementation with detailed technology roadmaps and transition planning and master plans as required. Finds and recommends new uses for existing data sources designs, modifies, and builds new data processes and builds large, complex data sets. Qualifications 5 to 8 years of experience with programming languages (such as Python, R, Java, Ruby, Spark, or SQL), and statistical analytics (such as SAS, Matlab, R). 3 to 5 years of experience with machine learning and deep learning modelling (with packages such as TensorFlow, Keras, PyTorch, etc.) Experience in analysis, processing, tagging, and indexing unstructured, semi-structured, and structured classified and unclassified data sets. Experience developing research designs, including formulating testable questions, identifying and defining key concepts and variables, and matching appropriate methods to problems Experience in data management, including cleaning and preparing data, and creating, structuring, and maintaining data sets Experience with incorporating data science capability into Stakeholder strategy Experience bridging data science strategy between leadership, IT, data scientists and other stakeholders. Good understanding of Databases, SQL, Hadoop, Hive andor MapReduce PhD (preferred) or masterrsquos in data science, Mathematics, Analytics, Statistics or related field will take precedence for interviews.",Transportation & Logistics,4.7,2020-04-25,2020-06-06,FULL_TIME
+1,Computer Scientist / Data Analytic,D3 AIR AND SPACE OPERATIONS INC,DC,Washington,79334,113232,"D3 Air and Space Operations has a contingency opening for a Computer Scientist / Data Analytic Program Management Professional (PMP) to work on a team supporting the Federal Aviation Administration (FAA) at the FAA Headquarters in Washington, DC. This demanding, but very rewarding position, is a key cog in our team?s support for operations within the National Air Traffic Control system.
+
+Key requirements for this position are:
+
+Computer Science or Data Analytics Bachelor of Science degree (or equivalent)
+
+15 + years’ experience (preferably: in aerospace industry)
+
+Commutable to Washington, DC
+
+Ability to develop metdata and data models, registering data elements, and data analysis
+
+Integrate data systems and their capabilities
+
+Proficient in Microsoft Office (Project, Word, Power Point, Excel, Outlook, Share Point)
+
+Senior Executive level communication experience
+
+Team leader & builder with notable problem-solving ability
+
+Experience dealing with the Federal Government",Transportation & Logistics,3.3,2020-04-25,2020-06-06,FULL_TIME
+2,Data Engineer,Qbase,VA,Reston,61190,115522,"The Data Engineer will be part developer, part data integration engineer and delivery expert, and will be integral to the automation and maintenance of our Finch for Text knowledgebase. The ideal candidate should have some software development background married with strong data fusion skills to support engineers, customers, and senior management. They will be working directly with the Finch Computing development team, working with our clients and other engineers and developers gathering requirements, architecting and communicating knowledgebase improvements.
+Responsibilities:
+
+
+Analyze data describing entities (people, organizations, etc.) received from a variety of external data sources to determine and document the quality of the data, how well populated the data fields are and the uniqueness of the data within the data fields.
+
+
+
+Identify the data fields used by different data sources to uniquely identify the entity
+Identify common data that can be used to compare entities from different data sources to determine if they are the same entity
+
+
+Develop software to transform and normalize data from a variety of data sources so that related data can be easily compared and merged.
+Develop algorithms to match entities from multiple different data sources based on how closely the data describing those entities align.
+Analyze matching results to identify false positives (entities that matched that shouldnt have) and false negatives (entities that should have matched but didnt) and to use that information to improve the matching algorithms
+Document matching results and work with other data engineers to integrate data from the matched entities into a common knowledge base
+Develop automated data quality metrics and reports
+Work independently with minimal supervision
+
+Knowledge and Skills:
+
+
+Strong knowledge of MongoDB.
+Experience with Python and Java programming languages.
+Experience working with JSON-data for integration and data fusion purposes.
+Experience performing hands-on data integration, data linking, fuzzy matching, and data transformations (ETL).
+Guru-level troubleshooting experience and a passion for providing excellent service to all internal and external customers
+Experience working in an agile environment
+
+Education and work experience:
+
+
+Bachelors Degree in related field
+5+ years' experience in data engineering with fusion focus
+
+Location: This position will be based out of our Beavercreek, OH location",Transportation & Logistics,3.8,2020-05-05,2020-06-06,FULL_TIME
+3,Lead Data Analyst,ArcBest,TX,Plano,71002,88453,"What You'll Do
+ArcBest is a logistics company with creative problem solvers who deliver integrated solutions for complex supply chain challenges.
+
+Wanting to join the ArcBest family? In our search for top talent, we are looking for those that will further enable us to deliver on our vision and fully support our values-driven culture.
+
+Currently, we are looking for a Lead Data Analyst to join the ArcBest team. The Lead Data Analyst serves as an internal analytics consultant leading projects to translate data into valuable strategic and tactical insights that drive results for ArcBest Customer Solutions. This position is a results-oriented, self-starter that works with departments across Customer Solutions to create dashboards, key performance indicators, and other data driven solutions.
+
+Your contribution may include:
+
+Develop business knowledge to effectively anticipate and define opportunities for data analytics.Partner with product owners, analysts, and managers within Customer Solutions to translate business insights into solutions.Find opportunities for growth and efficiency within Customer Solutions.Collaborate with business partners to identify and prioritize analytics opportunities.Create dashboards and reports for Customer Solutions to support business.Present data insights and recommendations to key stakeholders.Perform ad-hoc reporting and analysis.Other duties and projects, as assigned.
+
+As a Lead Data Analyst, you will be a member of the ArcBest Customer Solutions: Process Improvement Team. Your hours will be Monday through Friday, 8:00am to 5:00pm, with irregular hours that may occur depending on work load.
+
+Ready to apply? Before doing so, please make sure you meet the minimum requirements:
+
+Education: Master’s degree in Computer Science, Engineering, Mathematics, Business or other related field, preferred.
+
+Experience: Minimum, two years’ experience in a data analytics role. Minimum, one year experience in the logistics industry. Minimum, one year experience in a role leading projects.
+
+Computer Skills: Proficient in Microsoft Office Suite, SQL, VBA, Tableau and Cognos.
+
+If you require accommodation in the application process, please contact arcbhr@arcb.com or call us at (479) 785-8963. An Equal Opportunity Employer including Vet/Disability.
+",Transportation & Logistics,3.6,2020-05-02,2020-06-06,FULL_TIME
+4,Data Scientist,Sunvalleytek International Inc.,CA,Fremont,80568,131337,"About Us:
+
+Sunvalleytek is a fast-growing, private company in Fremont, CA whose world-class staff are disrupting a multi-billion dollar global industry for consumer electronics. Our founder created the company with a passion to provide leading-edge consumer electronics including power banks, desk lamps, Bluetooth speakers, headphones, and much more. Today, millions of global customers enjoy products from Sunvalleytek’s consumer-facing brands including: RAVPower, TaoTronics, HooToo, and VAVA. We currently sell the majority of our products through e-commerce, focusing on Amazon.com and major brick and mortar stores including Best Buy, Walmart, and more.
+
+About the Role:
+
+We are looking for an analytic and insights Data Scientist to join our team. The Data Scientist will help develop, implement and execute new data analysis tools to sharpen our decision-making process around the company's daily operations.
+
+The ideal candidate will have a background in a quantitative or technical field, and have experience working with large data sets. The candidate should also have some experience in data-driven decision making.
+
+Responsibilities:
+
+Manage the design/analysis of experiments that helps drive insights, identify market opportunities, and understand user behavior and long term trends for our businessDevelop and improve new experimentation methodologies, statistical techniquest, and causal-inference approachesInterpreting the data to discover solutions and opportunities for improving our sales and profitCollaborating cross-functionally with our internal marketing, brand, and product teams to ensure best practice is being appliedDeliver your research and insight on to all levels of the company
+
+Requirements:
+
+BS, MS or PhD degree in engineering/computer science/statistics/Math or other technical related field3+ years of experience in data/business analysis, data science, engineering, or related reporting/analyticsExperience in quantitative analysis within a large-scale company or fast-paced environmentIn-depth knowledge of Python, SQL or other programming languagesKnowledge of hypothesis testing or experiment designStrong analytical and critical thinking skills with attention to detailsStrong written and oral communications skillsGoal oriented with positive attitude and high energy
+
+The following skills/experience is a huge plus!
+
+Experience working within the tech sector preferredDevelopment experience in any scripting languagesBilingual in English/Chinese
+
+Job Type: Full-time
+
+Experience:
+
+Data/Business Analysis: 3 years (Required)Quantitative Analysis: 3 years (Preferred)working with tech sector: 3 years (Preferred)
+
+Education:
+
+Bachelor's (Required)
+",Transportation & Logistics,3.7,2020-05-03,2020-06-05,FULL_TIME
+5,"Senior Data Analyst, Sales",Flexport,CA,San Francisco,70073,127482,"The opportunity:
+
+Fast, accurate insights are integral in allowing us to fulfill our mission of fixing the user experience in global trade. At Flexport you'll conduct analyses that are at the forefront of reshaping the entire logistics & supply chain industries. You'll work alongside self-starters interested in solving real-world problems and streamlining the inefficiencies in the complex global trade industry. You'll have the opportunity to improve an industry by analyzing the new operating system for global trade.
+
+You will:
+
+Work with Sales leadership to discover actionable insights. Translate questions from the business into projects that will inform the business and facilitate informed decision making.
+Rapid prototype new functionality via dashboards to enable new ways of working and discover best practices for workflow management across all of Flexport's departments;
+Contribute and grow the culture of excellence on our team by bringing processes and best practices to our group.
+Drive highly visible projects for Flexport
+Influence the roadmap for both the Data Analytics department and the stakeholders we support
+
+You should have:
+
+4+ years of experience in a Data Analyst, Business Analyst or similar role using SQL and/or Python/R focused on sales or go-to-market analytics.
+SQL fluency with experience using a scripting language like Python or R. Strong Excel fundamentals a plus;
+Experience building dashboards - you know the trade-offs and impacts of using one metric versus another;
+Next level communication skills and empathy to understand and discover business pain points and build solutions to improve the user experience at all levels of the global trade process.
+
+You will get:
+
+Experience at a fast-growing company that lives and breathes data;
+The opportunity to define the data science culture on a small but growing analytics team;
+Meaningful equity
+Analytic ownership - discover the highest value-add projects and see them through from ideation to impact.
+
+
+At Flexport, our ability to fulfill our mission of making global trade easy for everyone relies on having a diverse, dedicated and engaged workforce. That is why Flexport is committed to creating and nurturing an environment where anyone can be their authentic self. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, national origin, age, physical and mental disability, health status, marital and family status, sexual orientation, gender identity and expression, military and veteran status, and any other characteristic protected by applicable law.",Transportation & Logistics,3.5,2020-05-02,2020-06-05,FULL_TIME
+6,Data Analyst,"WeDriveU, Inc.",CA,Burlingame,48723,86580,"The Data Analyst intern will report to the Manager of Customer Success who oversees the customer life cycle from contract award and onboarding to data-driven service recommendations informing customer marketing and communications support. Customer Success is a cross-functional team by nature so this role can expect to regularly interact with Sales, Operations, Fleet, IT and Marketing on creating and improving the client experience.
+
+Duties and Responsibilities:
+
+Collects and analyzes client route, stop and schedule information to propose service efficienciesMonitors client Key Performance Indicators (KPI’s) and provides recommendations for improvements based on data analysisManage the customer and operations dashboard roadmap.
+
+Skills Required and Physical Demands:
+
+6+ months of experience as a Data AnalystMust be earning a degree in computer science, management information systems, Math, Statistics or related fieldProficient in MS Office products with strong knowledge of Excel required (i.e., pivot tables, v-lookups, etc.).Proficiency in SQL and Amazon Web ServicesBackground in data visualization (Tableau or similar). Experience summarizing large data sets visuallyProficient with ArcGIS (or similar Mapping software)Ability to communicate effectively with both technical and business stakeholdersExcellent project management and multi-tasking skills.
+
+Education and Qualifications:
+
+Bachelor’s Degree required (BA/BS degree in accounting a strong plus) or higher education.
+",Transportation & Logistics,3.4,2020-04-29,2020-06-05,FULL_TIME
+7,Data Analyst,Sunvalleytek International Inc.,CA,Fremont,45551,86720,"About Us:
+
+Sunvalleytek is a fast-growing, private company in Fremont, CA whose world-class staff are disrupting a multi-billion dollar global industry for consumer electronics. Our founder created the company with a passion to provide leading-edge consumer electronics including power banks, desk lamps, Bluetooth speakers, headphones, and much more. Today, millions of global customers enjoy products from Sunvalleytek’s consumer-facing brands including: RAVPower, TaoTronics, HooToo, and VAVA. We currently sell the majority of our products through e-commerce, focusing on Amazon.com and major brick and mortar stores including Best Buy, Walmart, and more.
+
+About the Role:
+
+We are looking for a self-motivated and enthusiastic Data Analyst to join our team. The Data Analyst will be responsible for providing data insights, identifying market opportunities and understanding user behavior and long term trends for our business which help guide the decision-making process around the company's daily operations.
+
+The ideal candidate would have deep analytical expertise and have experience working with cross-functional teams. They should be highly interested and desire to stay on top of the latest trends in the consumer tech industry.
+
+Responsibilities:
+
+Interpret and analyze data to extract insightsDevelop and optimize experimentation methodologies to identify long term trends of our business, market opportunities and understand user behavior etc.Collaborating cross-functionally with our internal marketing, brand, and product teams to meet their data needsDevelop test and manage a/b testing result analysisCommunicate analysis and experiment result to all levels of the company along with insights and recommendations
+
+Requirements:
+
+BA/BS/Master degree in engineering/computer science/statistics/Math or other technical related field3+ years of experience in data/business analysis, data science, engineering, or related reporting/analyticsExperience in quantitative analysis within a large-scale company or fast-paced environmentKnowledge of Python, SQL or other programming languagesKnowledge of hypothesis testing or experiment designExperience working within MS Excel (pivot tables, vlookups etc.).Strong analytical and critical thinking skills with attention to detailsStrong written and oral communications skillsGoal oriented with positive attitude and high energy
+
+Job Type: Full-time
+
+Experience:
+
+Data/Business Analysis: 3 years (Required)Quantitative Analysis: 3 years (Preferred)
+
+Education:
+
+Bachelor's (Required)
+",Transportation & Logistics,3.7,2020-05-02,2020-06-05,FULL_TIME

@@ -1,0 +1,1281 @@
+,Job_title,Company,State,City,Min_Salary,Max_Salary,Job_Desc,Industry,Rating,Date_Posted,Valid_until,Job_Type
+0,Data Scientist,Koch Industries,VA,Arlington,103270,133441,"
+i360, a leader in data and analytics capabilities that solve political, operational, supply chain, and market forecasting challenges for some of the most sophisticated organizations in the world, is seeking a Data Scientist to join the team! i360 is a dynamic workplace sitting on the leading edge of politics, technology, and business, and is seeking team members who are as excited about freedom as they are about building the next generation of political technology.
+
+The ideal candidate is someone who has technical experience leveraging data and technology to optimize commercial or political operations and to create new capabilities. The Data Scientist is primarily responsible for developing models and related tools that create value for our customers.
+
+To be considered, candidates must demonstrate the following qualities:
+
+Outstanding quantitative, analytical, and conceptual problem-solving skills Entrepreneurial attitude and the desire to drive projects to completion autonomously and on timeAffinity for fast-paced, cross-functional team environments
+
+A Day In The Life Typically Includes:
+
+Quantify model accuracy over baseline for a specific subset of peopleQuantify the potential value of a new data set for future modelsAnalyze a data science customer question and explain the answer to a non-technical team memberDevise and implement an automated approach to a repeatable process in collaboration with the Data Operations Team and the Analytics TeamDetermine more data is required after training an experimental model and validating its performance
+
+What You Will Need:Basic Qualifications:
+
+
+3+ years of experience writing R, Python, or similar scripting language for data analysis
+1+ years of experience in machine learning or artificial intelligence with caret, scikit-learn, PyTorch, TensorFlow, or similar framework1+ years of experience writing SQL for data analysisTheoretical understanding of the algorithms behind real-world machine learning and artificial intelligence applicationsBachelor’s degree in statistics, mathematics, econometrics, operations research, software engineering, computer science, artificial intelligence, or a similar technical field
+
+What Will Put You Ahead?Preferred Qualifications:
+
+
+MS or PhD in statistics, mathematics, econometrics, operations research, software engineering, computer science, artificial intelligence, or a similar technical field. Those with a non-technical advanced degree but extensive technical experience are also encouraged to apply.
+Experience identifying and communicating actionable insights using dataExperience with automated data pipelines for data collection or standardization Experience with NoSQL nonrelational databasesFamiliarity with AWS or similar cloud-based platform, Linux, git, containers, and command line basics Familiarity with d3.js, plotly, seaborn, ggplot, or similar libraryFamiliarity with individual-level commercial data, state-level government data, census data, or unstructured data Experience working with free market groups or political campaigns
+
+Learn more about us
+Salary and benefits commensurate with experience.
+
+Equal Opportunity Employer. Except where prohibited by state law, all offers of employment are conditioned upon successfully passing a drug test.
+
+This employer uses E-Verify. Please visit the following website for additional information: www.kochcareers.com/doc/Everify.pdf
+Follow us 
+
+
+
+
+","Oil, Gas, Energy & Utilities",3.6,2020-05-07,2020-06-06,FULL_TIME
+1,Data Scientist,Carolina Power &amp;amp; Light Co,VA,McLean,83852,137111,"Thomson Reuters Special Services, LLC delivers a comprehensive suite of solutions designed to help customers achieve mission objectives, address uncertainty, and identify and manage risk. We leverage Thomson Reuters' market-leading solutions to help our clients perform intelligence collection and analysis of a range of security, regulatory and compliance issues e.g., cyber security, threat finance, insider threat detection, and risk management.
+
+The Data Scientist will be responsible for managing, understanding and analyzing in-house and customer data including text mining, developing predictive systems, risk scoring, creating efficient algorithms, data quality improvement and other related activities. This individual will work closely with the TRSS Analysts and government partners to drive, identify, evaluate, design and implement statistical analyses of gathered open source, proprietary, and customer data to create analytic metrics and tools to support TRSS analysts, customers and existing product offerings.
+
+Successful candidates will have the opportunity to contribute directly to the features and capabilities deployed in our applications. They will work with customers to assist in gathering requirements and contributing to Statements of Work (SOWs) for new sales or POCs and executing design post sale while getting deeply involved into the delivery of the proposed solutions. The role will interface with the customer and provide continuity of technical and data-exploration expertise to ensure we are delivering a workable solution that meets the customer requirements and technical capabilities. The position requires a proactive, mission-oriented person who strives to produce the best possible work for the customer.
+
+Key Responsibilities and Duties:
+
+Work with interdisciplinary engineering and research teams on designing, building and deploying data analysis systems for large data sets.
+Work closely with customers to apply data science to their mission specific content.
+Create algorithms to extract information from large data sets.
+Establish scalable, efficient, automated processes for model development, model validation, model implementation and large-scale data analysis.
+Develop metrics and prototypes that can be used to drive business decisions.
+Provide thought-leadership and dependable execution on diverse projects.
+Identify emergent trends and opportunities for future client growth and development.
+Researches and identifies Artificial Intelligence (AI) methods including Machine Learning (ML) and Natural Language Processing (NLP) methods
+Identifies new applications of AI in the context of Thomson Reuters and TRSS content sets
+Explores existing data for insights and recommends additional sources of data for improvement
+
+Qualifications:
+
+Must have or be able to acquire and maintain a US Government Security Clearance current or recent active clearances (Secret/TopSecret) or BI investigations are highly preferred.
+Excellent programming skills in one major programming language (Java/Python/R/Scala)
+Must be creative, intellectually curious, and willing to experiment and work in dynamic organizations and situations, sometimes with little oversight or well-defined requirements.
+Must take ownership for defined areas of accountability, most critically the integrity of the technical and data design in terms of meeting customer needs, design delivery and supportability
+A good understanding of distributed computing concepts
+Experience with database, workflow and orchestration frameworks preferred (e.g. SQL, Kafka; NiFi, Docker, Kubernetes, etc.)
+Big Data analytics experience preferred
+Strong background in engineering, process data management, or service management in a medium size complex technology environment.
+Previous experience with data modeling for graphs.
+Experience in complex analysis of processes and tools
+Experience facilitating gathering input from subject matter experts.
+Excellent understanding of ML, NLP and statistical methodologies
+Ability to test ideas and adapt methods quickly end to end from data extraction to implementation and validation
+Experience with search engines, classification algorithms, recommendation systems and relevance evaluation methodologies a plus
+Experience leading project work focused on a specific process area.
+Strong planning, time management and organizational skills
+Good team player / self-starter with the ability to work using own initiative.
+
+
+Do you want to be part of a team helping re-invent the way knowledge professionals work? How about a team that works every day to create a more transparent, just and inclusive future? At Thomson Reuters, we've been doing just that for almost 160 years. Our industry-leading products and services include highly specialized information-enabled software and tools for legal, tax, accounting and compliance professionals combined with the world's most global news services Reuters. We help these professionals do their jobs better, creating more time for them to focus on the things that matter most: advising, advocating, negotiating, governing and informing.
+
+We are powered by the talents of 25,000 employees across more than 75 countries, where everyone has a chance to contribute and grow professionally in flexible work environments that celebrate diversity and inclusion. At a time when objectivity, accuracy, fairness and transparency are under attack, we consider it our duty to pursue them. Sound exciting? Join us and help shape the industries that move society forward.
+
+Accessibility
+
+As a global business, we rely on diversity of culture and thought to deliver on our goals. To ensure we can do that, we seek talented, qualified employees in all our operations around the world regardless of race, color, sex/gender, including pregnancy, gender identity and expression, national origin, religion, sexual orientation, disability, age, marital status, citizen status, veteran status, or any other protected classification under applicable law. Thomson Reuters is proud to be an Equal Employment Opportunity/Affirmative Action Employer providing a drug-free workplace.
+
+We also make reasonable accommodations for qualified individuals with disabilities and for sincerely held religious beliefs in accordance with applicable law.
+
+More information about Thomson Reuters can be found on thomsonreuters.com.
+
+Locations
+
+McLean-Virginia-United States of America
+
+Req #: JREQ137021
+
+Locations: McLean-Virginia-United States of America
+
+Job Function: Technology DevelopmentSDL2017","Oil, Gas, Energy & Utilities",3.7,2020-05-06,2020-06-06,FULL_TIME
+2,Data Scientist,Schlumberger,TX,Houston,85661,139929,"Schlumberger will attend or host university recruitment events for this position in your area.
+
+Job Title: Data Scientist
+
+Job Description
+
+We are seeking scientists and engineers with a strong fundamental understanding of various modern machine-learning methods to address highly challenging scientific & engineering problems.
+
+Responsibilities
+
+> Research and develop data analytics and/or machine learning systems for business applications;
+
+> Work with domain experts to understand needs & constraints;
+
+> Work with software engineers to integrate ML solutions in business workflows;
+
+> Communicate sophisticated ML concepts to management, clients, and the business community.
+
+Qualifications
+
+> BS / MS / PhD in Computer Science, Statistics, EE, Applied Mathematics, Physics, Chemistry or Biology
+
+> Programing experience in one or more general purpose languages.
+
+> Experience in a few of the following areas: deep neural networks, reinforcement learning, Markov Random Fields, Bayesian networks,semi-supervised learning, computer vision, image processing, signal processing, distributed computing, and/or numerical optimization.
+
+> Familiarity with ML frameworks such as Tensorflow, Theano, MXNet, etc. is a plus.
+
+> Experience with big-data technologies such as Hadoop/Spark is a plus.
+
+> Strong oral and written communication skills
+
+> Ability to work independently and in a team of scientists and engineers
+
+Please apply online at careers.slb.com
+
+Schlumberger is an equal employment opportunity employer. Qualified applicants are considered without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, status as a protected veteran or other characteristics protected by law.
+
+Schlumberger is a VEVRAA Federal Contractor - priority referral Protected Veterans requested.","Oil, Gas, Energy & Utilities",3.5,2020-05-07,2020-06-06,FULL_TIME
+3,Data Scientist,Aramco Services Company,TX,Houston,97540,126319,"Our Houston Research Center focuses on research and innovation in geology, geophysics, reservoir engineering, production technology, drilling, and sensors development to advance the discovery and recovery of oil and gas. Located in Houstons Energy Corridor, the center neighbors the nations leading petroleum engineering universities, labs, manufacturers, and service companies.
+
+Basic Function
+
+Develop algorithms, models and prototype solutions to address challenging scientific and engineering problems for exploration and production (E&P) applications. Serve as a bridge between machine learning (ML), data science and subject matter applications.
+
+Duties & Responsibilities
+
+Develop machine learning algorithms and perform advanced statistical analyses of engineering data to obtain insights into trends and opportunitiesDevelop and maintain appropriate databasesIn close collaboration with research and business partners in the US and in the Kingdom of Saudi Arabia, offer mathematical, computational and statistical models from the collected data to automate, augment, improve or speed up human decisionsResearch and deliver proof of concepts solutions, responding to clear and specific business needsServe as a bridge between machine learning/data science and subject matter applicationsBridge the gap between prototype development and scalable production applications when neededDevelop proper unit test frameworks for artificial intelligence (AI) and ML and provides high level documentationCommunicate appropriate algorithm research and prototype development best practices back to the machine learning group, to improve learning and future capabilitiesPublish and present work in journals and at conferencesDevelop and maintain statistical reports and visual presentations for management Perform other duties and participate in special projects as assigned
+
+Education and Experience
+
+Bachelor's degree in Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics & Statistics, Machine Learning and Artificial Intelligence, or Geosciences required; Masters degree and/or Ph.D. strongly preferredMust have at least three (3) years of relevant experience in data science including at least two (2) years in AI or MLStrong fundamental understanding of various modern machine-learning methods or computational physics/geosciences/chemistry background, along with significant machine learning knowledge is desirableAbility to:
+
+
+compile, correlate, and compute results from large data setsdevelop machine learning algorithms and perform advanced statistical analyseseffectively collaborate with research and business partners across disciplines and culturesdemonstrate technical writing skills and develop logical and clearly defined reports and presentationsmake oral/graphic presentations to collaboration partnersshow a history of active participation in technical society activities preferredProficient with business software applications 
+Experience in a few of the following areas: deep neural networks, reinforcement learning, Markov Random Fields, Bayesian networks, semi-supervised learning, computer vision, image processing, signal processing, distributed computing, and/or numerical optimizationSubstantial programming experience is expected, preferably in PythonExperiences with one or more of the following is highly desirable: familiarity with ML frameworks such as Tensorflow, Keras, Pytorch, MXNet, operationalizing ML models, cloud computing (e.g. Google Cloud, AWS, etc.), GPU computing environmentExperience with big-data technologies such as Hadoop/Spark is a plusExperience in oil and gas application is a plus.Must be able to comprehend and communicate accurately, clearly and concisely in English
+
+NO THIRD PARTY CANDIDATES ACCEPTED
+
+Powered by JazzHR","Oil, Gas, Energy & Utilities",2.1,2020-05-07,2020-06-06,FULL_TIME
+4,Data Scientist,CGG,TX,Houston,81042,132098,"Company DescriptionCGG is a fully integrated Geoscience company providing leading geological, geophysical and reservoir capabilities.Job DescriptionCGG is currently looking for a creative and results-focused individual who enjoys working on open-ended problems. Your customers are world-class seismic imagers who strive to image the subsurface with a high degree of accuracy and resolution. Your challenge is to analyze the computational activities and demands of seismic imaging and, with your insights, propose solutions and applications for realms widely ranging from resource scheduling and allocations to automation of imaging-related computations in our HPC environment. In a nutshell, we expect you to propose solutions to known problems and also identify new areas where you can add value with your expertise.
+
+We want people who can work with a team to decide what to look for, and who also have the technical ability to go get it. Interest in data mining and machine learning is key, since these are the two areas where you may specialize. You will participate as an engineer on a development team, writing, testing, and deploying code to achieve your goals. We want you if you are an independent thinker and capable of analyzing requirements, extracting data for analysis, and developing algorithms and tools. We process seismic data at the petascale and warehouse information at the terascale. The stakes are high, but your impact can be higher.
+
+Must have current U.S. work authorization or qualify for sponsorshipQualifications
+
+
+Ph.D.in Computer Science, Math, Statistics, Physics or a closely related field but an equivalent combination of educationand experience will be consideredProven Machine Learning experienceProfessional experience with Deep Learning Neural Network buildingDemonstrated experience with Deep Learning Framework such as Tensorflow and KerasExperience and/or education in at least one of the fields of Big Data, Data Mining, Predictive/Prescriptive Analytics, Optimization, Exploratory Analysis & VisualizationKnowledge of relational databases, data modeling, and schema normalization techniquesFamiliar with SQLPassion for solving complex data engineering and modeling tasksAbility to perform testing based on different hypotheses to determine the impact on key performance indicatorsExcellent analytical skills and the ability to work in a collaborative team environment
+
+Preferred:
+
+Experience in programming (high performance computing is a plus) and developing databasesKnowledge and experience with UNIX (Linux), Java, and XMLKnowledge of Perl, R, and SparkExpertise in designing and implementing efficient algorithms
+
+We wish to thank all applicants for their interest; however, only those candidates selected for an interview will be contacted. EOE
+
+Our focus on performance and passion for innovation are powered by people
+
+Our greatest resource is you Additional InformationAll your information will be kept confidential according to EEO guidelines.","Oil, Gas, Energy & Utilities",3.6,2020-05-06,2020-06-06,FULL_TIME
+5,Data Scientist,Sercel,TX,Houston,62195,104201,"Company DescriptionCGG is a fully integrated Geoscience company providing leading geological, geophysical and reservoir capabilities.Job DescriptionCGG is currently looking for a creative and results-focused individual who enjoys working on open-ended problems. Your customers are world-class seismic imagers who strive to image the subsurface with a high degree of accuracy and resolution. Your challenge is to analyze the computational activities and demands of seismic imaging and, with your insights, propose solutions and applications for realms widely ranging from resource scheduling and allocations to automation of imaging-related computations in our HPC environment. In a nutshell, we expect you to propose solutions to known problems and also identify new areas where you can add value with your expertise.
+
+We want people who can work with a team to decide what to look for, and who also have the technical ability to go get it. Interest in data mining and machine learning is key, since these are the two areas where you may specialize. You will participate as an engineer on a development team, writing, testing, and deploying code to achieve your goals. We want you if you are an independent thinker and capable of analyzing requirements, extracting data for analysis, and developing algorithms and tools. We process seismic data at the petascale and warehouse information at the terascale. The stakes are high, but your impact can be higher.
+
+Must have current U.S. work authorization or qualify for sponsorshipQualifications
+
+Ph.D.in Computer Science, Math, Statistics, Physics or a closely related field but an equivalent combination of educationand experience will be consideredProven Machine Learning experienceProfessional experience with Deep Learning Neural Network buildingDemonstrated experience with Deep Learning Framework such as Tensorflow and KerasExperience and/or education in at least one of the fields of Big Data, Data Mining, Predictive/Prescriptive Analytics, Optimization, Exploratory Analysis & VisualizationKnowledge of relational databases, data modeling, and schema normalization techniquesFamiliar with SQLPassion for solving complex data engineering and modeling tasksAbility to perform testing based on different hypotheses to determine the impact on key performance indicatorsExcellent analytical skills and the ability to work in a collaborative team environment
+
+Preferred:
+
+Experience in programming (high performance computing is a plus) and developing databasesKnowledge and experience with UNIX (Linux), Java, and XMLKnowledge of Perl, R, and SparkExpertise in designing and implementing efficient algorithms
+
+We wish to thank all applicants for their interest; however, only those candidates selected for an interview will be contacted. EOE
+
+Our focus on performance and passion for innovation are powered by people
+
+Our greatest resource is you Additional InformationAll your information will be kept confidential according to EEO guidelines.","Oil, Gas, Energy & Utilities",3.4,2020-05-06,2020-06-06,FULL_TIME
+6,Pipeline Integrity - Data Scientist,Kinder Morgan,TX,Houston,72752,121296,"Position ResponsibilitiesResponsible for developing and implementing the pipeline Integrity Management Program (IMP) for facilities within the Kinder Morgan Natural Gas Pipelines business unit including developing, implementing, and continuously improving data driven solutions to support a Quantitative Risk Analysis (QRA) model and integrity assessment planning. The Data Scientist will report to the Manager of Risk Engineering.The primary duties of this role are as follows:Design, development, and implementation of new data driven solutions to support Quantitative Risk Analysis (QRA) model and integrity assessment planningDesign, development, and implementation of new data processes to extract, cleanse, integrate, and conform disparate pipeline data sources from across the organization for loading into dimensional data modelsPerform technical design reviews and improvements of existing data processes and data modelsEnsure data architecture will support current and future business requirementsEnsure unit test is completed and meets the test plan requirements, system testing is completed, and system is implemented correctlyCreate and maintain thorough documentation of system architecture and processesIdentify and present potential pipeline integrity process improvements and follow-through with implementation once stakeholder/management agreement for the improvement is obtainedProvide support for other aspects of integrity related programs, processes, and procedures as required Position may be filled at various levels depending on years of experience.
+
+Position Requirements
+
+Position Requirements 3-5 years' experience designing and implementing data driven solutionsExpert knowledge of SQL (including SQL tuning), T-SQL, and other statistical computer languages to manipulate data and draw insightsExperience working in multiple environments (DEV/QA/PROD)Experience using version control toolsAbility to clearly document processes, ETL metadata, and architecture documentsStrong written and verbal communication skills with staff at various levels of technical knowledgeDemonstrates excellent analytical, critical thinking, and problem-solving skillsDemonstrates strong time management and organizational skillsAbility to self-motivate, set goals, prioritize and meet deadlinesBachelor's Degree or higher in Computer Science, Engineering, or other relevant fieldAbility and willingness to perform all essential functions of the position including those listed aboveAbility to effectively organize, plan, prioritize, document, and complete work independentlyMaintain a regular, dependable attendance and high level of performanceWork ConditionsMust be willing and able to work in a corporate environmentExtended periods of sitting may be required Preferred Experience, Skills and Knowledge10+ years' experience designing and implementing data driven solutionsPrior experience with data warehouse modeling, design, development, and implementationExpert knowledge in relational and dimensional data modeling and database design skillsPrior experience working with pipeline industry datasets or implementing a QRA modelFamiliarity with pipeline linear referencing conceptsExperience with ETL and data warehousing of spatial data setsExperience with Safe Software's FME Desktop and FME ServerExperience with distributed data/computing toolsKnowledge of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.)Master's Degree or higher in Computer Science, Engineering or other relevant fieldDemonstrated ability to identify gaps in processes and follow through with solutions We are an Equal Opportunity Employer and do not discriminate against applicants due to race, ethnicity, gender, veteran status, or on the basis of disability or any other federal, state or local protected class.
+
+We are an Equal Opportunity Employer and do not discriminate against any employee or applicant for employment because of race, color, sex, age, national origin, religion, sexual orientation, gender identity, status as a veteran, and basis of disability or any other federal, state or local protected class.","Oil, Gas, Energy & Utilities",3.4,2020-05-05,2020-06-06,FULL_TIME
+7,Sr Data Scientist,Enbridge,TX,Houston,80375,127865,"Posting End Date:May 10, 2020Employee Type:Regular-Full timeUnion/Non:This is a non-union positionLife takes energy. The Enbridge Technology + Innovation Lab works with data that powers our products to improve safety and reliability. By working hands-on with ground-breaking technology, the lab pioneers the development of innovative products through small agile teams. Our teams incorporate a variety of multidisciplinary skills, including industrial predictive algorithms, machine learning, and sentiment analysis.
+
+As a Data Scientist, you’ll bring a deep understanding of big data and will help the T+IL to build and enable big data analytics solutions.Who you are
+
+You have experience in data science and in senior engineering and technology roles (5+ years) working with product development teams, delivering and building digital productsYou bring a high-energy and passionate outlook to the job and can influence those around themYou’re passionate about innovation with a “can do” attitudeYou understand high performance algorithms and Python statistical softwareYou have experience with lamda architectures and batch and real-time data streamsYou have experience in industry data science (e.g., machine learning, predictive maintenance) preferredYou architect highly scalable distributed systems, using different open source toolsYou're experienced with agile or other rapid development methodsYou are experienced in object oriented design, coding and testing patterns as well as experience in engineering software platforms and large-scale dataYou have deep knowledge of data modeling and understanding of different data structuresYou build a sense of trust and rapport that creates an effective workplaceYou hold a Master’s in Information Technology, Computer Science, or a related quantitative discipline
+
+What you’ll do
+
+You’ll bring deep functional expertise to shape data structures and algorithms in a distinctive way to ensure large-scale business impact of the digital products being built and drive competitive advantage for Enbridge as a wholeYou’ll collaborate with Data Head and developers to find opportunities to use company data to drive business solutions.You’ll mine and analyze data from company systemsYou’ll assess the effectiveness and accuracy of new data sources and data gathering techniques.You’ll develop custom data models and algorithms to apply to data sets.You’ll use Machine Learning and Artificial Intelligence to increase and optimize customer experiences, revenue generation, and other business outcomes.You’ll partner with different functional teams to implement models and monitor outcomes.You’ll conduct data wrangling, munging, exploration, sampling, training data generation, feature engineering, model building, and performance evaluation)You’ll enable big data and batch/real-time analytical solutions that use emerging technologiesYou’ll code, test, and document new or modified data systems to create robust and scalable applications for data analyticsYou’ll ensure all automated processes preserve data by leading the alignment of data availability and integration processes
+
+We build advanced technology products to deliver energy in a safe and reliable way to fuel a rapidly innovating world. Here in our new Technology + Innovation Lab we believe in Agile way of working, focus on our people and value craftsmanship, in a ‘work is play’ environment where we offer a flexible, fun, and modern working style to support individual needs.
+
+Apply now to start a career with unlimited potential!
+
+Diversity and inclusion are important to us. Enbridge is an Equal Opportunity and Affirmative Action Employer. We are committed to providing employment opportunities to all qualified individuals, without regard to age, race, color, national or ethnic origin, religion, sex, sexual orientation, gender identity or expression, marital status, family status, veteran status, Indigenous/Native American status, or disability. Applicants with disabilities can request accessible formats, communication supports, or other accessibility assistance by contacting careers@enbridge.com.
+
+Information For Applicants:
+
+Applications can be submitted via our online recruiting system only.We appreciate your interest in working with us; however, only those applicants selected for interviews will be contacted.Final candidates for this position may be required to undergo a security screening, including a criminal records check.
+
+To learn more about us, visit www.enbridge.com","Oil, Gas, Energy & Utilities",3.1,2020-04-28,2020-06-06,FULL_TIME
+8,Data Engineer,CenterPoint Energy,TX,Houston,64950,103449,"CenterPoint Energy and its predecessor companies have been in business for more
+
+than 140 years. We ve created an energy delivery company with electric and
+
+natural gas utility businesses and competitive energy businesses that benefit
+
+our shareholders, customers, employees and communities.
+
+We are committed to our core values of safety, integrity, accountability,
+
+initiative, and respect for customers, investors, employees and communities.
+
+CenterPoint Energy is committed to creating an inclusive work environment where
+
+business results are achieved through the skills, abilities and talents of our
+
+diverse workforce. At CenterPoint Energy, individuals are respected for their
+
+contributions toward our company objectives.
+
+The_Strength_Is_In_Our_Numbers
+
+
+
+Approximately 14,000 employees
+Operate electric and natural gas utility businesses in 8 states
+Competitive energy businesses footprint in nearly 40 states
+
+
+As Data Engineer, you will identify opportunities to improve reliability and
+
+provide engineering solutions associated with CEHE Distribution system by
+
+analyzing large data sets. You will build actionable dashboards using Tableau
+
+to improve operational efficiencies. Review DDP (Distribution Development
+
+Plans) to identify optimal locations; track and communicate the progress of the
+
+installation and maintenance of IGSDs to internal and external stakeholders.
+
+Specifically,_You ll_Have_The_Opportunity_To
+
+
+
+Gather and analyze large amounts of data, perform engineering studies,
+
+
+prepare written reports, give oral presentations related to pertinent
+
+issues.
+
+
+
+Provide various reports with recommendations to management using
+
+
+databases such as Tableau, Oracle, SQL, Python, Access, Excel macros,
+
+etc.
+
+
+
+Review and analyze existing reports to find value in modifying existing
+
+
+processes.
+
+
+
+Uses electrical models (CYME) to analyze circuit loading, identify
+
+
+operating issues and make reliability and operational recommendations for
+
+the distribution system.
+
+
+
+Analyze fault events and develop sequence of events reports following
+
+
+system disturbances, with data obtained from various sources such as
+
+SCADA and microprocessor relays.
+
+
+
+Utilize engineering tools to identify potential reliability issues,
+
+
+equipment failures, report findings and form recommendations for
+
+solutions.
+
+
+
+Perform data verification and data enhancement to mapping and database
+
+
+systems.
+
+
+
+Investigate operational problems on Distribution system.
+Support the IGSD deployment with technical expertise.
+Coordinates with other groups such as Security, Control Systems, Telecom,
+
+
+and others to ensure overall success of applications and distribution
+
+assets.
+
+
+
+Serve as a department representative on task forces, committees, and
+
+
+cross-functional teams.
+
+Basic_Qualifications
+
+Qualifications
+
+Bachelor s degree
+Minimum of 2 years engineering, data analytics or computer technology
+
+
+experience.
+
+Preferred
+
+
+
+Degree in Electrical, Computer, or System Engineering
+Data analytics/data manipulation
+Utility or power engineering
+Computer experience: Python, Pearl, Oracle Database, Tableau, Access
+
+
+Database
+
+
+
+CYME
+
+
+This position is located in our north Houston location.","Oil, Gas, Energy & Utilities",3.7,2020-05-01,2020-06-06,FULL_TIME
+9,Python Data Engineer,"NRG Energy, Inc.",TX,Houston,77467,121793,"NRG is the leading integrated power company in the U.S., built on the strength of our diverse competitive electric generation portfolio and leading retail electricity platform. A Fortune 500 company, NRG creates value through best-in-class operations, reliable and efficient electric generation, and a retail platform serving residential and commercial businesses. Working with electricity customers large and small, we implement sustainable solutions for producing and managing energy, developing smarter energy choices and delivering exceptional service as our retail electricity providers serve almost three million residential and commercial customers throughout the country.
+
+More information is available at www.nrg.com. Connect with NRG Energy on Facebook and follow us on Twitter @nrgenergy.
+
+Job Summary:
+
+At NRG, we apply advanced analytics and modeling to address challenging business problems. Within our Texas mass markets retail business, which includes Reliant Energy, we aim to promote customized offerings: the right product offered through the right channel, with the right message at the right time for each current or prospective customer. To accomplish this, we leverage our data via predictive modeling, statistical analyses, and optimization. We are looking for a talented data engineer to build robust data pipelines to pull data from various data sources, apply transformation logic, and combine into large datasets that support model building and scoring in production.
+
+Essential Duties/Responsibilities:
+
+Design and develop data pipelines in Python
+Abstract, refactor, and package reusable code for broad use
+Develop test suites to ensure code works as planned and enable fast edits as business requirements change
+
+Minimum Requirements:
+
+Degree (BS, MS, or PhD) in Computer Science, Electrical and Computer Engineering, Software Engineering, or Information Systems preferred; any STEM BS, MS or PhD with appropriate work experience will be considered.
+2+ years of professional Python software design and development
+Linux administration experience a plus
+
+Preferred Qualifications:
+
+Expert-level Python programming
+Test-driven development
+Building and monitoring data pipelines
+Proficient with the following Python packages: SQLAlchemy, pandas, sphinx, and pytest
+Git
+SQL
+Continuous Integration and Deployment (Gitlab-ci, Ansible, Jenkins, or equivalent)
+Experience developing in containerized environments (Docker, LXC)
+Experience with multiprocessing and multithreading in Python
+Experience with MongoDB and Redis is a plus
+Experience with a pipeline framework like Prefect, Airflow, Luigi is a plus
+Experience with AWS or other cloud service a plus
+
+Additional Knowledge, Skills and Abilities:
+
+Ability to design Python software from scratch
+Desire to automate everything
+Good communication skills
+Independent and self-driven worker
+Creative problem solver
+
+Physical Requirements:
+
+The worker is required to have close visual acuity to perform an activity such as: preparing and analyzing data and figures; transcribing; viewing a computer terminal; extensive reading.
+
+Working Conditions:
+
+Open office environment.
+Some overtime required as special projects arise.
+NRG is a fast-paced company with a significant volume of projects. Change is the norm.
+
+#SF-IND
+
+#LI-NF
+
+NRG Energy is committed to a drug and alcohol free workplace. To the extent permitted by law and any applicable collective bargaining agreement, employees are subject to periodic random drug testing, and post-accident and reasonable suspicion drug and alcohol testing. EOE AA M/F/Protected Veteran Status/Disability
+
+EEO is the Law Poster (The poster can be found at http://www.eeoc.gov/employers/upload/poster_screen_reader_optimized.pdf)
+
+Level, Title and/or Salary may be adjusted based on the applicant's experience or skills.
+
+Official description on file with Human Resources","Oil, Gas, Energy & Utilities",3.6,2020-04-25,2020-06-06,FULL_TIME
+10,Director Data Science and Advanced Analytics,"NextEra Energy, Inc.",TX,Houston,107812,165765,"
+
+a.dialogApplyBtn {
+
+ display: none;
+
+ }
+Date: Apr 8, 2020
+
+Primary Location:
+
+ Houston, TX, US, 77002#job-location.job-location-inline {
+
+ display: inline;
+
+ }Company:
+
+ NextEra Energy
+Requisition ID: 41778
+
+NextEra Energy Resources is one of the largest wholesale generators of electric power and renewable energy from the wind and sun in North America.
+
+Position Specific Description
+
+Come join our tem! Our Gas Infrastructure division is seeking an experienced Oil and Gas professional to help pave the way for a new team focused directly on data and analysis. Please see below for more information on the role and requirements.
+
+Role and Responsibilities:
+
+ Leads a team of Data Scientists responsible for advanced analytical solutions that include predictive analytics, machine learning, simulation, and optimization techniques to that generate management insights and enable customer-facing applications.
+Utilizes technical acumen and in-depth understanding of business processes and practices to influence the creation and execution of operational and strategic plans.
+Partners with IT and other areas to build major improvements to analytical processes and systems. Advises Senior Leadership on the development of data science solutions and long term goals and or strategies.
+Maintains relationships with academic and industry thought-leaders to ensure the enterprise has access to cutting-edge thinking and technologies.
+
+Job Requirements: 
+
+• Collaborates with other analytical leaders to fulfill the strategic direction of the business through data and information exploration, research of emerging technologies or analytical techniques and long-term defined/project specific strategic assignments.
+
+• Oversees and executes the exploration of promising new technologies, analytical methods and data sources (internal & external) that have potential to add value to the enterprise.
+
+• Partners with enterprise analytical and IT teams to build capabilities and processes.
+
+• Identifies additional resource needs ranging from IT investments, 3rd party support or additional analysts.
+
+• Understands the business direction, environment and strategies, to identify and recommend solutions that influence decision makers and drive change.
+
+• Directs the design and construction of large and complex data sets from large amounts of structured and unstructured data (internal and external) to enable analytical solutions.
+
+• Builds and leads a high performing team of experts in advanced analytics. Develops team reputation as highly skilled experts in the field of data science.
+Job Overview
+This position establishes strategy, develops business plans, and oversees and directs the design, development, and implementation of technology solutions to meet business needs. Leaders in this role provide leadership and oversight to manage performance and results in one or more Information Technology (IT) disciplines. Individuals will be accountable for the reliability, performance, security, and continuity of IT systems and supported business processes.
+Job Duties & Responsibilities
+• Provides leadership, influence, vision, roadmap, and direction to the organization to contribute to achieving the company's goals
+
+• Works with IT leaders to develop overall IT strategy in alignment with business strategy
+
+• Oversees the value stream by focusing on cost and risks of technology portfolio to meet business needs
+
+• Supports and fosters innovative technologies to deliver new ideas that enable business transformation
+
+• Ensures high levels of ongoing system and application performance in production environments
+
+• Oversees the development of processes and tools to automate code releases from development to operations (DevOps)
+
+• Establishes and drives technology roadmaps that align with current and future business needs
+
+• Manages third party technical and outsourcing relationships to deliver project and operational support objectives
+
+• Ensures technology processes are conducted in line with applicable standards and company policies
+
+• Performs other job-related duties as assigned
+Required Qualifications
+• High School Grad / GED
+
+• Bachelor's or Equivalent Experience
+
+• Experience: 10+ years
+
+• Supervisor/Management Experience: 5+ years
+Preferred Qualifications
+• Bachelor’s Degree
+
+Employee Group: Exempt
+
+Employee Type: Full Time
+
+Job Category: Information Technology
+
+Organization: NextEra Project Mgmt
+
+Location: Houston, Texas
+
+Other Work Locations: Texas
+
+Relocation Provided: No
+
+NextEra Energy is an Equal Opportunity Employer. Qualified applicants are considered for employment without regard to race, color, age, national origin, religion, marital status, sex, sexual orientation, gender identity, gender expression, genetics, disability, protected veteran status or any other basis prohibited by law. We are committed to a diverse and inclusive workplace.
+
+If you require special support or accommodation while seeking employment with NextEra Energy, please send an e-mail to recruiting-coordinator.sharedmailbox@nexteraenergy.com, providing your name, telephone number and the best time for us to reach you. Alternatively, you may call 844-694-4748. Please do not use this line to inquire about your application status.
+
+NextEra Energy will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor’s legal duty to furnish information.
+
+NextEra Energy does not accept any unsolicited resumes or referrals from any third-party recruiting firms or agencies. Please see our policy for more information.
+
+#LI-KJ1
+
+Nearest Major Market: Houston
+","Oil, Gas, Energy & Utilities",3.2,2020-05-07,2020-06-06,FULL_TIME
+11,Data Science Manager,Southwestern Energy,TX,Spring,108576,169672,"Company Overview
+Southwestern Energy Company is an independent energy company primarily engaged in natural gas, natural gas liquids and oil exploration, development and production within North America. Visit SWN.com to learn more.
+
+Working at Southwestern Energy
+
+Southwestern Energy produces and provides energy to our world. It’s a commitment that has motivated our employees for nearly 90 years. Our culture demands creativity and innovation. That’s why we give employees, including new hires, the opportunity to be a contributor from the first day on the job. We strive to create a rewarding and inclusive work environment, by rewarding team and individual performance, in addition to offering our employees competitive compensation and benefits.
+
+Position Summary
+
+The Data Science Manager will oversee a Data Science team of analysts and engineers directed towards identifying and developing advanced analytics statistical models, machine learning methods and solutions to identify, address and resolve a variety of complex business issues and opportunities.
+
+Essential Duties:
+
+Collaborate with senior management on the strategy, structure and functionality of the Data Science Team, including identifying and hiring other candidates for the Data Science Team.
+Effectively interface with internal subject matter experts and key stakeholders on a routine basis to develop a framework for integrating existing company data and processes into analytical solutions.
+Work as part of the leadership team to identify and analyze business problems and document, implement, and present the technical information to various internal customers, including executive management.
+Apply advanced analytics, machine learning, and statistical techniques to data to identify business enhancements and opportunities.
+Prepare and present analyses and results to internal decision making audiences, often creating novel and innovative business metrics and solutions to inform and influence senior leadership.
+Participate in planning and leading projects for new data acquisition and analysis, including necessary application development and deployment.
+Oversee a “Citizen Data Scientist” program to upskill the workforce company wide.
+
+
+ 8 years of related analytic work experience, leadership and management experience preferred
+Experience with top-tier firms in big data analytics, management consulting, or comparable role in corporate setting
+Excellent data visualization and communication skills required, role will be routinely interfacing with VP level leaders in the organization
+Comfortable working with ambiguity (e.g. imperfect data, loosely defined concepts, ideas, or goals) and translating these into more tangible outputs
+Proficiency using relevant software packages for statistical analyses and visualization (i.e. SAS, SQL, R, Spark, Hadoop (MapReduce, HBASE), Hive, Pig, Java, Trifacta, H2O, Python, Tableau, Spotfire and Power BI)
+Minimum requirement of Bachelor’s Degree in Data Science, Statistics, Applied Mathematics, Computer Science, Information Technology, Engineering, Geoscience or related field.
+
+Southwestern Energy Company is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without unlawful discrimination on the basis of race, color, national origin, ancestry, citizenship, sex, sexual orientation, gender identity or expression, religion, age, pregnancy, disability, present military status or veteran status, genetic information, marital status or any other factor that the law protects from employment discrimination.","Oil, Gas, Energy & Utilities",3.6,2020-05-07,2020-06-06,FULL_TIME
+12,"Data Engineer, Sr. (TIBCO)",Entergy,TX,The Woodlands,63753,116406,"
+This position can be filled in New Orleans, LA, The Woodlands, TX, or Little Rock, AR.*
+
+JOB SUMMARY/PURPOSE
+
+The Data Engineer will help support the overall enterprise analytics initiative with a primary focus on improving the data integration of current utility systems of record (data lake and GMDL creation) as well as ensuring the approach adopted is agile enough to ingest additional data streams such as smart grid technologies, distributed energy resources (DERs) and customer information as they become available.
+
+The Data Engineer is a technical resource who understands various data storage solutions, extract, transform and load technologies and is able to build out data pipelines as needed. The Data Engineer will work collaboratively with other Data Engineers, Data Scientists, Solution Architects and Business units to help solve their analytical needs.
+
+Analysis performed by the position will be shared within Entergy to support the various initiatives underway that have an analytical need which will ultimately impact Entergy's generation assets, load resources, customer view, and product and services offered to the customer. The Data Engineer will support the TIBCO DV and will be the SME of all the DV views existing in TIBCO DV. The Data Engineer will be the SME of TIBCO DV.
+
+JOB DUTIES/RESPONSIBILITIES
+
+Develop and deploy robust data collection, data governance, storage and manipulation techniques (extract, transform and load) that ultimately enable business units to unlock additional value from company-held data.
+Be a champion for Entergy's Analytics efforts both inside and outside of the organization, promoting collaboration and communication through business unit driven use cases whilst building the Entergy brand in the analytics space.
+Help to solve data quality/availability issues and work with the data engineers, solution architects and data scientists throughout Entergy various business units.
+Subject matter expert of TIBCO DV
+Responsible for defining and maintaining best practice for TIBCO DV
+Responsible for generating and maintaining standards for TIBCO DV
+Responsible for supporting TIBCO DV within the Cloudera environments
+SME for support team in troubleshooting TIBCO DV and providing leadership to TIBCO DV support team
+Deploy and maintain TIBCO DV to be able to function with tools within Cloudera such as SQOOP, Flume, Kafka, HDFS, Kudu, Hbase, Yarn, Sentry, Hive, Impala, Spark and Solr
+Support TIBCO DV so Entergy's reporting tools are able to view data
+
+MINIMUM REQUIREMENTS
+
+Minimum education required of the position
+
+
+
+B.S. Degree in a data-centric field (Economics, Computer Science or other science field), Information Systems, Information Processing or engineering or four years of relevant work experience in lieu of degree
+Preferred- M.S. in economics, mathematics, statistics, computer science, finance, engineering or other analytical field
+
+
+Minimum experience required of the position
+
+
+
+5+ years of experience in data validation or complex data intensive analysis that utilizes data modeling, manipulation and processing techniques (SQL, Informatica Power Center, Python etc.) to ensure (connected) datasets are of high quality and therefore fit for analysis/reporting purposes.
+Preferred -3+ years' experience working in the electric and/or gas utility sector
+5+ years of experience in supporting TIBCO DV
+5+ years in supporting TIBCO DV in the following: TDV installation and upgrade; Administration; TDV Security; TDV business directory; TDV client interfaces; TDV adapter; TDV discovery; TDV active cluster; TDV monitoring
+5+ years in supporting TIBCO DV in a Cloudera/Hadoop platform
+5+ years knowledge of Cloudera such as SQOOP, Flume, Kafka, HDFS, Kudu, Hbase, Yarn, Sentry, Hive, Impala, Spark and Solr
+Knowledge and experience in supporting TIBCO DV on multiple platforms such as Hadoop and Oracle
+
+Minimum knowledge, skills, and abilities required of the position
+
+Strong background in developing and utilizing tools that prepare, extract and manipulate data to create connected datasets (data warehousing) that can be utilized for analytics purposes. Strong communicator at the technical levels. Experience discussing complex and new topics in a simple, easy-to-understand way. Demonstrated teamwork skills. Strong, demonstrated writing and presentation skills. Planning experience, especially the design of longer-term strategies. Ability to communicate and present effectively with all levels in the organization, including executive management. Excellent interpersonal communications skills. Excellent writing and presentation skills. Working knowledge of architecture concepts and the ability to integrate business needs and technology capabilities.
+
+#li-mm1
+
+Primary Location: Texas-The Woodlands
+
+Job Function: Information Technology
+
+FLSA Status: Professional
+
+Relocation Option: Level II
+
+Union description/code: NON BARGAINING UNIT-NBU
+
+Number of Openings: 1
+
+Req ID: 96643
+
+Travel Percentage:Up to 25%
+
+An Equal Opportunity Employer, Minority/Female/Disability/Vets. Please click here to view the full statement.
+
+WORKING CONDITIONS:
+
+As a provider of essential services, Entergy expects its employees to be available to work additional hours, to work in alternate locations, and/or to perform additional duties in connection with storms, outages, emergencies, or other situations as deemed necessary by the company. Exempt employees may not be paid overtime associated with such duties.
+
+Job Segment: Database, Engineer, Information Systems, System Administrator, Oracle, Technology, EngineeringSDL2017","Oil, Gas, Energy & Utilities",3.7,2020-05-02,2020-06-06,FULL_TIME
+13,"Data Engineer or Data Engineer, Sr",Entergy,TX,The Woodlands,54118,101452,"SunIRef:Manu:title
+
+Job Summary/Purpose
+
+The Data Engineer will help develop and support the overall enterprise analytics initiative with a primary focus on improving the data integration of current utility systems or record (data lake creation) as well as ensuring the approach adopted is agile enough to ingest additional data streams such as smart grid technologies, distributed energy resources (DERs) and customer channel information as they become available.
+
+The Data Engineer will understand the strengths and limitations of various data storing, data transformation and data distribution mechanisms and help identify the appropriate data sources, manipulation tools and techniques (including data enrichment/automation) for a particular analytics use case as a function of data quality (including availability) and work collaboratively with data scientists and business units to help solve their analytical needs.
+
+The Data Engineer will also assist with the over-arching enterprise goal to create various layers of data accessibility with a specific focus on an agile, secure and reliable data collection and distribution strategy that is driven by business unit needs, analytical solution requirements and human capital considerations.
+
+Analysis performed by the position will be shared within Entergy to support the various initiatives underway that have an analytical need which will ultimately impact Entergy's generation assets, load resources, customer view, and product and services offered to the customer.
+
+Job Duties/Responsibilities
+
+Develop, manage and deploy best in practice data collection, data governance, storage and manipulation techniques (extract, transform and load) that ultimately enable business units to unlock additional value from company-held data.
+
+Be a champion for Entergy's Analytics efforts both inside and outside of the organization, promoting collaboration and communication through business unit driven use cases whilst building the Entergy brand in the analytics space.
+
+Represent Entergy on various industry forums such as UAI, EPRI, EEI, etc.,. and assist with developing and maintaining the internal POV on data quality, manipulation and presentment options.
+
+Be a thought-leader at Entergy for solving data quality/availability issues and work with the data scientists and citizen data scientists throughout Entergy various business units.
+
+Minimum Requirements
+
+B.S. Degree in a data-centric field (Economics, Computer Science or other science field), Information Systems, Information Processing or engineering.
+
+Preferred: M.S. in economics, mathematics, statistics, computer science, finance, engineering or other analytical field
+
+Experience required of the position
+
+2+ years of experience in data validation or complex data intensive analysis that utilizes (big) data manipulation and processing techniques (SQL, MySQL, Hadoop, Spark etc) to ensure (connected) datasets are of high quality and therefore fit for analysis/reporting purposes.
+
+Preferred: 1+ years' experience working in the electric and/or gas utility sector
+
+Preferred: Programming experience in analytical tools such as SAS, SPSS, R, Python, Java, Matlab etc
+
+Skills and abilities required of the position
+
+Strong background in developing and utilizing tools that prepare, extract and manipulate (big) data to create connected datasets (data lake) that can be utilized for analytics purposes.
+
+Strong communicator both at technical and strategic levels
+
+Experience discussing complex and new topics in a simple, easy-to-understand way
+
+Demonstrated teamwork skills
+
+Strong, demonstrated writing and presentation skills
+
+Certificates, licenses, etc. required for the position
+
+N/A
+
+#LI-CM1
+
+Primary Location: Texas-Woodlands
+
+Job Function: Professional
+
+FLSA Status: Professional
+
+Relocation Option: Level II
+
+Union description/code: NON BARGAINING UNIT-NBU
+
+Number of Openings: 1
+
+Req ID: 94701
+
+Travel Percentage:Up to 25%","Oil, Gas, Energy & Utilities",3.7,2020-05-06,2020-06-06,FULL_TIME
+14,"Solutions Architect, Sr. (Data Applications)",Entergy,TX,The Woodlands,83822,138968,"*This position can be filled in New Orleans, LA, The Woodlands, TX, or Little Rock, AR.*
+
+Job Summary/Purpose
+
+The Solution Architect, Sr position is a key role in the Enterprise Analytics team supporting the Enterprise Data Lake ecosystem. This role will focus on PowerBI reporting and is seeking a SME in PowerBI.
+
+The Architect will design, implement, and manage the Enterprise Data Lake and development of associated information management solutions in support of Enterprise Analytics roadmap. This position will work closely with business units throughout the organization to design and implement data strategies that support the democratization, integration, and standardization of data at an enterprise level, ensuring consistency of business definitions and data quality. This position requires strong technical and communication skills, as well as proven experience in data management, information management, and the utility industry in general. This role will be expected to develop and maintain Entergy’s Enterprise Data Lake architecture across multiple data types (structured, semi-structured and unstructured), balancing the need for access against security and performance requirements.
+
+This position requires strong technical and communication skills, as well as proven experience in data management, information management, big data strategy and planning, information modeling and delivery, agile implementation, business collaboration, program management and project management, and the utility industry in general. This role will report directly to the IT Service Pod Manager – Enterprise Analytics, plus there is a matrixed relationship to the Enterprise Analytics team. This role will directly interact with other roles such as: Data Architect, Data Modeler, Data Wrangler, and Data Scientist.
+
+Definition refinement, ownership and representation of the Enterprise Data Lake Reference Architecture, including:
+
+
+Data Supply & Integration Architecture, Tools and PlatformsAnalytics Delivery Architecture, Tools and Platforms
+Representation and alignment of the Enterprise Data Lake Reference Architecture to enterprise and local analytics architecture teamsManage and coordinate new information demand that impacts the Enterprise Data Lake Reference Architecture
+
+Capture business capability requirements, functional requirements, and expected service levels from business units Establish design guidelines for software and hardware integration, performance, reliability, operating, and security designs. Support business units in the creation and implementation of project use casesMaintain an understanding of technology needs and solutions for business units. Liaise between the business units, vendors, project management, and technical teams on questions, issues, and revisions to the solution architecture
+
+Job Duties/Responsibilities
+
+General: Working under the direction of the IT Service Pod Manager for Enterprise Analytics; translate project goals into usable information architectures to guide project solution development and achieve consistency of information assets across the entire application portfolio. Simply stated -- responsible for the overall design and build of the Enterprise Data Lake ecosystem, across multiple content types (structured data, semi-structured data and unstructured data) -- inclusive of Data Management, Information Management, and Analytics solutions. Participates in the development of Enterprise Analytics solution strategy and the identification and design of IT architectures to support emerging business strategic intent (e.g., Big Data management and analytics).
+
+Architecture: Designs and implements the Enterprise Data Lake solution architecture, working closely with the IT Enterprise Architecture team plus other Data Lake and Analytics teams. Translate the Enterprise Data Lake Reference Architecture into an operational ecosystem. Responsible for the overall design and build of the Enterprise Data Lake domain, across multiple content types (structured data, semi-structured data and unstructured data) -- inclusive of Data Management, Information Management, and Analytics solutions.
+
+Data Management Technologies: Responsibilities also include the creation or use of enterprise data management processes, models and technologies; data interface designs, and development of internal and external checks and controls to ensure proper governance and quality of data assets, inclusive of enterprise methods and standards. As needed, lead or participate in POC investigative and research projects.
+
+Analytics Technologies: Responsibilities also include the creation or use of enterprise analytical processes, models and technologies; analytical application architectures, inclusive of enterprise methods and standards. As needed, lead or participate in POC investigative and research projects.
+
+Day-To-Day Duties: Wear many hats and gain experience with tools, technologies and platforms across the entire Enterprise Data Lake ecosystem
+
+Roadmap: Participate in data strategy and road map exercises, data architecture definition, business intelligence / data warehouse product selection, design and implementation
+
+SDLC: Work through all stages of a data solution life cycle: analyze/profile data, create conceptual, logical & physical data model designs, architect and design ETL, reporting and analytics solutions
+
+Matrix Collaboration: Works collaboratively with all IT and business teams; works collaboratively with the Enterprise Analytics team, Enterprise Architecture team, plus other business analytics teams.
+
+Consulting: Provide primary advisory and consulting services for technical aspects of Enterprise Analytics solutions and applications (Entergy’s Subject Matter Expert on the Enterprise Data Lake technology stack and associated solution architectures). Participates in the development of Enterprise Analytics solution strategy.
+
+Communication: Communicate and collaborate with all Enterprise Analytics stakeholders.
+
+MINIMUM REQUIREMENTS
+
+Minimum education required of the position
+
+Bachelor's degree in related field such as business, engineering or IT (or four years equivalent work experience).
+
+MBA or graduate degree in IT or engineering or relevant discipline preferred.
+
+Minimum experience required of the position
+
+Minimum of 8+ years in Information Technology experience required (hands-on experience in architecture, design or development of enterprise data solutions, applications and integrations)
+
+Experience in large scale or enterprise projects, including data architecture and/or analytics leadership experience (e.g., data architect, analytics architect, solution architect level experience).
+
+Experience with electric utility distribution grid technologies and customer systems preferred.
+
+Minimum knowledge, skills and abilities required of the position
+
+Subject matter expert in supporting POWERBIExperience in large scale or enterprise projects, including data architecture and/or analytics leadership experience (e.g., data architect, analytics architect, solution architect level experience). Hands-on experience with enterprise data architectures and data toolsets such as: data lakes, data warehouses, data marts, data models, modeling tools, data quality and profiling tools, data management tools, ETL tools, ESB tools, and analytics toolsHand-on experience with Oracle, Cloudera Hadoop, Informatica, Tibco, SAS and cloud-based systems is very desirableAbility to analyze existing legacy databases, and identify authoritative data sourcesExperience in methodologies and processes for managing large scale databases on premise as well as cloud solutionsDemonstrated experience in handling large datasets, structured and semi-structured data formatsStrong analytical thinking as well as verbal/written communication skillsAbility to deliver incremental value via an Agile Development MethodologyExperience with electric utility distribution grid technologies and customer systems preferred.
+
+Any certificates, licenses, etc. required for the position
+
+None specified
+
+#LI-MM1
+
+Primary Location: Texas-The Woodlands
+
+Job Function: Information Technology
+
+FLSA Status: Professional
+
+Relocation Option: No Relocation Offered
+
+Union description/code: NON BARGAINING UNIT-NBU
+
+Number of Openings: 1
+
+Req ID: 96402
+
+Travel Percentage:Up to 25%
+
+An Equal Opportunity Employer, Minority/Female/Disability/Vets. Please click here to view the full statement.
+
+WORKING CONDITIONS:
+
+As a provider of essential services, Entergy expects its employees to be available to work additional hours, to work in alternate locations, and/or to perform additional duties in connection with storms, outages, emergencies, or other situations as deemed necessary by the company. Exempt employees may not be paid overtime associated with such duties.
+
+Please note: Authorization to work in the United States is a precondition to employment in this position. Entergy will not sponsor candidates for work visas for this position.","Oil, Gas, Energy & Utilities",3.7,2020-04-30,2020-06-06,FULL_TIME
+15,Data Governance Lead,Entergy,TX,The Woodlands,45724,98256,"Job Summary/Purpose
+
+The Data Governance Lead will help support the overall enterprise analytics initiative with a primary focus on leading the enterprise wide data governance program including data quality and data catalog at the point of integration into the data lake. Some of the key responsibilities include:
+
+Establish and govern an enterprise wide data governance, data quality and data management roadmap, including necessary IT solutions and/or external servicesServe as a liaison between the business and IT and ensure that data related requirements are clearly defined, prioritized, and well understoodProactively champions the value of information (data) as a strategic business asset and revenue generator by providing the business and strategy teams with ideas and promoting those ideas into action; including developing and implementing communication, learning, change management and adoption planCreate and maintain DG policies, playbook(s), processes, procedures for guiding various data management processes, including adoption of data security and privacy, data quality control and data dissemination activitiesAlign data management practices with regulatory requirements
+
+The Data Governance Lead is a resource who understands various data storage solutions, including extract, transform and load technologies and is able to work with the Data Engineering team as needed. The Data Governance Lead will work collaboratively with data engineers, data scientists and business units to help solve their analytical needs.
+
+Job Duties/Responsibilities
+
+Lead the creation, maintenance and monitoring of the DG policies, processes, procedures and playbook(s) for guiding the data management aspects of the Enterprise Data LakeWorking with the business units, help solve data quality/availability issues and work with the data engineers and data scientists.Define and establish the analytics governance for the use cases worked by the Enterprise Data and Analytics teamServe as the technical lead to enable the DG tools across the business units Be a champion for Entergy’s Analytics efforts both inside and outside of the organization, promoting collaboration and communication through business unit driven use cases whilst building the Entergy brand in the analytics space.
+
+MINIMUM REQUIREMENTS 
+
+Education required of the position
+
+B.S. Degree in a data-centric field (Economics, Computer Science or other science field), Information Systems, Information Processing or engineering.Desired: M.S. in economics, mathematics , statistics, computer science, finance, engineering or other analytical field
+
+Experience required of the position
+
+5+ years of experience in developing and/or supporting the data management effort including business intelligence in a fortune 500 company 2+ years of experience in managing the data as a corporate asset thru the utilization of Enterprise Data Warehouse or Data Lake 5+ years of experience in data validation or complex data intensive analysis that utilizes data modeling, manipulation and processing techniques (SQL, Informatica Power Center, Python etc.) to ensure (connected) datasets are of high quality and therefore fit for analysis/reporting purposes. 2+ years of experience in working with a data quality toolDesired: 2+ years’ experience working in the electric and/or gas utility sector
+
+Skills and abilities required of the position
+
+Knowledgeable in tools used to identify and manage structured and unstructured dataExpert using data governance technologies such as Collibra or Informatica EDCDefined and implemented information lifecycle management practicesStrong background and working knowledge in end-to-end data management principlesStrong background in developing and utilizing tools that prepare, extract and manipulate data to create Connected datasets (data warehousing) that can be utilized for analytics purposes.Strong background and working knowledge of data quality improvementsStrong communicator at the technical levelsExperience discussing complex and new topics in a simple, easy-to-understand wayDemonstrated teamwork skillsStrong, demonstrated writing and presentation skills
+
+#LI-CM1
+
+Primary Location: Texas-Woodlands
+
+Job Function: Professional
+
+FLSA Status: Professional
+
+Relocation Option: Level II
+
+Union description/code: NON BARGAINING UNIT-NBU
+
+Number of Openings: 2
+
+Req ID: 95800
+
+Travel Percentage:Up to 25%
+
+An Equal Opportunity Employer, Minority/Female/Disability/Vets. Please click here to view the full statement.
+
+WORKING CONDITIONS:
+
+As a provider of essential services, Entergy expects its employees to be available to work additional hours, to work in alternate locations, and/or to perform additional duties in connection with storms, outages, emergencies, or other situations as deemed necessary by the company. Exempt employees may not be paid overtime associated with such duties.","Oil, Gas, Energy & Utilities",3.7,2020-04-26,2020-06-06,FULL_TIME
+16,Project Scientist,Weston Solutions,TX,Frisco,53547,68473,"Perform as a member of the START site assessment team providing our EPA client with accurate and pertinent scientific data according to agreed upon methods, procedures, and techniques. Provides sound conclusions and recommendations based upon field investigations and literature reviews within the established project schedules.
+
+Qualifications:
+
+BS in Science or Engineering; 0 - 5+ years with site assessment or investigation of potentially hazardous substance sites.
+
+Skills Required: Ability to work primarily in an office environment but also occasionally in field conditions encountered in the Texas, Oklahoma, Arkansas, Louisiana, and New Mexico environments; perform site assessments according to EPA assessment and investigation guidelines; data management, training in and use of the scientific method, some personnel supervision, various exposure to technical and scientific procedures, decision making, people skills for client contact and personnel management, great ability to be flexible and adaptable.
+
+Preferred Skills:
+
+Field instrumentation. Proficient in the use of various air monitoring and multi-media sampling instruments. Abilities include calibration of field instruments, implementation in field, and interpretation of results.General understanding of CERCLA, SDWA, the NCP.Strong writing skills with ability to prepare technical reports, have good organization skills and be a self-starter.40-Hour HAZWOPER and ability to work in OSHA Levels C are a plus.Ability to prepare technical reports, have good organization skills and be a self-starter.
+
+Specialized Skills Preferred:
+
+Familiarity with the hazard ranking system (HRS) and experience in performing site assessments in support of the National Priorities ListExperience in preparing HRS documentation records and HRS scoringFamiliarity with EPA guidance concerning NPL listing
+
+Position Duties:
+
+Prepare site assessment reports according to specific EPA protocol (Preliminary Assessment and Site Inspection guidance documents and HRS).
+
+Prepare sampling and analysis plans for specific site conditions and project objectives.
+
+Document field activities
+
+In-field multimedia sampling
+
+Proficient in the writing of technical documents and plans.
+
+Technical and Operational Scope:
+
+Exercises judgment on applicability of methods and approaches in use, and determines best approaches to problem solving when standard procedures are inadequate.
+
+Determines best method of data gathering, data base management, and analysis of data to achieve goals in coordination with client.
+
+Consults with outside specialists to obtain most accurate and timely data possible while meeting project specifications and time tables.
+
+Prepares reports on methods and procedures as part of overall project.","Oil, Gas, Energy & Utilities",3.5,2020-05-01,2020-06-06,FULL_TIME
+17,Data Analyst II - Retail,ENGIE North America,TX,Houston,45333,52725,"At ENGIE North America, innovation and excellence create a platform for growth. We have a range of businesses in the United States and Canada, including clean power generation, cogeneration, and energy storage; retail energy sales; and comprehensive services to help customers run their facilities more efficiently and optimize energy and other resource use and expense. Nearly 100 percent of our power generation portfolio is low carbon or renewable. Globally, ENGIE is the largest independent power producer and energy efficiency services provider in the world, with operations in 70 countries employing 150,000 people, including 1,000 researchers in 11 R&D centers.
+
+We are looking for talented and motivated individuals to create the future of energy and customer solutions. Join a rewarding and flexible work environment that encourages innovation and creativity to help customers meet their energy challenges today and in the future.
+The Role: Data Analyst II
+Purpose
+
+The Data Analyst II is responsible for reviewing key metrics, uncovering vital insights, and delivering critical analyses that will lead to data-informed decisions which can then guide business strategy. The ideal candidate will have a background in data analytics as well as experience in the retail energy industry with a keen attention to detail.
+The candidate must possess the ability to work independently and proactively to provide accurate and timely information sometimes driving from strategy through execution while other times collaborating with a cross-functional team.
+Location/Department
+
+Houston/Retail 
+Status
+
+Exempt
+Essential Job Functions
+
+Build an understanding of the business at a level of detail that enables them to identify and address critical issues.Analyze large data sets using quantitative and statistical techniquesIdentify and interpret trends and patterns in datasets through independent research and analysis.Create specifications for reports and analysis based on business needs Develop dashboards to gain real time insights, provide data visualization, to allow quick access to view and monitor Operational and metric performanceEffectively transform data into meaningful information to support continued innovation and growth.Proactively identify data issues that need to be corrected and perform detailed data verification and analysis Work with various source databases to keep data cleanEffectively communicate workload prioritization and progress to all interested parties.Assist the Manager and Senior Analyst on special projects
+
+
+Requirements
+
+Knowledge of retail energy operations, procedures, and regulatory standards is preferred Independent thinkerWorking knowledge of SQL, Macros, and SSRS for report writing and data management.Excellent written and verbal communication skills with an aptitude for problem solving.Solid experience working with popular analytics and BI software tools like Tableau, PowerBI, and others for semantic-layer-based data discovery. High degree of reliability and strong ethics. Productive and efficient, with fast turn-around. Team player with ability to work well with others.Proficient in Excel, Access, Word, Outlook, and Powerpoint. Complies with all ENGIE policies and procedures.Carries out other duties as assigned.
+
+
+Essential Physical Abilities
+
+Ability to meet highest attendance requirementsAbility to communicate effectively, both written and verbally.Ability to handle multiple assignments on a timely basis with a high degree of accuracy.Ability to use personal computer, calculator, etc.Could involve some lifting.
+
+Education/Experience
+
+Bachelor's degree in a quantitative discipline such as Math, Statistics, Computer Science or related field.2-5 years of experience in analytics and report development
+
+Working Environment
+
+Work environment characteristics described here are representative of those that must be met by an employee to successfully perform the essential functions of this job. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. While performing the duties of this job, the employee is not exposed to weather conditions. The noise level in the work environment is usually moderate.
+
+For this role you must have authorization to work in the United States. Qualified applicants are considered for employment, and employees are treated during employment without regard to race, color, religion, sex, sexual orientation, national origin, age, disability, veteran status, gender identity, or expression, genetic information or any other legally protected status.
+
+This job advertisement is supported by the ENGIE Talent Acquisition team. Agency involvement is not required. All related inquires must be done to the Talent Acquisition team, not direct to ENGIE North America Managers.
+
+
+
+Additional Information
+
+
+
+Posting Date: Apr 3, 2020
+
+
+
+
+
+
+
+Apply now","Oil, Gas, Energy & Utilities",3.9,2020-04-24,2020-06-06,FULL_TIME
+18,Data Scientist,Schlumberger,CA,Berkeley,105544,167398,"Schlumberger will attend or host university recruitment events for this position in your area.
+
+Job Title: Data Scientist
+
+Job Description
+
+We are seeking scientists and engineers with a strong fundamental understanding of various modern machine-learning methods to address highly challenging scientific & engineering problems.
+
+Responsibilities
+
+> Research and develop data analytics and/or machine learning systems for business applications;
+
+> Work with domain experts to understand needs & constraints;
+
+> Work with software engineers to integrate ML solutions in business workflows;
+
+> Communicate sophisticated ML concepts to management, clients, and the business community.
+
+Qualifications
+
+> BS / MS / PhD in Computer Science, Statistics, EE, Applied Mathematics, Physics, Chemistry or Biology
+
+> Programing experience in one or more general purpose languages.
+
+> Experience in a few of the following areas: deep neural networks, reinforcement learning, Markov Random Fields, Bayesian networks,semi-supervised learning, computer vision, image processing, signal processing, distributed computing, and/or numerical optimization.
+
+> Familiarity with ML frameworks such as Tensorflow, Theano, MXNet, etc. is a plus.
+
+> Experience with big-data technologies such as Hadoop/Spark is a plus.
+
+> Strong oral and written communication skills
+
+> Ability to work independently and in a team of scientists and engineers
+
+Please apply online at careers.slb.com
+
+Schlumberger is an equal employment opportunity employer. Qualified applicants are considered without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, status as a protected veteran or other characteristics protected by law.
+
+Schlumberger is a VEVRAA Federal Contractor - priority referral Protected Veterans requested.","Oil, Gas, Energy & Utilities",3.5,2020-04-25,2020-06-05,FULL_TIME
+19,"Data Scientist, Forecasting",Geli,CA,San Francisco,108867,138423,"Job Summary
+
+Geli is looking for an experienced Data Scientist with a strong software development background in Python to join a driven data analytics team. Your primary responsibility will be to lead the development of our time series forecasting models for solar and energy consumption using machine learning techniques. Our data analytics and cloud platforms use state-of-the-art technologies to set you up for success. As data science is at the core of Geli, you will have plenty of opportunities to contribute to the software development of our other energy storage products.
+
+Role
+
+You will work closely with software and analytics engineers focusing on these topics:
+
+Lead the development of our time series forecasting algorithms, which includes:Feature engineeringPrototyping new algorithmsBenchmarking performance across various load profilesIntegrating new forecasting algorithms into our production code base with robust test coverageCollaborate with the rest of the team to assess how forecasts can be adjusted for various economic objectives.Proactively identify opportunities within Geli that can benefit from data science analysis and present those findings.Work collaboratively in a diverse environment. We commit to reaching better decisions by respecting opinions and working through disagreements.Gain in depth experience in an exciting industry as you work with storage sizing, energy financial models, energy tariffs, storage controls & monitoring.
+
+Growth Opportunity:
+
+Gelis engineering is a flat organization and you will directly report to the VP of Engineering.
+
+There are opportunities to lead teams, projects and/or become a scrum master.
+
+Your Profile
+
+We are looking for a motivated self-starter that thrives in a dynamic start-up environment. A strong work ethic with excellent problem solving skills are equally important as being a team player who enjoys to learn and teach.
+
+These skills will additionally help you to excel in the position:
+
+BS or higher degree with 2+ years of relevant experienceKnowledge of machine learning algorithms (time series forecasting, clustering algorithms, probabilistic models, supervised and unsupervised learning)Experience with time series analysis and forecasting (LSTM, ARIMA, GARCH)Strong background in linear algebra and statisticsAdvanced Python skills, as well as familiarity with pandas and scikit-learnSoftware design experience and ability to write clean, maintainable and shippable production code
+
+Bonus Points
+
+Experience in some of these fields will give you a jump start:
+
+PyTorch, Keras, TensorflowTraining models on AWSPostgreSQL, RedisSlack, Bitbucket, JiraJenkins, BuildkiteKnowledge of Cloud, IoT technologies, and scalable platforms
+
+As a member of the team you will have significant influence on the direction of our technology stack.
+
+Benefits
+
+Make a difference: join a group of people who are passionate about renewable energyHave an impact: the company is still small enough that everyones contribution has a significant impact to the success of the companyGrowth: leading international energy OEMs, developers and utilities trust us to modernize the trillion dollar energy industry with them and we need to grow to keep up with the demandCasual working environment: theres no need to dress up.Competitive salary and equity compensation plan401K with company matchingMedical, dental & vision insuranceOpen vacation policyCommuter reimbursementConvenient SOMA location on Mission St in downtown San Francisco (short walk to Montgomery Street BART)
+
+Diversity
+
+We value the insights that a diverse team brings. We encourage applications from members of groups that have been traditionally underrepresented in tech. Geli is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, or national origin.
+
+About Geli
+
+Geli provides software and business solutions to design, automate, and manage energy storage systems. Gelis suite of products creates an ecosystem where project developers, OEMs, financiers, and project operators can deploy advanced energy projects using a seamless hardware-agnostic platform.
+
+Geli is a Series A company whose software actively manages megawatts of projects that are deployed around the world.
+
+Powered by JazzHR","Oil, Gas, Energy & Utilities",2.7,2020-05-06,2020-06-05,FULL_TIME
+20,Expert Data Scientist (Flexible,PG&amp;amp;E Corporation,CA,San Francisco,120706,188974,"Requisition ID # 30062
+
+Job Category : Accounting / Finance
+
+Job Level : Individual Contributor
+
+Business Unit: Electric Operations
+
+Job Location : San Francisco
+
+Department Overview
+
+The aim of the Risk Analytics team is to enhance the risk practices of PG&Es Electric Operation business and thereby address changing external conditions such as climate change. To this end the Risk Analytics team creates and maintains tools to enable PG&E to close the gap between metrics and electric system performance. These tools provide a multi-layered view of risk across the electric system so that decision-making processes include and empower employees at all levels of the company to manage risk appropriately.
+
+In creating these tools, the team employs a data supported, lean solution process to expand PG&Es ability to assess and manage risk. The result are assessments and mitigations that are more dynamic, quantitative, and customer-focused, with a multi-layered approach for both short-term and long-term time horizons.
+
+Sample activities include:
+
+Interpretation and representation of meteorological data in models that combine a range data sources such as the electric system asset data, vegetation and meteorologyDevelopment of computer vision models aimed at accelerating and automating asset inspections processesPredicting electric distribution equipment failure before it occurs allowing for proactive maintenanceSupervised and unsupervised machine learning models using Python and Spark, executed on AWS
+
+Position Summary
+
+We are looking for an Expert Data Scientist to join our growing team. In this role you will have a unique opportunity to be at the forefront of utility industry analytics and their use in tools to asses risk. Working as part of cross functional team, including other data scientists, technology experts, and subject matter experts this individual will help develop data driven solutions for decision making and operations. It is the perfect role for someone who would like to continue to build upon their professional experience and gain a comprehensive view of the nations most advance smart grid.
+
+Job Responsibilities
+
+Analytics and Modeling
+
+Gather, prepare, and analyze data from disparate sources to produce user-friendly models and actionable insightsUnderstand and appropriately apply statistical and analytical modeling methods such as classification, regression, clustering, anomaly detection, neural networks, etc. to identify opportunities for operational improvements and develop strategic insightsWork collaboratively with other data scientist through an iterative Agile project development lifecycle
+
+Communication, Summary Presentation, and User Interfaces
+
+Appropriately document data sources, methodology, and model evaluation metricsDevelop and present summary presentations to managementCreate streamlined visuals, and tools for end-users
+
+
+
+Qualifications
+
+Minimum:
+
+Degree in computer science, engineering, applied sciences, mathematics, statistics, econometrics or similar quantitatively focused subject areas or job-related experienceMinimum of 8 years of relevant experience in data science or advanced analytics OR Masters Degree and job-related experience, 6 years, OR Doctorate and job-related experience, 3 years
+
+Desired:
+
+Strong oral and written communication skillsDemonstrated collaboration or paired development work historyDemonstrated proficiency with relational databases, preferably in SQLDemonstrated proficiency with data science best practices, such as version control via Git or similarDemonstrated proficiency with model development for decision analysis, forecasting, or other complex quantitative modelingDemonstrated experience writing clear and well documented code, preferably in PythonDemonstrated experience working with large datasets and knowledgeable about parallelizationStrong understanding of statistics and experience developing supervised & unsupervised learning models
+
+Beneficial Qualifications:
+
+History mentoring and teaching others as well as desire to continue to do soDemonstrated experience with data visualization tools such as Tableau, D3, Plotly, etc.Enjoy working on complex multi-stage projects with a diverse teamInvolvement or strong interest in the energy/clean tech industryFamiliarity with transmission and/or distribution power flow modelsPast experience with advanced metering interval data
+","Oil, Gas, Energy & Utilities",3.3,2020-05-06,2020-06-05,FULL_TIME
+21,Senior Data Scientist (Flexible,PG&amp;amp;E Corporation,CA,San Francisco,134842,210433,"Requisition ID # 37400
+
+Job Category : Accounting / Finance
+
+Job Level : Individual Contributor
+
+Business Unit: Electric Operations
+
+Job Location : Alameda; Alta; Angels Camp; Antioch; Auberry; Auburn; Avenal; Avila Beach; Bakersfield; Balch Camp; Bear Valley; Belden; Bellota; Belmont; Benicia; Berkeley; Brentwood; Brisbane; Buellton; Burney; Buttonwillow; Calistoga; Campbell; Canyon Dam; Capitola; Caruthers; Chico; Clearlake; Clovis; Coalinga; Colusa; Concord; Concord; Corcoran; Cottonwood; Cupertino; Daly City; Danville; Davis; Dinuba; Downieville; Dublin; Emeryville; Eureka; Fairfield; Folsom; Fort Bragg; Fortuna; Fremont; French Camp; Fresno; Fresno; Fulton; Garberville; Geyserville; Gilroy; Goodyear; Grass Valley; Guerneville; Half Moon Bay; Hayward; Hinkley; Hollister; Holt; Houston; Huron; Jackson; Kerman; King City; Lakeport; Lemoore; Lincoln; Linden; Livermore; Lodi; Loomis; Los Banos; Lower Lake; Madera; Magalia; Manteca; Manton; Mariposa; Martell; Marysville; Maxwell; Menlo Park; Merced; Meridian; Millbrae; Milpitas; Modesto; Monterey; Montgomery Creek; Morgan Hill; Morro Bay; Moss Landing; Mountain View; Napa; Needles; Newark; Newman; Novato; Oakdale; Oakhurst; Oakland; Oakley; Olema; Orinda; Orland; Oroville; Palo Alto; Paradise; Parkwood; Paso Robles; Petaluma; Pioneer; Pismo Beach; Pittsburg; Placerville; Pleasant Hill; Point Arena; Potter Valley; Quincy; Rancho Cordova; Red Bluff; Redding; Richmond; Ridgecrest; Rio Vista; Rocklin; Roseville; Round Mountain; Sacramento; Salinas; San Bruno; San Carlos; San Francisco; San Francisco; San Jose; San Luis Obispo; San Mateo; San Rafael; San Ramon; San Ramon; Sanger; Santa Cruz; Santa Maria; Santa Nella; Santa Rosa; Selma; Shaver Lake; Sonoma; Sonora; South San Francisco; Springville; Stockton; Storrie; Taft; Tracy; Turlock; Twain; Ukiah; Vacaville; Vallejo; Walnut Creek; Wasco; Watsonville; West Sacramento; Wheatland; Whitmore; Willits; Willow Creek; Willows; Winters; Woodland; Yuba City
+
+Department Overview
+
+The aim of the Risk Analytics team is to enhance the risk practices of PG&Es Electric Operation business and thereby address changing external conditions such as climate change. To this end the Risk Analytics team creates and maintains tools to enable PG&E to close the gap between metrics and electric system performance. These tools provide a multi-layered view of risk across the electric system so that decision-making processes include and empower employees at all levels of the company to manage risk appropriately.
+
+In creating these tools, the team employs a data supported, lean solution process to expand PG&Es ability to assess and manage risk. The result are assessments and mitigations that are more dynamic, quantitative, and customer-focused, with a multi-layered approach for both short-term and long-term time horizons.
+
+Sample activities include:
+
+Interpretation and representation of meteorological data in models that combine a range data sources such as the electric system asset data, vegetation and meteorologyDevelopment of computer vision models aimed at accelerating and automating asset inspections processesPredicting electric distribution equipment failure before it occurs allowing for proactive maintenanceSupervised and unsupervised machine learning models using Python and Spark, executed on AWS
+
+Position Summary
+
+We are looking for a Senior Data Scientist to work on one or more of the areas mentioned above. The Risk Analytics team is looking to expand on its data science capabilities -- you will have a unique opportunity to be at the forefront of utility industry analytics. In this role you will work as part of cross functional teams, including other data scientists, technology experts, and subject matter experts to develop data driven solutions. It is the perfect role for someone who would like to continue to build upon their professional experience and gain a comprehensive view of the nations most advance smart grid.
+
+Job Responsibilities
+
+Analytics and Modeling
+
+Gather, prepare, and analyze data from disparate sources to produce user-friendly models and actionable insightsWork closely with domain experts. Develop a working knowledge of rate structures and elements, load shapes, distributed energy resource technologies and policy optionsDevelop expertise with grid data, customer demographic information and other structured data setsUnderstand and apply statistical and analytical modeling methods such as classification, regression, clustering, anomaly detection, neural networks, etc. to identify opportunities for operational improvements and develop strategic insights
+
+Communication, Summary Presentation and Visualization
+
+Appropriately document data sources, methodology, and model evaluation metricsDevelop and present summary presentations for senior managementCreate streamlined visual tools for end-users Work with business partners to advance business processes, based on analytical findingsWork with team leadership to continually improve analytics at PG&E via demonstrations, mentoring, disseminating best practices, etc.
+
+Qualifications
+
+Minimum:
+
+Degree in computer science, engineering, applied sciences, mathematics, statistics, econometrics or similar quantitatively focused subject areas or job-related experienceJob-related experience, 5 years, OR Masters Degree and job-related experience, 3 years, OR Doctorate Degree
+
+Desired:
+
+Excellent oral and written communication skillsDemonstrated collaboration or paired development work historySQL proficiency and experience working with relational databasesTrack record of writing clear and well documented code, preferably in PythonStrong understanding of statistics and experience developing supervised & unsupervised learning modelsDemonstrated experience with data science best practices, such as version control via Git or similarDemonstrated experience with data visualization tools such as Tableau, D3, Plotly, etc.Demonstrated experience with model development for decision analysis, forecasting, or other complex quantitative modeling
+
+Beneficial Qualifications:
+
+Enjoy working on complex multi-stage projects with a diverse teamInvolvement or strong interest in the energy/clean tech industryExpressed interest in learning, experimentation, and incorporation of new techniquesDistributed and cloud-based computing experienceExperience working with large datasets and knowledgeable about parallelizationFamiliarity with transmission and/or distribution power flow modelsPast experience with advanced metering interval dataExperience in data engineering tools like KafkaGIS experience
+","Oil, Gas, Energy & Utilities",3.3,2020-05-05,2020-06-05,FULL_TIME
+22,"Data Scientist, Strategic Research and Analytics",Center for Sustainable,CA,Oakland,95925,152004,"The Center for Sustainable Energy (CSE) is seeking a data scientist who will support our product, sales, leadership and marketing teams with insights gained from analyzing extensive company data. The ideal candidate is adept at using large data modeling techniques to find opportunities for product and process optimization and to test the effectiveness of different courses of action. They must have strong experience developing/designing databases, using a variety of data mining/data analysis methods, using a variety of data tools, building and implementing models, using/creating algorithms and creating/running simulations. They must have a proven ability to drive business results with their data-based insights. They must be comfortable working with a wide range of stakeholders and functional teams. The right candidate will have a passion for discovering solutions hidden in large data sets and working with stakeholders to improve business outcomes. The research will focus on the energy space, primarily electric vehicles, electric vehicle infrastructure, and distributed energy resources,
+
+The position will work under the Director of Strategic Research and Analytics. The Strategic Research and Analytics team is tasked with producing high quality, reliable research for business development and program optimization. The team often needs to work quickly and under significant time constraints, the ideal candidate should be comfortable with this environment.
+
+Essential Functions and Responsibilities:
+
+SKILLS
+
+· Develop, design, and manage databases to support the evaluation work of the Strategic Research and Analytics team. The successful candidate will work with a variety of stakeholders, both internal and external, to identify existing and new data sources, while assessing the effectiveness and accuracy of the data, as well as opportunities to leverage that data to drive business solutions and success.
+
+· Mine and analyze data to drive optimization and improvement of product development, marketing, and business strategies, as well as portfolio and program level evaluation.
+
+· Execute various mixed methods models, to identify new, interesting, and executable insights. Candidate should be an expert in machine learning tools and techniques such as as k-NN, Naive Bayes, SVM, Decision Forests, etc
+
+· Use predictive modeling to increase and optimize customer experiences, revenue generation, ad targeting and other business outcomes.
+
+· Effectively communicate findings to relevant stakeholders through professional, clear, and concise presentations, reports, and visualization of the data and results of any analyses. The ideal candidate can produce advanced visualizations that are accurate and audience specific.
+
+· Develop processes and tools to monitor and analyze model performance and data accuracy.
+
+QUALIFICATIONS
+
+Essential Knowledge, Skills and Abilities:
+
+Required
+
+Strong problem-solving skills with an emphasis on product development. Experience using statistical computer languages (R, Python, SLQ, etc.) to manipulate data and draw insights from large data sets. Experience working with and creating data architectures. Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks. Knowledge of advanced statistical techniques and concepts (regression, properties of distributions, statistical tests and proper usage, etc.) and experience with applications. Excellent written and verbal communication skills for coordinating across teams. A drive to learn and master new technologies and techniques. Were looking for a PhD level quant with 7+ years of experience manipulating data sets and building statistical models. and familiar with the following software/tools:
+
+Coding knowledge and experience with several languages: C, C++, Java, JavaScript, etc. Knowledge and experience in statistical and data mining techniques: GLM/Regression, Random Forest, Boosting, Trees, text mining, social network analysis, etc. Experience querying databases and using statistical computer languages: R, Python, SLQ, etc. Experience creating and using advanced machine learning algorithms and statistics: regression, simulation, scenario analysis, modeling, clustering, decision trees, neural networks, etc. Experience analyzing data from 3rd party providers: Google Analytics, Site Catalyst, Coremetrics, Adwords, Crimson Hexagon, Facebook Insights, etc. Experience with distributed data/computing tools: Map/Reduce, Hadoop, Hive, Spark, Gurobi, MySQL, etc. Experience visualizing/presenting data for stakeholders using: Periscope, Business Objects, D3, ggplot, etc. 
+
+Preferred
+
+· Knowledge of the electric vehicle and/or DER market and related policies and technologies
+
+· Experience with NoSQL databases, such as MongoDB, Cassandra, HBase
+
+Education:
+
+· Ph.D. in a relevant field (e.g. data science, statistics, economics, scenario analysis, forecasting, etc.).
+
+Experience:
+
+§ 7+ years of relevant experience
+
+Licenses, Certificates or Registrations:
+
+· None requiredComputer and/or Technical Skills:· Experience with common data science toolkits, such as R, Python, Weka, NumPy, MatLab, etc. Excellence in at least one of these is required
+
+· Demonstrated high-level abilities with programs such as (or comparable to) Excel, Word, PowerPoint and Outlook are required.
+
+· Familiarity with statistical and/or data visualization tools is required.","Oil, Gas, Energy & Utilities",2.7,2020-05-03,2020-06-05,FULL_TIME
+23,"Senior Product Manager, Data Science",Shell,CA,San Francisco,70494,129629,"Job Description
+
+Shell is playing its part in the transition towards a low-carbon future. We aim to cut the net carbon footprint of our energy products by around half by 2050. Our New Energies business, set up in 2016, supports this ambition. New Energies is an emerging opportunity, in which we plan to invest on average $1-2 billion a year until 2020 as we look for commercial investments in new and fast-growing segments of the energy industry.
+
+Shell New Energies focuses on two areas: new fuels and power. New Fuels consists of investments in hydrogen, biofuels, and electric vehicle charging. In Power, we are building up positions across the full electricity value chain, including in renewable generation, retail energy, distributed energy resources, power trading and marketing, and grid services. Within these focus areas, we look for ways to connect customers with new business models for mobility and energy services, enabled by digital technologies and decentralization of energy systems.
+
+Our Power strategy focuses on meeting commercial, industrial and residential customer needs, supported by our core competencies in generation, power trading and marketing, retail energy, distributed energy resources and grid services, as well as our ability to optimize supply and demand across our large asset portfolio. We’re also developing low-carbon energy sources, including wind, solar, storage and natural gas. Shell has demonstrated for more than a century its ability to transform and grow its energy sources, products and services to support societal development. Our New Energies business is now combining our experience, partnerships and technical know-how to enable new ways to continue powering progress towards a more sustainable energy future.
+
+Where you fit in
+
+Shell’s Energy Platform team is leading Shell’s efforts to design, develop, deliver and maintain a global energy management platform that unlocks value across Shell’s Power business. The Energy Platform team aims to enable Shell’s efforts to harness the potential in its vast fleet of customers, energy assets, and power trading capabilities to deliver value across the energy industry value chain.
+
+The Energy Platform team is a nimble, cross-functional, deeply technical and passionate group that embodies the speed and agility of a startup while embracing the scale of one of the largest companies in the world. Achieving a balance between agility and global scale provides unique opportunities, and the Energy Platform Team borrows from best-in-class product development, continuous delivery, and commercialization techniques while adapting them to the unique global context within Shell.
+
+The Energy Platform team is empowered to coordinate and align Shell’s energy management platform objectives, strategies, and execution approaches across the company, as well as to design, deliver and maintain a mission critical component of Shell’s ability to deliver differentiated products, offerings and capabilities across its expanding global footprint.
+
+What’s the role?
+
+The Senior Product Manager will lead product management activities for a core product suite serving data scientists, data engineers, and quantitative analysts. Responsibilities include:
+
+
+Facilitate, develop, and evangelize the Energy Platform’s Data product strategy & roadmap for core product suite
+
+
+Lead Product Discovery through a diverse set of skilled product management methods. In particular, scope and lead design sprints with lighthouse users to jointly deliver meaningful spin-up projects, then incorporate learnings and feedback into our feature roadmap.Proactively seek customer and stakeholder input into product strategy, representing our diverse customer base in every decision, especially complex trade-offs. Develop and market-test your recommendations for features in our data science tooling product suite.Prototype new tools and features in order to prove value, improve and iterate on them with customers, and provide them to our data science and engineering teams as tangible examples to build and deliver into Production.Serve as an industry-expert on your product domain: the customer value proposition, business model, competitors, differentiating capabilities, and 3rd party external tools that we should consider using to build such capabilities.
+Support Product Delivery of the product roadmap in collaboration with Data Science and Engineering
+
+
+Support delivery of product capabilities on time, on budget, and aligned with product roadmap through clear specifications, agile development, and strong collaboration with our scrum teams.Prioritize product delivery backlog and create clarity wherever needed to improve team agility, velocity, and quality. Support engineers in jointly evaluating design trade-offs for solutions.After feature launch, continually improve features by leveraging quantitative data (success KPIs, user engagement) and qualitative data to feed back into future product discovery/delivery cycles.
+Own the strong customer experience and create the scalable foundation for a global user community
+
+
+Design a seamless experience to onboard users to our products, coach and “teach them to fish”. Scope and lead onboarding “spin-up” sprints where users jointly develop solutions to solve business critical problems in the power domain.Develop customer onboarding that scales broadly through digital channels and tools. Build a learning hub with documentation, training, sample deployments, test data, and reference architectures and to support users and provide continued coaching at scale.Steward a global community of our users, creating opportunities and processes for them to contribute their back to the platform for others inside Shell to use and build on.
+
+Auto req ID
+
+138984BR
+
+Skillpool
+
+IT Project & Programme Management
+
+Country of Work Location
+
+United States
+
+Employment Type
+
+Full Time
+
+Company Description
+
+Shell is a global group of energy and petrochemicals companies with over 90,000 employees in more than 70 countries and territories. In the US, we have operated for over a century and are a major oil and gas producer onshore and in the Gulf of Mexico, a recognized innovator in exploration and production technology, and a leading manufacturer and marketer of fuels, natural gas and petrochemicals. We deliver energy responsibly; operate safely with respect to our neighbours and work to minimize our environmental impact. We are in search of remarkable people who will thrive in a diverse and inclusive work environment to deliver exciting projects locally and globally. People who are passionate about exploring new frontiers. Innovators and pioneers. People with the drive to help shape our future. Because remarkable people achieve remarkable things.
+
+An innovative place to work
+
+There’s never been a more exciting time to work at Shell. Everyone here is helping solve one of the biggest challenges facing the world today: bringing the benefits of energy to everyone on the planet, whilst managing the risks of climate change.
+
+Join us and you’ll add your talent and imagination to a business with the power to shape the future – whether by investing in renewables, exploring new ways to store energy or developing technology that helps the world to use energy more efficiently.
+
+An inclusive place to work
+
+To power progress together, we need to attract and develop the brightest minds and make sure every voice is heard. Here are just some of the ways we’re nurturing an inclusive environment – one where you can express your ideas, extend your skills and reach your potential…
+
+
+We’re creating a space where people with disabilities can excel through transparent recruitment process, workplace adjustments and ongoing support in their roles. Feel free to let us know about your circumstances when you apply and we’ll take it from there.We’re closing the gender gap – whether that’s through action on equal pay or by enabling more women to reach senior roles in engineering and technology.We’re striving to be a pioneer of an inclusive and diverse workplace, promoting equality for employees regardless of sexual orientation or gender identity.We consider ourselves a flexible employer and want to support you finding the right balance. We encourage you to discuss this with us in your application.
+
+A rewarding place to work
+
+Combine our creative, collaborative environment and global operations with an impressive range of benefits and joining Shell becomes an inspired career choice.
+
+We’re huge advocates for career development. We’ll encourage you to try new roles and experience new settings. By pushing people to reach their potential, we frequently help them find skills they never knew they had, or make career moves they never thought possible.
+
+Disclaimer
+
+Please note: We occasionally amend or withdraw Shell jobs and reserve the right to do so at any time, including prior to the advertised closing date.
+
+Before applying, you are advised to read our data protection policy. This policy describes the processing that may be associated with your personal data and informs you that your personal data may be transferred to Royal Dutch/Shell Group companies around the world.
+
+The Shell Group and its approved recruitment consultants will never ask you for a fee to process or consider your application for a career with Shell. Anyone who demands such a fee is not an authorised Shell representative and you are strongly advised to refuse any such demand.
+
+Shell participates in E-Verify.
+
+All qualified applicants will receive consideration for employment without regard to race, color, sex, national origin, age, religion, disability, sexual orientation, gender identity, protected veteran status, citizenship, genetic information or other protected status under federal, state or local laws.
+
+Shell is an Equal Opportunity Employer - Minorities/Females/Veterans/Disability.
+
+Work Location
+
+California - San Francisco
+
+Requirements
+
+What we need from you
+
+Must have legal authorization to work in the US on a full-time basis for anyone other than current employer.Bachelor’s degree in Computer Science, Statistics, Informatics, Information Systems or any related degree required. Master’s Degree is plus.Minimum 7 years of experience that informs technical product management in complex and innovative energy software solutions with a globally distributed user baseExperience as a technical product manager with a focus on data science users and tools. Working experience as a data scientist (or quantitative analyst) is a definite plus.Demonstrated subject matter expert in energy management domain will be helpful to ramp up quickly, particularly energy trading/marketsDemonstrated experience owning product strategy, discovery, and delivery for software productsDemonstrated leadership in building strong stakeholder relationships and mitigating conflictComfort across dual-track Agile, continuous integration, extreme development, and test-driven development approachesExpertise across a broad range of technologies and software design patterns, including open source tools and contributory communitiesFamiliarity with Kubernetes, Kubeflow, Airflow, Docker, GraphQL, Spark and other modern tools. Fluency in python highly valued; R or SQL also a plus.
+
+City, State (if applicable)
+
+San Francisco, CA
+","Oil, Gas, Energy & Utilities",4.0,2020-05-05,2020-06-05,FULL_TIME

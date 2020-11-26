@@ -1,0 +1,82 @@
+,Job_title,Company,State,City,Min_Salary,Max_Salary,Job_Desc,Industry,Rating,Date_Posted,Valid_until,Job_Type
+0,Data Analyst,Andiamo,TX,Houston,36010,71564,"We are seeking a talented data specialist to join our highly motivated and innovative Data Engineering team, your efforts will be critical to the success of our client's global trading businesses. You will be responsible for the following:
+
+
+
+Curate massive amounts of data for thousands of different tradable instruments, including stocks, bonds, futures, contracts, commodities, and more;
+Perform manual steps and develop programs and processes to ensure the completeness and integrity of financial reference datasets;
+Collaborate with team members to design and develop reliable data pipelines that produce high quality datasets;
+Help drive continuous improvements to data quality procedures and a consistent approach to how data quality is measured, monitored and reported;
+Create systematic and automated processes and tools that allow the team to scale and rapidly onboard new datasets;
+Be part of a team to support the data used by production trading algorithms.
+
+Basic Qualifications:
+
+A bachelor's degree with a strong academic record, which includes university coursework in programming and computing systems
+Prior professional experience in an environment that prioritized data quality
+Experience in UNIX/LINUX and Windows environments.
+An understanding of the software development process and exposure to hands-on coding in a professional environment
+Experience with SQL and working with a relational database system, such as Microsoft SQL Server.
+Proven problem-solving and analytical abilities including pattern detection, root cause analysis, and issue resolution
+Strong communication skills
+Able to work in an evolving and fast-paced environment and adjust to multiple priorities and timelines
+
+Preferred Qualifications:
+
+While financial industry experience is a plus, we are open-minded in our search for critical thinkers who are passionate about technology and data.
+Experience with Python (and/or Java)
+An understanding of how to design and develop effective data quality tests and measures
+Relevant experience in data operations, with proven process improvement skills
+Experience documenting business processes and workflows
+
+
+Andiamo is an Equal Opportunity Employer
+
+Andiamo provides equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability or genetics. In addition to federal law requirements, Andiamo complies with applicable state and local laws governing nondiscrimination in employment in every location in which the company has facilities. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training.
+
+All qualified candidates are encouraged to apply by submitting their resume as an MS word document including a cover letter with a summary of relevant qualifications, highlighting clearly any special or relevant experience.","Restaurants, Bars & Food Services",3.5,2020-04-28,2020-06-06,FULL_TIME
+1,Data Analyst (Marketing & Insurance Operations),Gabi,CA,San Francisco,63178,92448,"Gabi is reinventing the insurance broker model with technology, data, and human interaction. We are on a mission to make the process of finding the best home and auto insurance easy, straightforward, and transparent. We’re serious about building and using technology to save our customers money, time, and hassle, and we’re just getting started with what we will accomplish. We’re looking for people who are just as passionate about products that help make consumers’ financial lives easier as we are.Founded in 2016, Gabi has raised over $39 million in venture capital funding from top investors including Canvas Ventures, Mubadala Ventures, Northwestern Mutual Future Ventures, Correlation Ventures, CUNA Mutual Group, Securian Ventures, A. Capital Ventures, Project A, and more. We’re an international team of 100 people based in San Francisco, CA and Lodz, Poland. Gabi was named one of the best startup employers of 2020 by Forbes.Reporting to our Chief Marketing Officer, this role is based in our new San Francisco, CA headquarters.We are looking for a Data Analyst to own analytics, reporting and analysis specifically supporting our marketing and insurance operations teams.You will work closely with leadership to provide data-driven insights and help identify the top opportunities to increase engagement with the Gabi product and optimize conversion. What you’ll be doingPartner with marketing and insurance operations teams to understand business strategy, challenges and goals in efforts discover areas for optimization and opportunity.Deliver deep-dive analyses of marketing campaign and insurance carrier performance as well as ad-hoc requests to put forward hypotheses and recommendations for future initiatives and programs.Define metric calculations; partner with Data Engineer on development of self-serve dashboards to monitor KPIs and success metrics.Utilize proprietary and third-party tools (business intelligence platform, web analytics platforms and ad-serving technologies) to report and analyze product, customer, pricing and revenue data.Own customer acquisition channel reporting suite along with marketing and web analytics stack.Help evolve and strengthen marketing attribution through various lift analysis and beyond.Develop CRM & lifecycle cohort-based communication reporting and analytics practice.Drive sophisticated customer segmentation analysis and cohort level LTV modeling.Evaluate performance by customer, carrier, coverage, discounts and beyond to inform product and partner optimization. Qualifications2 to 3 years of experience in a quantitative focused analyst or analytics role in a fast-paced data-driven environment.Solid understanding of data technology and best practices (Hadoop/Hive/R/Python, etc.)Proficient in SQL and handling big data (experience with Python or other scripting languages a plus) Meticulous attention to detail with an ability to learn quickly.Experience in FinTech/InsurTech or products with complex data architectures.Solid understanding of multivariate testing, attribution modeling, media mix modeling, lift analysis, and customer segmentation highly preferred.Strong communication skills and the ability to explain complex analyses to both technical and non-technical audiences.Experience with and data visualization tools a must.Must be able to manage multiple projects and work with key stakeholders across different departments.Bachelor's degree in finance, math, statistics or economics preferred. Why Join Gabi?Join a team of hard-working, passionate, super-smart people from a great mix of backgrounds in insurance, financial services, and technology.Beautiful new office in the SOMA district with easy access to public transportation and the Bay Bridge. Options for flexible and remote work.Competitive salary, equity, and health benefits.Pre-tax transit benefits and 401(k)Unlimited vacation","Restaurants, Bars & Food Services",4.0,2020-04-29,2020-06-05,FULL_TIME
+2,Data Science Manager for Artificial Intelligence company,Andiamo,CA,San Francisco,66543,108347,"Our client is an award winning Artificial Intelligence and Machine Learning Company. Their innovative cross channel AI solutions are applied in industries such as fintech, investment banking, biotech, and insurance, offering sales leaders unlimited opportunities. The team pushes the boundaries of innovation for in pure Artificial Intelligence technologies with a culture is focused on delivering the results our clients expect and deserve.
+
+The Modeling Customer Support team is dedicated to support models from existing customers leveraging A.I and machine learning technologies. Expending its scope from supporting the EMS and DI platforms, the team is growing its presence in regional locations to better support our customers locally.
+
+As a manager you will lead the regional modeling customer support team and be accountable for delivering high quality deliverables within agreed upon timelines and conducting post- implementation reviews.
+
+Role
+
+In this position, you will be required to:
+
+
+
+Serves as a mentor for junior-level colleagues, and develops talent via ongoing technical training, peer review etc.
+Delegates and reviews work for junior level colleagues
+Respond to requests received from individual customers, including ESS team.
+Oversee the design of model optimizations and implementation of model updates.
+Design, review and analyze automated processes to monitor production models and create dashboards
+
+
+Perform recommendations (migrate existing customers from one model to a newer one, trigger model optimization, etc.). Design model optimizations and perform model updates and/or coordinate model update execution with Core Modeling team.
+
+All About You
+
+Essential Skills:
+
+Experience managing day-to-day cross-functional communications and collaboration to meet project deadlines
+Agile and Problem solver
+Strong organizational skills; able to manage multiple tasks within the constraints and timelines determined by business needs
+Experience in A.I. and Machine Learning
+Creative and ingenious
+Experience with SQL language
+Strong knowledge of Linux / Bash environment
+BS in computer science or a related field
+
+Nice to have:
+
+Databases: Oracle, Postgres, Netezza and Hadoop
+
+
+Andiamo is an Equal Opportunity Employer
+
+Andiamo provides equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability or genetics. In addition to federal law requirements, Andiamo complies with applicable state and local laws governing nondiscrimination in employment in every location in which the company has facilities. This policy applies to all terms and conditions of employment, including recruiting, hiring, placement, promotion, termination, layoff, recall, transfer, leaves of absence, compensation and training.
+
+All qualified candidates are encouraged to apply by submitting their resume as an MS word document including a cover letter with a summary of relevant qualifications, highlighting clearly any special or relevant experience.","Restaurants, Bars & Food Services",3.5,2020-04-30,2020-06-05,FULL_TIME

@@ -1,0 +1,49 @@
+,Job_title,Company,State,City,Min_Salary,Max_Salary,Job_Desc,Industry,Rating,Date_Posted,Valid_until,Job_Type
+0,Senior Data Science Engineer,"Arable Labs, Inc.",CA,San Francisco,124778,161987,"
+What We Are Looking For:
+We are looking for bold and self-motivated data and AI/ML Engineers to join our team. Data is the core of our business and we are scaling a unique global network that creates unprecedented access to high-quality data in agriculture and beyond. You will have a chance to work on all aspects of big data systems, state of the art cloud infrastructure and cutting-edge AI/ML algorithms. This is a rare opportunity to get in at the early stages of a growing team, in a rapidly growing company. If you get excited by super challenging problems, that if solved can have a real positive impact on the world, this might be the role for you.
+What We Do:
+
+At Arable, our goal is to connect all the world’s farms and provide the highest-quality data to power predictive analytics that will help optimize the global food system. The need has never been greater to rethink how we will feed an ever-growing population and better manage our natural resources. We believe the heart of the solution to these challenges lies in digitizing the analog world with high-fidelity data to help food producers optimize their operations. If successful, we hope the impact of our work will improve the lives of farmers everywhere, help address greenhouse gas emissions, and be a major contribution to securing the global food supply for decades to come.
+
+A few examples of the work we’re doing today:
+● Helping farmers around the world to reduce pesticide usage through advanced data and analytic techniques
+● Giving produce growers in California the tools to optimize yields and minimize waste 
+● Helping irrigated farmers in Nebraska manage water more efficiently and sustainably to protect our water supply
+
+What You Will Do:
+● Algorithms: Develop ML/AI based predictive models pipelines and state of the art recommender systems. This is key for Arable’s Insight Agriculture products.
+● Data ETL: Data sits at the core of our product. We ingest 10th of Millions of data points every day. We perform ETLs on GBs of data to compute Agriculture recommendations and forecasts.
+● Cloud native Infrastructure: Framework to provision big data AWS cloud infrastructure in a reproducible, version controlled, elastic and automated manner. It helps us scale our cluster easily. It also makes it easy to upgrade existing clusters or bring new clusters to play with AI/ML tools.
+● New Tools and Services: We are constantly striving to improve our data infrastructure and data science stack. 
+● Collaboration: Collaborate across the data science team and the rest of the organization is crucial for success in a fast-moving startup. 
+● Innovation: A real passion for thinking from first principle and building from the ground up.
+
+Basic Requirements: 
+A PhD (preferred) or Master's Degree (with more experience) in Computer Science with a strong applied ML/AI Component 
+Track record of continuous development & remaining current in a rapidly changing field
+
+Experience and Skills:
+Practical experience with Machine Learning and AI methods, common cloud-based data analysis tools and frameworks like Hadoop, Redshift, Sagemaker, Spark, SQL, R, etc.
+Self-motivated, bold thinker, innovator, and builder of scalable AI/ML systems end to end and embrace full-stack data science.
+Proven experience as a Machine Learning/AI Engineer
+Experience in Agile, Scrum, CI/CD (Jenkins), DevOps (Docker+Kubernetes), etc
+Understanding of data modeling and software architecture
+Knowledge of probability, statistics, and algorithms
+Ability to write robust code in Python (primary) and R (secondary)
+Familiarity with the technical stacks for ML/AI frameworks, from ETL services to ML frameworks (like Keras or PyTorch, Sagemaker) and libraries (scikit-learn)
+Excellent communication skills 
+A strong team member with a desire to be a part of a collaborative culture
+
+What We Offer: At Arable you will be joining a company of dedicated team players who bring together diverse expertise and a passion for building a more sustainable future. You’ll find no shortage of lively conversation around the lunch table about the food we eat and how it is produced. We are a fast-moving startup committed to providing a rewarding employee experience through the work we do, the team, compensation, and benefits including:
+● Excellent medical, dental, vision, life, disability benefits, and a 401k program.
+● Ability to work closely with customers who are hungry for our product, and where can make a positive impact on their livelihood and the world. 
+● A focus on community involvement and career development.
+● We are an equal opportunity employer and value diversity at our company. We are committed to creating an inclusive environment for all employees.
+
+
+
+
+
+
+",Agriculture & Forestry,5.0,2020-05-04,2020-06-05,FULL_TIME
