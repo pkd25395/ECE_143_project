@@ -1,7 +1,9 @@
-##==========WORD CLOUD FUNCTIONS==========##
 
 import pandas as pd
 import numpy as np
+import altair as alt
+
+##==========WORD CLOUD FUNCTIONS==========##
 
 def clean_data(x):
     '''
@@ -248,3 +250,7 @@ def count_members_by_column(in_df, col):
     df_occurances = pd.DataFrame(data=df_col,index=indices) # correlate count to industry listed
     df_occurances = df_occurances.sort_values("count") # sort dataframe by occurances
     return(df_occurances)
+
+##==========SCATTERPLOT FUNCTIONS==========##
+def scatterplot():
+    chart = alt.Chart()
