@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import altair as alt
+from altair import Chart
 
 ##==========WORD CLOUD FUNCTIONS==========##
 
@@ -252,5 +253,20 @@ def count_members_by_column(in_df, col):
     return(df_occurances)
 
 ##==========SCATTERPLOT FUNCTIONS==========##
-def scatterplot():
-    chart = alt.Chart()
+def salary_v_rating_scatter(df_chart):
+    
+    assert isinstance(df_chart, pd.DataFrame)
+    
+    avg_sal = list()
+    for i in range(df_chart.shape[0]):
+        avg_sal.append((df_chart.loc[i,'Max_Salary']+df_chart.loc[i,'Min_Salary'])/2)
+    
+    df_chart['Avg_Salary'] = avg_sal
+    
+    df_chart = Chart(df_chart)
+    
+    chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color='Industry',column='Industry')
+    
+    return chart
+        
+    
