@@ -254,11 +254,19 @@ def count_members_by_column(in_df, col):
 
 ##==========SCATTERPLOT FUNCTIONS==========##
 def salary_v_rating_scatter(df_chart):
+    """
+    Description:    Create an altair chart for a salary vs rating scatterplot
+        
+    :param df_chart:   Dataframe of job listings with both salaries and ratings that will be used to make chart object
+    :type df_chart:    pandas.DataFrame
     
+    """
     assert isinstance(df_chart, pd.DataFrame)
     
     avg_sal = list()
     for i in range(df_chart.shape[0]):
+        assert df_chart.loc[i,'Max_Salary'] > 0
+        assert df_chart.loc[i,'Min_Salary'] > 0
         avg_sal.append((df_chart.loc[i,'Max_Salary']+df_chart.loc[i,'Min_Salary'])/2)
     
     df_chart['Avg_Salary'] = avg_sal
@@ -268,5 +276,44 @@ def salary_v_rating_scatter(df_chart):
     chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color='Industry',column='Industry')
     
     return chart
+
+def salary_v_listings_scatter(df_chart):
+    """
+    Description:    Create an altair chart for a salary vs job listings scatterplot
+        
+    :param df_chart:   Dataframe of job listings with both salaries and listings that will be used to make chart object
+    :type df_chart:    pandas.DataFrame
+    
+    """
+    assert isinstance(df_chart, pd.DataFrame)
+    listings = list(df_chart['Industry'])
+    listing_set = set(listings)
+    list_dict = dict.fromkeys(listing_set, 0)
+    
+    for i in range(len(listings)):
+        list_dict[listings[i]] += 1
+    
+    entries = list()
+    for i in range(df_chart.shape[0]):
+        entries.append(list_dict[df_chart.loc[i,'Industry']])
+    
+    df_chart['Listings'] = entries
+    
+    avg_sal = list()
+    for i in range(df_chart.shape[0]):
+        assert df_chart.loc[i,'Max_Salary'] > 0
+        assert df_chart.loc[i,'Min_Salary'] > 0
+        avg_sal.append((df_chart.loc[i,'Max_Salary']+df_chart.loc[i,'Min_Salary'])/2)
+    
+    df_chart['Avg_Salary'] = avg_sal
+    
+    df_chart = Chart(df_chart)
+    
+    chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color='Industry')
+        
+    return chart
+        
+        
+    
         
     
