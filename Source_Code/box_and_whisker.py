@@ -31,7 +31,7 @@ try:
     import seaborn as sns
     import matplotlib.pyplot as plt
     #ensure file bw_functions.py is in same directory as box_and_whisker.py
-    from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge
+    from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge, gen_and_disp_boxWhiskerPlot
 except Exception as e:
     print("some modules are missing, try installing seaborn with 'conda install seaborn' and check that project_functions.py is in same directory")
 # want to create new dataframe from job listings csv to have
@@ -95,11 +95,12 @@ df_minmax.loc[filter]
 
 ##===================CREATE & DISPLAY BOX & WHISKER PLOTS===================##
 
-sns.set(font_scale=1.1)
+gen_and_disp_boxWhiskerPlot(df_minmax,"Salary by Industry","Industry","Salary","Min_Max")
+""" sns.set(font_scale=1.1)
 plt.figure(figsize=(12,8))
 sns.boxplot( x=df_minmax["Industry"], y=df_minmax["Salary"], hue=df_minmax["Min_Max"])
 plt.title("Salary by Industry") #1300x850
-plt.show()
+plt.show() """
 plt.figure(figsize=(12,8))
 sns.boxplot(x=df_minmaxCo["Company"], y=df_minmaxCo["Salary"], hue=df_minmaxCo["Min_Max"])
 plt.title("Salary by Company")
