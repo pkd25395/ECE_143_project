@@ -46,7 +46,8 @@
  - `pip install pandas`  
  - [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)  
 5. **matplotlib**  
- - `python -m pip install -U pip  python -m pip install -U matplotlib`  
+ - `python -m pip install -U pip`\
+    `python -m pip install -U matplotlib`  
  - [matplotlib documentation](https://matplotlib.org/3.3.3/users/installing.html)  
 6. **PIL**  
  - ```
