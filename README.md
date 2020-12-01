@@ -49,7 +49,7 @@
  - `python -m pip install -U pip  python -m pip install -U matplotlib`  
  - [matplotlib documentation](https://matplotlib.org/3.3.3/users/installing.html)  
 6. **PIL**  
- - `python3 -m pip install --upgrade pip  python3 -m pip install --upgrade Pillow`  
+ - ```python3 -m pip install --upgrade pip  python3 -m pip install --upgrade Pillow```  
  - [PIL documentation](https://github.com/python-pillow/Pillow/)  
 7. **altair**  
  - `conda install -c conda-forge altair`
