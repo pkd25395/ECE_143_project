@@ -1,5 +1,13 @@
 
 '''
+Harker Russell, Team 19, ECE142, FA20
+
+This script is made to generate box and whisker plots from glassdoor datasets
+scraped from New York, Texas, Washington and San Francisco areas
+over the spring of 2020. The idea is to see if there is an appreciable difference
+in salary between different industries (5 with the most job posts), and the same 
+between different companies within those industries. 
+
 REDO THIS FOR ONLY for TOP 5 Industries: 
 INDUSTRY                            COUNT
 Aerospace & Defense                  252.0
@@ -9,12 +17,12 @@ Business Services                    620.0
 Information Technology              1016.0
 
 AND FOR TOP 5 COMPANIES of those Industries:
-COMPANY                         COUNT
-Facebook                          42
-Amazon                            44
-Leidos                            46
-Genentech                        118
-National Debt Relief             120
+COMPANY                             COUNT
+Facebook                              42
+Amazon                                44
+Leidos                                46
+Genentech                            118
+National Debt Relief                 120
 '''
 try:
     import numpy as np

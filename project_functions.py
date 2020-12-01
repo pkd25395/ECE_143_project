@@ -8,9 +8,10 @@ from altair import Chart
 
 def clean_data(x):
     '''
-    Cleaning data by removing spurious entries
-    :x: dataframe
-    returns clean dataframe
+    Cleaning data by removing spurious entries 
+    :x: dataframe 
+    returns clean dataframe 
+    :author: Pratyush Dwivedi 
     '''
     assert isinstance(x, pd.core.frame.DataFrame)
     ind_fmin = x[x['Min_Salary'] == -1].index.values
@@ -41,9 +42,10 @@ def clean_data(x):
 
 def clean_and_merge(x_list):
     '''
-    Cleaning and merging data.
-    :x_list: list of dataframes
-    returns a merged dataframe
+    Cleaning and merging data. 
+    :x_list: list of dataframes 
+    returns a merged dataframe 
+    :author: Pratyush Dwivedi 
     '''
     assert isinstance(x_list, list)
 
@@ -59,10 +61,11 @@ def clean_and_merge(x_list):
 
 def merge_field(field, df_list):
     '''
-    Groups the datas from df_list into a dictionary as per field
-    :field: field according to which data is to be splitted
-    :df_list: list of clean_data
-    returns a dictionary of separated datasets
+    Groups the datas from df_list into a dictionary as per field 
+    :field: field according to which data is to be splitted 
+    :df_list: list of clean_data 
+    returns a dictionary of separated datasets 
+    :author: Pratyush Dwivedi 
     '''
     assert isinstance(field, str)
     assert isinstance(df_list, list)
@@ -93,11 +96,12 @@ def merge_field(field, df_list):
 
 def remove_non_keywords(in_str,kwd_list):
     """ 
-    Description: Takes in_str, and returns a string with only words from kwd_list
-    :param in_str:      in_str is string desired to be reduced to instances of key-words in kwd_list
-    :type in_str:       in_str myst be type str
-    :param kwd_list:    kwd_list is list of strings to be kept in in_str
-    :type kwd_list:     kwd_list must be type list with elements of type str
+    Description: Takes in_str, and returns a string with only words from kwd_list. 
+    :param in_str:      in_str is string desired to be reduced to instances of key-words in kwd_list 
+    :type in_str:       in_str myst be type str 
+    :param kwd_list:    kwd_list is list of strings to be kept in in_str 
+    :type kwd_list:     kwd_list must be type list with elements of type str 
+    :author: Harker Russell
     """
     assert isinstance(in_str,str), ":type in_str:       in_str myst be type str"
     assert isinstance(kwd_list,list), ":type kwd_list:     kwd_list must be type list"
@@ -123,13 +127,14 @@ def remove_non_keywords(in_str,kwd_list):
 def create_JobDescription_string(in_df, col, target):
     """
     Description:    Takes dataframe in_df, and returns a single string with all job description values, new-lines removed,
-                    corresponding to rows with value 'target' in collumn 'col'.
-    :param in_df:   in_df is dataframe, must have column of strings titled "Job_Desc"
-    :type in_df:    in_df must be type DataFrame
-    :param col:     col must be string matching column value of in_df
-    :type col:      col must be of type str
-    :param target:  target must be string, must be a value in stipulated column
-    :type target:   target must be of type str
+                    corresponding to rows with value 'target' in collumn 'col'. 
+    :param in_df:   in_df is dataframe, must have column of strings titled "Job_Desc" 
+    :type in_df:    in_df must be type DataFrame 
+    :param col:     col must be string matching column value of in_df 
+    :type col:      col must be of type str 
+    :param target:  target must be string, must be a value in stipulated column 
+    :type target:   target must be of type str 
+    :author: Harker Russell
     """
     import pandas as pd
     assert isinstance(in_df,pd.DataFrame), ':type in_df: in_df must be pd.DataFrame type'
@@ -150,12 +155,13 @@ def create_JobDescription_string(in_df, col, target):
 def generate_and_display_wordcloud(in_str,chart_title,img_path):
     """
     Description:    Takes dataframe in-str, generates WordCloud object and displays wordcloud for 'in-str'.
-                    in particular this is for team 19, FA20, ECE143 project
-    :Warning Cls:       must install wordcloud 'conda install -c conda-forge wordcloud'
-    :param in_str:      in_str must be string of words
-    :type in_str:       in_str must be type str
-    :param chart_title: chart_title should be title of graph
-    :type chart_title:  chart_title must be type str
+                    in particular this is for team 19, FA20, ECE143 project. 
+    :Warning Req:       must install wordcloud 'conda install -c conda-forge wordcloud' 
+    :param in_str:      in_str must be string of words 
+    :type in_str:       in_str must be type str 
+    :param chart_title: chart_title should be title of graph 
+    :type chart_title:  chart_title must be type str 
+    :author: Harker Russell 
     """
     # conda install -c conda-forge wordcloud
     from wordcloud import WordCloud, STOPWORDS
@@ -183,10 +189,11 @@ def generate_and_display_wordcloud(in_str,chart_title,img_path):
 def merge_MinMax_Salary(in_df):
     """
     Description:    Take job-data dataframe with Min_Salary and Max_Salary columns, and change to dataframe with
-                    Salary column, and a new "Min_Max" column with 'min' or 'max' as value. For box & whisker plotting purposes
-    :Warning in_df: this function is intended for data set specific to team19, FA20, ece143 final project
-    :param in_df:   in_df is dataframe, must have column of strings titled "Job_Desc"
-    :type in_df:    in_df must be type pd.DataFrame
+                    Salary column, and a new "Min_Max" column with 'min' or 'max' as value. For box & whisker plotting purposes. 
+    :Warning in_df: this function is intended for data set specific to team19, FA20, ece143 final project 
+    :param in_df:   in_df is dataframe, must have column of strings titled "Job_Desc" 
+    :type in_df:    in_df must be type pd.DataFrame 
+    :author: Harker Russell 
     """
     import pandas as pd
     assert isinstance(in_df,pd.DataFrame), ':type in_df: in_df must be pd.DataFrame type'
@@ -226,12 +233,12 @@ def merge_MinMax_Salary(in_df):
 
 def count_members_by_column(in_df, col):
     """
-    Description:    Takes dataframe in_df, and returns a single dataframe with count of members in a column 'col'
-
-    :param in_df:   in_df is dataframe, must have column of strings titled "Job_Desc"
-    :type in_df:    in_df must be type DataFrame
-    :param col:     col must be string matching column value of in_df
-    :type col:      col must be of type str
+    Description:    Takes dataframe in_df, and returns a single dataframe with count of members in a column 'col'. 
+    :param in_df:   in_df is dataframe, must have column of strings titled "Job_Desc" 
+    :type in_df:    in_df must be type DataFrame 
+    :param col:     col must be string matching column value of in_df 
+    :type col:      col must be of type str 
+    :author: Harker Russell 
     """
     import pandas as pd
     assert isinstance(in_df,pd.DataFrame), ':type in_df: in_df must be pd.DataFrame type'
@@ -255,11 +262,10 @@ def count_members_by_column(in_df, col):
 ##==========SCATTERPLOT FUNCTIONS==========##
 def salary_v_rating_scatter(df_chart):
     """
-    Description:    Create an altair chart for a salary vs rating scatterplot
-        
-    :param df_chart:   Dataframe of job listings with both salaries and ratings that will be used to make chart object
-    :type df_chart:    pandas.DataFrame
-    
+    Description:    Create an altair chart for a salary vs rating scatterplot. 
+    :param df_chart:   Dataframe of job listings with both salaries and ratings that will be used to make chart object 
+    :type df_chart:    pandas.DataFrame 
+    :author: Jake Kim 
     """
     assert isinstance(df_chart, pd.DataFrame)
     
@@ -283,7 +289,7 @@ def salary_v_listings_scatter(df_chart):
         
     :param df_chart:   Dataframe of job listings with both salaries and listings that will be used to make chart object
     :type df_chart:    pandas.DataFrame
-    
+    :author: Jake Kim 
     """
     assert isinstance(df_chart, pd.DataFrame)
     listings = list(df_chart['Industry'])

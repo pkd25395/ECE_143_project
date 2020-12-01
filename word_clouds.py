@@ -1,7 +1,9 @@
 """
+Harker Russell, Team 19, ECE142, FA20
+
 This script is made to generate word clouds from glassdoor datasets
 scraped from New York, Texas, Washington and San Francisco areas
-over March and April 2020. The idea is to see the prevalence of key
+over the spring of 2020. The idea is to see the prevalence of key
 terms from qualifications desired from companies looking for data scientists
 
 REDO THIS FOR ONLY for TOP 5 Industries: 
