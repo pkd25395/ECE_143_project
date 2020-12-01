@@ -13,7 +13,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      - `box_and_whisker.py`: Script that generates box and whisker plots.  
      *Note:*\
      The code used to count 'top 5' industries by job posts are in this script, commented out.\
-     The count was done in series so it is included in the case that duplication is desired.  
+     The count was done in series so it is included so that our process may be duplicated.  
      - `word_clouds.py`: Script that generates word clouds as presented.  
      - `cloud.png`: Image file used in `word_clouds.py` to create wordcloud mask.  
      - `radial_column.py`: Script that generates radial column chart as presented.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!RENAME!!!!  
