@@ -6,7 +6,7 @@ from collections import OrderedDict
 from math import log, sqrt
 
 from altair import Chart
-from bokeh.plotting import figure, output_file, show
+#from bokeh.plotting import figure, output_file, show
 
 ##==========WORD CLOUD FUNCTIONS==========##
 
@@ -263,7 +263,7 @@ def count_members_by_column(in_df, col):
     df_occurances = df_occurances.sort_values("count") # sort dataframe by occurances
     return(df_occurances)
 
-    def gen_and_disp_boxWhiskerPlot(in_df,chart_title,x_col,y_col,hue_col):
+def gen_and_disp_boxWhiskerPlot(in_df,chart_title,x_col,y_col,hue_col):
     """
     Description:    Takes dataframe in-str, generates WordCloud object and displays wordcloud for 'in-str'.
                     in particular this is for team 19, FA20, ECE143 project. 
@@ -283,6 +283,7 @@ def count_members_by_column(in_df, col):
     import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
+    import seaborn as sns
     assert isinstance(in_df,pd.DataFrame), ':type in_df: in_df must be pd.DataFrame type'
     assert isinstance(chart_title,str), ":type chart_title:   in_str must be type str"
     assert isinstance(x_col,str), ":type x_col: x_col must be of type str"
@@ -294,7 +295,7 @@ def count_members_by_column(in_df, col):
 
     sns.set(font_scale=1.1)
     plt.figure(figsize=(12,8))
-    sns.boxplot( x=in_dfx_col], y=in_df[y_col], hue=in_df[hue_col])
+    sns.boxplot( x=in_df[x_col], y=in_df[y_col], hue=in_df[hue_col])
     plt.title(chart_title) #1300x850
     plt.show()
 

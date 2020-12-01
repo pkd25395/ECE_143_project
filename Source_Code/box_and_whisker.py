@@ -28,7 +28,7 @@ try:
     import numpy as np
     import pandas as pd
     # conda install seaborn
-    import seaborn as sns
+    #import seaborn as sns
     import matplotlib.pyplot as plt
     #ensure file bw_functions.py is in same directory as box_and_whisker.py
     from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge, gen_and_disp_boxWhiskerPlot
@@ -94,14 +94,7 @@ filter = (df_minmax['Salary'] >= Q1 - 1.5 * IQR) & (df_minmax['Salary'] <= Q3 + 
 df_minmax.loc[filter]  
 
 ##===================CREATE & DISPLAY BOX & WHISKER PLOTS===================##
-
+# display Min and Max Salary vs Industry
 gen_and_disp_boxWhiskerPlot(df_minmax,"Salary by Industry","Industry","Salary","Min_Max")
-""" sns.set(font_scale=1.1)
-plt.figure(figsize=(12,8))
-sns.boxplot( x=df_minmax["Industry"], y=df_minmax["Salary"], hue=df_minmax["Min_Max"])
-plt.title("Salary by Industry") #1300x850
-plt.show() """
-plt.figure(figsize=(12,8))
-sns.boxplot(x=df_minmaxCo["Company"], y=df_minmaxCo["Salary"], hue=df_minmaxCo["Min_Max"])
-plt.title("Salary by Company")
-plt.show()
+# display Min and Max Salary vs Company
+gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max")
