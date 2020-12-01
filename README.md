@@ -58,7 +58,7 @@
 9. **bokeh**  
  - `conda install bokeh`
  - `pip install bokeh`
- - [bohek documentation](https://docs.bokeh.org/en/latest/docs/installation.html)
+ - [bokeh documentation](https://docs.bokeh.org/en/latest/docs/installation.html)
 8. **Next 3rd Party Package**  
  - `conda console command`  
  - `pip console command`  
