@@ -1,5 +1,6 @@
 # ECE_143_project
-## Team 19: Harker Russell, Jake Kim, Pratyush Dwivedi, Ruihao Wei
+## ECE143, FA20, Team 19:   
+***Harker Russell, Jake Kim, Pratyush Dwivedi, Ruihao Wei***
 
 ### File Structure
 
