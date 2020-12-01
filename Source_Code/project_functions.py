@@ -176,7 +176,7 @@ def generate_and_display_wordcloud(in_str,chart_title,img_path):
     wordcloud_object = WordCloud(mask=cloud_mask, collocations=False, min_font_size=5, max_font_size=100, 
                                 max_words=None, background_color="white", margin=0, 
                                 font_step=1,).generate(in_str)#regexp=r"\w[\w' ]+").generate(in_str)
-    plt.figure()
+    plt.figure(figsize=(12,8))
     plt.imshow(wordcloud_object, interpolation='bilinear')
     plt.title(chart_title)
     plt.axis("off")
