@@ -62,5 +62,5 @@
 8. **Next 3rd Party Package**  
  - `conda console command`  
  - `pip console command`  
- - [pandas documentation](https://insert-link-here)  
+ - [next package documentation](https://insert-link-here)  
  
