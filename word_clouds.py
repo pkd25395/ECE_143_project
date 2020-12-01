@@ -14,9 +14,9 @@ Information Technology              1016.0
 
 AND FOR TOP 5 COMPANIES of those Industries:
 COMPANY                         COUNT
-Facebook                          42
-Amazon                            44
-Leidos                            46
+Facebook                          42*Not very useful for wordcloud due to Covid Surge Description
+Amazon                            44*Not very useful for wordcloud due to Covid Surge Description
+Leidos                            46*Not very useful for wordcloud due to Covid Surge Description
 Genentech                        118
 National Debt Relief             120
 """
@@ -109,13 +109,13 @@ str_National = create_JobDescription_string(df_combined,"Company","National Debt
 ##===================REMOVE ALL NON-KEYWORDS FROM STRINGS===================##
 ## Facebook
 #str_Facebook = remove_non_keywords(str_Facebook, keyword_list)
-""" facebook is covid surge listing--not useful """
+""" Facebook is covid surge listing--not useful, therefore not plotted """
 ## Amazon 
 #str_Amazon = remove_non_keywords(str_Amazon, keyword_list)
-""" facebook is covid surge listing--not useful """
+""" Amazon is covid surge listing--not useful, therefore not plotted """
 ## Leidos
 #str_Leidos = remove_non_keywords(str_Leidos, keyword_list)
-""" facebook is covid surge listing--not useful """
+""" Leidos is covid surge listing--not useful, therefore not plotted """
 ## Genentech
 str_Genentech = remove_non_keywords(str_Genentech, keyword_list)
 ## National Debt Relief
@@ -123,11 +123,14 @@ str_National = remove_non_keywords(str_National, keyword_list)
 
 ##===================CREATE & DISPLAY WORDCLOUDS FOR INDUSTRIES===================##
 ## Facebook
-generate_and_display_wordcloud(str_Facebook,"Facebook","cloud.png") #8iGbRApyT.png")
+#generate_and_display_wordcloud(str_Facebook,"Facebook","cloud.png") #8iGbRApyT.png")
+""" Facebook is covid surge listing--not useful, therefore not plotted """
 ## Amazon
-generate_and_display_wordcloud(str_Amazon,"Amazon","cloud.png") #dollar.jpg")
+#generate_and_display_wordcloud(str_Amazon,"Amazon","cloud.png") #dollar.jpg")
+""" Amazon is covid surge listing--not useful, therefore not plotted """
 ## Leidos
-generate_and_display_wordcloud(str_Leidos,"Leidos","cloud.png") #flask.jpg")
+#generate_and_display_wordcloud(str_Leidos,"Leidos","cloud.png") #flask.jpg")
+""" Leidos is covid surge listing--not useful, therefore not plotted """
 ## Genetech
 generate_and_display_wordcloud(str_Genentech,"Genentech","cloud.png") #cursor.jpg")
 ## National Debt Relief

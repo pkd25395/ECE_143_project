@@ -46,7 +46,12 @@ df_combined = clean_and_merge(df_allFrames)
 df_minmax = merge_MinMax_Salary(df_combined)
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY INDUSTRY===================##
+## to print to console uncommend the next two lines and run script
 #print(count_members_by_column(df_minmax,"Industry"))
+#print(count_members_by_column(df_minmax,"Company"))
+## to write count to csv uncomment next 4 lines and run script
+#df_coCount = count_members_by_column(df_minmax,"Industry")
+#df_coCount.to_csv('Data_Industry_Count.csv')
 #df_coCount = count_members_by_column(df_minmax,"Company")
 #df_coCount.to_csv('Data_Company_Count.csv')
 
