@@ -22,13 +22,11 @@
 3. `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
 4. `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules
 
-
-
 ### How to run code
 1. Ensure all required third party modules (listed below) are installed.
 2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files) as outlined above.
 3. Run scripts files to generate plots (e.g. to generate the word clouds used in our presentation, run `word_clouds.py`.
-4. 
+     - If not addressed here, read script comments which should be helpful if there are any lower-level issues or questions.
 
 ### Required Third Party Libraries and Modules
 1. **Seaborn**  
