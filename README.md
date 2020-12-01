@@ -7,7 +7,7 @@
 1. **Source_Code**: Source code directory
  - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
  - `box_and_whisker.py`: Script that generates box and whisker plots.
-     - The code used to count 'top 5' industries by job post are alsp in this script, commented out. The count was done in series so it is included in the case that duplication is desired.
+     - The code used to count 'top 5' industries by job post are also in this script, commented out. The count was done in series so it is included in the case that duplication is desired.
  - `word_clouds.py`: Script that generates word clouds as presented.  
  - `cloud.png`: Image file used to create wordcloud mask.  
  - `radial_column.py`: Script that generates radial column chart as presented.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!RENAME!!!! 
