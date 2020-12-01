@@ -6,7 +6,8 @@
 ***ECE_143_project***: Main repo directory
 1. **Source_Code**: Source code directory
  - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
- - `box_and_whisker.py`: Script that generates box and whisker plots.  
+ - `box_and_whisker.py`: Script that generates box and whisker plots.
+     - The code used to count 'top 5' industries by job post are alsp in this script, commented out. The count was done in series so it is included in the case that duplication is desired.
  - `word_clouds.py`: Script that generates word clouds as presented.  
  - `cloud.png`: Image file used to create wordcloud mask.  
  - `radial_column.py`: Script that generates radial column chart as presented.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!RENAME!!!! 
@@ -25,24 +26,25 @@
 
 ### How to run code
 1. Ensure all required third party modules (listed below) are installed.
-2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files)
-3. Run script files to see generate plots 
+2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files) as outlined above.
+3. Run scripts files to generate plots (e.g. to generate the word clouds used in our presentation, run `word_clouds.py`.
+4. 
 
 ### Required Third Party Libraries and Modules
 1. **Seaborn**  
  - `conda install seaborn`
  - `pip install seaborn`
- - documented here: <https://seaborn.pydata.org/installing.html>
+ - [seaborn documentation](https://seaborn.pydata.org/installing.html)
  2. **Numpy**  
  - `conda install numpy`  
  - `pip install numpy`  
- - documented here: <https://numpy.org/install/>
+ - [numpy documentation](https://numpy.org/install/)
  3. **Pandas**  
  - `conda install pandas`
  - `pip install pandas`  
- - documented here: <https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html>
+ - [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
  4. **Next 3rd Party Package**
  - `conda console command`
  - `pip console command`
- - documented here <https://insert-link-here>
+ - [pandas documentation](https://insert-link-here)
  
