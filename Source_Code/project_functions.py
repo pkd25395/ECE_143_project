@@ -300,7 +300,7 @@ def gen_and_disp_boxWhiskerPlot(in_df,chart_title,x_col,y_col,hue_col):
     plt.show()
 
 ##==========SCATTERPLOT FUNCTIONS==========##
-def salary_v_rating_scatter(df_chart, legend):
+def salary_v_rating_scatter(df_chart, legend, separate=False):
     """
     Description:    Create an altair chart for a salary vs rating scatterplot. 
     :param df_chart:   Dataframe of job listings with both salaries and ratings that will be used to make chart object 
@@ -324,12 +324,16 @@ def salary_v_rating_scatter(df_chart, legend):
     
     df_chart = Chart(df_chart)
     
-    chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color=legend,column=legend)
+    if separate:
+        chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color=legend,column=legend)
+    else:
+        chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color=legend)
+    
     chart = chart.properties(title = 'Salary vs. Company Ratings')
     
     return chart
 
-def salary_v_listings_scatter(df_chart, legend):
+def salary_v_listings_scatter(df_chart, legend, separate=False):
     """
     Description:    Create an altair chart for a salary vs job listings scatterplot
         
@@ -367,7 +371,11 @@ def salary_v_listings_scatter(df_chart, legend):
     
     df_chart = Chart(df_chart)
     
-    chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend)
+    if separate:
+        chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend,column=legend)
+    else:
+        chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend)
+    
     chart = chart.properties(title = 'Salary vs. # of Job Lstings')
         
     return chart
