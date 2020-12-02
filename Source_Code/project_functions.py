@@ -305,6 +305,8 @@ def salary_v_rating_scatter(df_chart, legend):
     Description:    Create an altair chart for a salary vs rating scatterplot. 
     :param df_chart:   Dataframe of job listings with both salaries and ratings that will be used to make chart object 
     :type df_chart:    pandas.DataFrame 
+    :param legend:     How we want plot to be organized i.e. by industry
+    :type legend:      str in cols
     :author: Jake Kim 
     """
     cols = ['Job_title', 'Company', 'State', 'City', 'Min_Salary', 'Max_Salary', 
@@ -333,6 +335,8 @@ def salary_v_listings_scatter(df_chart, legend):
         
     :param df_chart:   Dataframe of job listings with both salaries and listings that will be used to make chart object
     :type df_chart:    pandas.DataFrame
+    :param legend:     How we want plot to be organized i.e. by industry
+    :type legend:      str in cols
     :author: Jake Kim 
     """
     cols = ['Job_title', 'Company', 'State', 'City', 'Min_Salary', 'Max_Salary', 
