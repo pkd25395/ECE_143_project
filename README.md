@@ -15,7 +15,7 @@ Please see instructions and requirements below.
 
 
 
-### File Structure
+## File Structure
 
 ***ECE_143_project***: Main repo directory
 1. **Plots**: Directory containing all plots generated for presentation. 
@@ -40,7 +40,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
  - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
 
-### How to run code
+## How to run code
 1. Ensure all required third party modules (listed below) are installed.
 2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files) as outlined above.
      - *Modules required for generating scatter plots must be installed separately in jupyter notebook environment. 
@@ -48,7 +48,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      - If not addressed here, read script comments which should be helpful if there are any lower-level issues or questions. 
      - *Scatter plots are generated separately in `project_plots.ipynb`  
 
-### Required Third Party Libraries and Modules
+## Required Third Party Libraries and Modules
 1. **wordcloud**
  - `conda install -c conda-forge wordcloud`
  - [wordcloud documentation](https://anaconda.org/conda-forge/wordcloud)
