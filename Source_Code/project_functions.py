@@ -4,6 +4,8 @@ import numpy as np
 import altair as alt
 from collections import OrderedDict
 from math import log, sqrt
+import matplotlib.pyplot as plt
+from math import pi
 
 from altair import Chart
 #from bokeh.plotting import figure, output_file, show
@@ -515,6 +517,57 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     
     show(p)
         
-    
+#==============================RadarChart=======================================#
+
+def plot_job_title_radar(ind, data, yt, yl):
+    '''
+    This function plots the radar chart for top 5 job title in the industry ind
+    ind : string indicating name of industry
+    data: dataframe corresponding to the industry
+    yt: list indicating the yticks
+    yl: int indicating limit of y axis
+    author: Pratyush Dwivedi
+    '''
+    assert isinstance(ind, str)
+    assert isinstance(yt, list)
+    assert isinstance(yl, int)
+    assert isinstance(data, pd.core.frame.DataFrame)
+
+    grp = data.groupby('Job_title')
+    m = grp.all().index.values
+    cdict = {}
+    for i in m:
+        a = grp.get_group(i)
+        cdict[i] = a.shape[0]
+    sortdic = sorted(cdict.items(), key=lambda x: x[1], reverse=True)
+
+    ff = sortdic[:10]
+
+    fdict = {}
+    for i in ff:
+        fdict[i[0]] = i[1]
+
+    fig = plt.figure()
+    ax = plt.subplot(polar="True")
+    catg = list(fdict.keys())[:5]
+    vals = list(fdict.values())[:5]
+    vals += vals[:1]
+    N = len(catg)
+    angles = [n / float(N) * 2 * pi for n in range(N)]
+    angles += angles[:1]
+
+    plt.polar(angles, vals, marker='o', linewidth=1)
+    plt.fill(angles, vals, alpha=0.2)
+
+    plt.xticks(angles[:-1], catg)
+    if (yt):
+        plt.yticks(yt, color="grey")
+    if (yl != -1):
+        plt.ylim(0, yl)
+
+    title = f'Top 5 job posted in {ind}'
+    plt.title(title)
+
+    plt.show()
         
     

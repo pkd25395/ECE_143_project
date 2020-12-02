@@ -34,8 +34,6 @@ try:
     from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge, gen_and_disp_boxWhiskerPlot
 except Exception as e:
     print("some modules are missing, try installing seaborn with 'conda install seaborn' and check that project_functions.py is in same directory")
-# want to create new dataframe from job listings csv to have
-# a column with min or max corresponding to salary as the min or the max
 
 col_list = ["Job_title","Company","State","City","Min_Salary","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]
 files_list = ["Data_Job_NY.csv"
@@ -50,15 +48,17 @@ df_WA = pd.read_csv(files_list[3],usecols=col_list)
 ##===================CLEAN DATA===================##
 ##===================JOIN ALL DATAFRAMES===================##
 df_allFrames = [df_NY, df_SF, df_TX, df_WA]
-df_combined = clean_and_merge(df_allFrames)
-df_minmax = merge_MinMax_Salary(df_combined)
+df_combined = clean_and_merge(df_allFrames) # project_functions
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY INDUSTRY===================##
 ## to print to console uncommend the next line and run script
-#print(count_members_by_column(df_minmax,"Industry"))
+#print(count_members_by_column(df_minmax,"Industry")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-#df_coCount = count_members_by_column(df_minmax,"Industry")
+#df_coCount = count_members_by_column(df_minmax,"Industry") # project_functions
 #df_coCount.to_csv('Data_Industry_Count.csv')
+
+##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
+df_minmax = merge_MinMax_Salary(df_combined) # project_functions
 
 ##===================CREATE DF W/ONLY TOP 5 INDUSTRIES WRT # OF POSTS===================##
 df_minmaxFinance = df_minmax[df_minmax["Industry"]=="Aerospace & Defense"]
@@ -71,10 +71,11 @@ df_minmax = pd.concat(frames_topInd)
 
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY COMPANY===================##
+''' NOTICE: these counts will be double the actual count due to min-max salary merge (i.e. rows are now doubled)'''
 ## to print to console uncommend the next line and run script
-#print(count_members_by_column(df_minmax,"Company"))
+#print(count_members_by_column(df_minmax,"Company")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-#df_coCount = count_members_by_column(df_minmax,"Company")
+#df_coCount = count_members_by_column(df_minmax,"Company") # project_functions
 #df_coCount.to_csv('Data_Company_Count.csv')
 
 ##===================CREATE DF W/ONLY TOP 5 INDUSTRIES WRT # OF POSTS===================##
@@ -95,6 +96,6 @@ df_minmax.loc[filter]
 
 ##===================CREATE & DISPLAY BOX & WHISKER PLOTS===================##
 # display Min and Max Salary vs Industry
-gen_and_disp_boxWhiskerPlot(df_minmax,"Salary by Industry","Industry","Salary","Min_Max")
+gen_and_disp_boxWhiskerPlot(df_minmax,"Salary by Industry","Industry","Salary","Min_Max") # project_functions
 # display Min and Max Salary vs Company
-gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max")
+gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max") # project_functions
