@@ -46,7 +46,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      - *Modules required for generating scatter plots must be installed separately in jupyter notebook environment. 
 3. Run scripts files to generate plots (e.g. to generate the word clouds used in our presentation, run `word_clouds.py`).  
      - If not addressed here, read script comments which should be helpful if there are any lower-level issues or questions. 
-     - *Scatter plots are generated separately in `project_plots.ipynb`  
+     - *Scatter plots are generated separately in `project_plots.ipynb` due to better compatibility between Jupyter Notebook and Altair
 
 ## Required Third Party Libraries and Modules
 1. **wordcloud**
