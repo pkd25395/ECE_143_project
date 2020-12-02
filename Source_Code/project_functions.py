@@ -300,14 +300,17 @@ def gen_and_disp_boxWhiskerPlot(in_df,chart_title,x_col,y_col,hue_col):
     plt.show()
 
 ##==========SCATTERPLOT FUNCTIONS==========##
-def salary_v_rating_scatter(df_chart):
+def salary_v_rating_scatter(df_chart, legend):
     """
     Description:    Create an altair chart for a salary vs rating scatterplot. 
     :param df_chart:   Dataframe of job listings with both salaries and ratings that will be used to make chart object 
     :type df_chart:    pandas.DataFrame 
     :author: Jake Kim 
     """
+    cols = ['Job_title', 'Company', 'State', 'City', 'Min_Salary', 'Max_Salary', 
+            'Job_Desc', 'Industry', 'Rating', 'Date_Posted', 'Valid_until', 'Job_Type']
     assert isinstance(df_chart, pd.DataFrame)
+    assert legend in cols
     
     avg_sal = list()
     for i in range(df_chart.shape[0]):
@@ -319,11 +322,12 @@ def salary_v_rating_scatter(df_chart):
     
     df_chart = Chart(df_chart)
     
-    chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color='Industry',column='Industry')
+    chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color=legend,column=legend)
+    chart = chart.properties(title = 'Salary vs. Company Ratings')
     
     return chart
 
-def salary_v_listings_scatter(df_chart):
+def salary_v_listings_scatter(df_chart, legend):
     """
     Description:    Create an altair chart for a salary vs job listings scatterplot
         
@@ -331,8 +335,12 @@ def salary_v_listings_scatter(df_chart):
     :type df_chart:    pandas.DataFrame
     :author: Jake Kim 
     """
+    cols = ['Job_title', 'Company', 'State', 'City', 'Min_Salary', 'Max_Salary', 
+           'Job_Desc', 'Industry', 'Rating', 'Date_Posted', 'Valid_until', 'Job_Type']
+    assert legend in cols
     assert isinstance(df_chart, pd.DataFrame)
-    listings = list(df_chart['Industry'])
+    
+    listings = list(df_chart[legend])
     listing_set = set(listings)
     list_dict = dict.fromkeys(listing_set, 0)
     
@@ -341,7 +349,7 @@ def salary_v_listings_scatter(df_chart):
     
     entries = list()
     for i in range(df_chart.shape[0]):
-        entries.append(list_dict[df_chart.loc[i,'Industry']])
+        entries.append(list_dict[df_chart.loc[i,legend]])
     
     df_chart['Listings'] = entries
     
@@ -355,7 +363,8 @@ def salary_v_listings_scatter(df_chart):
     
     df_chart = Chart(df_chart)
     
-    chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color='Industry')
+    chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend)
+    chart = chart.properties(title = 'Salary vs. # of Job Lstings')
         
     return chart
         
