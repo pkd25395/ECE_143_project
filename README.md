@@ -2,14 +2,26 @@
 ## ECE143, FA20, Team 19:   
 ***Harker Russell, Jake Kim, Pratyush Dwivedi, Ruihao Wei***
 
+## Project Description
+### Analysis of Current Job Postings in Data Science Field
+
+This projects aim is to visualize current job postings in the data science field in order to help inform data science majors nearing graduation.\
+
+This code produces ____ various plots given ___ (kaggle data list/desc/credit ). EX Plot image here.\ 
+     
+This code uses ____ to ____ data. custom functions are in project_functions.py adn imported to scripts for each style of visualization. (image of workflow from presentation here)\
+     
+Please see instructions and requirements below.
+
+
+
 ### File Structure
 
 ***ECE_143_project***: Main repo directory
 1. **Plots**: Directory containing all plots generated for presentation. 
 1. **Source_Code**: Source code directory.  
 *Note:*\
-Each chart
-/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).
+Each chart/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).
      - `__init__.py`: Empty file to make directory package (allows imports to `project_plots.ipynb` higher level directory).  
      - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
      - `box_and_whisker.py`: Script that generates box and whisker plots.  
