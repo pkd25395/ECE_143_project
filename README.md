@@ -8,7 +8,9 @@
 1. **Plots**: Directory containing all plots generated for presentation. 
 1. **Source_Code**: Source code directory.  
 *Note:*\
-Each chart/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).
+Each chart
+/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).
+     - `__init__.py`: Empty file to make directory package (allows imports to `project_plots.ipynb` higher level directory).  
      - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
      - `box_and_whisker.py`: Script that generates box and whisker plots.  
      *Note:*\
