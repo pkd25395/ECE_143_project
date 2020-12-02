@@ -61,16 +61,18 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
     `python3 -m pip install --upgrade Pillow`  
  - [PIL documentation](https://github.com/python-pillow/Pillow/)  
 7. **altair**  
-*Note:*\
-This module need only be installed within the jupyter notebook's kernal environment.
  - `conda install -c conda-forge altair`
  - `pip install altair`  
- - [altair documentation](https://altair-viz.github.io/getting_started/installation.html)  
+ - [altair documentation](https://altair-viz.github.io/getting_started/installation.html) 
+8. **vega**  
+ - `conda install vega --channel conda-forge`  
+ - `pip install vega`
+ - [vega documentation](https://vega.github.io/vega/) 
 9. **bokeh**  
  - `conda install bokeh`
  - `pip install bokeh`
  - [bokeh documentation](https://docs.bokeh.org/en/latest/docs/installation.html)
-8. **Next 3rd Party Package**  
+10. **Next 3rd Party Package**  
  - `conda console command`  
  - `pip console command`  
  - [next package documentation](https://insert-link-here)  
