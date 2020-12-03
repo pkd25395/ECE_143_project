@@ -65,13 +65,16 @@ df_combBiotech = df_combined[df_combined["Industry"]=="Biotech & Pharmaceuticals
 df_combBusiness = df_combined[df_combined["Industry"]=="Business Services"]
 df_combInfoTech = df_combined[df_combined["Industry"]=="Information Technology"]
 frames_topInd = [df_combFinance, df_combHealthcare, df_combBiotech, df_combBusiness, df_combInfoTech]
-df_combInd = pd.concat(frames_topInd)
+df_combInd = pd.concat(frames_topInd,ignore_index=True)
+
+##===================ADD JOB SENIORITY COLUMN===================##
+df_combInd=add_seniority(df_combInd)
 
 ##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
 df_minmaxInd = merge_MinMax_Salary(df_combInd) # project_functions
+
 #df_minmaxInd.to_csv('Data_Industry_Minmax.csv')
 
-#df_seniority=add_seniority(df_minmaxInd)
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY COMPANY===================##
 ## to print to console uncommend the next line and run script
@@ -110,4 +113,4 @@ gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Industry","Industry","Salary
 # display Min and Max Salary vs Company
 gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max") # project_functions
 
-#gen_and_disp_boxWhiskerPlot(df_seniority,"Salary by Seniority","Industry","Salary","Seniority") # project_functions
+gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Seniority","Industry","Salary","Seniority") # project_functions
