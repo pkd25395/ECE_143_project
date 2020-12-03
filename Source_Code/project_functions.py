@@ -457,9 +457,12 @@ def plot_radial_column_chart(df,min_scale,max_scale):
                 -big_angle+angles, -big_angle+angles, color="black")
     
     # circular axes and lables
-    labels = [scale for scale in range(0,max_scale * 20,20000)]
+
+    labels = [scale for scale in range(0,180000,20000)]
     radii = [inner_radius + outer_radius*scale//max_scale for scale in range(0,max_scale - 1000,1000)]
     p.circle(0, 0, radius=radii, fill_color=None, line_color="black")
+    
+
     
 
     p.text(0, radii[:-1], ['$' + str(r) for r in labels[:-1]],
