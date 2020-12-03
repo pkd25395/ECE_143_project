@@ -58,45 +58,51 @@ df_combined = clean_and_merge(df_allFrames) # project_functions
 #df_coCount = count_members_by_column(df_combined,"Industry") # project_functions
 #df_coCount.to_csv('Data_Industry_Count.csv')
 
-##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
-df_minmax = merge_MinMax_Salary(df_combined) # project_functions
-
 ##===================CREATE DF W/ONLY TOP 5 INDUSTRIES WRT # OF POSTS===================##
-df_minmaxFinance = df_minmax[df_minmax["Industry"]=="Aerospace & Defense"]
-df_minmaxHealthcare = df_minmax[df_minmax["Industry"]=="Finance"]
-df_minmaxBiotech = df_minmax[df_minmax["Industry"]=="Biotech & Pharmaceuticals"]
-df_minmaxBusiness = df_minmax[df_minmax["Industry"]=="Business Services"]
-df_minmaxInfoTech = df_minmax[df_minmax["Industry"]=="Information Technology"]
-frames_topInd = [df_minmaxFinance, df_minmaxHealthcare, df_minmaxBiotech, df_minmaxBusiness, df_minmaxInfoTech]
-df_minmax = pd.concat(frames_topInd)
+df_combFinance = df_combined[df_combined["Industry"]=="Aerospace & Defense"]
+df_combHealthcare = df_combined[df_combined["Industry"]=="Finance"]
+df_combBiotech = df_combined[df_combined["Industry"]=="Biotech & Pharmaceuticals"]
+df_combBusiness = df_combined[df_combined["Industry"]=="Business Services"]
+df_combInfoTech = df_combined[df_combined["Industry"]=="Information Technology"]
+frames_topInd = [df_combFinance, df_combHealthcare, df_combBiotech, df_combBusiness, df_combInfoTech]
+df_combInd = pd.concat(frames_topInd)
 
+##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
+df_minmaxInd = merge_MinMax_Salary(df_combInd) # project_functions
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY COMPANY===================##
-''' NOTICE: these counts will be double the actual count due to min-max salary merge (i.e. rows are now doubled)'''
 ## to print to console uncommend the next line and run script
-#print(count_members_by_column(df_minmax,"Company")) # project_functions
+#print(count_members_by_column(df_combInd,"Company")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-#df_coCount = count_members_by_column(df_minmax,"Company") # project_functions
+#df_coCount = count_members_by_column(df_combInd,"Company") # project_functions
 #df_coCount.to_csv('Data_Company_Count.csv')
 
-##===================CREATE DF W/ONLY TOP 5 INDUSTRIES WRT # OF POSTS===================##
-df_minmaxAmazon = df_minmax[df_minmax["Company"]=="Amazon"]
-df_minmaxFacebook = df_minmax[df_minmax["Company"]=="Facebook"]
-df_minmaxLeidos = df_minmax[df_minmax["Company"]=="Leidos"]
-df_minmaxGenentech = df_minmax[df_minmax["Company"]=="Genentech"]
-df_minmaxNatDebtRel = df_minmax[df_minmax["Company"]=="National Debt Relief"]
-frames_Co = [df_minmaxAmazon, df_minmaxFacebook, df_minmaxLeidos, df_minmaxGenentech, df_minmaxNatDebtRel]
-df_minmaxCo = pd.concat(frames_Co)
+##===================CREATE DF W/ONLY TOP 5 COMPANIES WRT # OF POSTS===================##
+df_combAmazon = df_combInd[df_combInd["Company"]=="Amazon"]
+df_combFacebook = df_combInd[df_combInd["Company"]=="Facebook"]
+df_combLeidos = df_combInd[df_combInd["Company"]=="Leidos"]
+df_combGenentech = df_combInd[df_combInd["Company"]=="Genentech"]
+df_combNatDebtRel = df_combInd[df_combInd["Company"]=="National Debt Relief"]
+frames_Co = [df_combAmazon, df_combFacebook, df_combLeidos, df_combGenentech, df_combNatDebtRel]
+df_combCo = pd.concat(frames_Co)
+
+##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
+df_minmaxCo = merge_MinMax_Salary(df_combCo) # project_functions
 
 ##===================FILTER OUTLIERS===================##
-Q1 = df_minmax['Salary'].quantile(0.25)
-Q3 = df_minmax['Salary'].quantile(0.75)
+Q1 = df_minmaxInd['Salary'].quantile(0.25)
+Q3 = df_minmaxInd['Salary'].quantile(0.75)
 IQR = Q3 - Q1    #IQR is interquartile range. 
-filter = (df_minmax['Salary'] >= Q1 - 1.5 * IQR) & (df_minmax['Salary'] <= Q3 + 1.5 *IQR)
-df_minmax.loc[filter]  
+filter = (df_minmaxInd['Salary'] >= Q1 - 1.5 * IQR) & (df_minmaxInd['Salary'] <= Q3 + 1.5 *IQR)
+df_minmaxInd.loc[filter]  
+Q1 = df_minmaxCo['Salary'].quantile(0.25)
+Q3 = df_minmaxCo['Salary'].quantile(0.75)
+IQR = Q3 - Q1    #IQR is interquartile range. 
+filter = (df_minmaxCo['Salary'] >= Q1 - 1.5 * IQR) & (df_minmaxCo['Salary'] <= Q3 + 1.5 *IQR)
+df_minmaxCo.loc[filter] 
 
 ##===================CREATE & DISPLAY BOX & WHISKER PLOTS===================##
 # display Min and Max Salary vs Industry
-gen_and_disp_boxWhiskerPlot(df_minmax,"Salary by Industry","Industry","Salary","Min_Max") # project_functions
+gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Industry","Industry","Salary","Min_Max") # project_functions
 # display Min and Max Salary vs Company
 gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max") # project_functions
