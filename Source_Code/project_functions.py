@@ -10,7 +10,7 @@ from math import pi
 from altair import Chart
 from bokeh.plotting import figure, output_file, show
 
-##==========WORD CLOUD FUNCTIONS==========##
+##==========DATA PROCESSING FUNCTIONS==========##
 
 def clean_data(x):
     '''
@@ -99,6 +99,31 @@ def merge_field(field, df_list):
                 m_grp = pd.concat([m, m_grp], ignore_index=True, sort=False)
         dict_all[i] = m_grp
     return dict_all
+
+def add_seniority(x):
+    """ 
+    Description:   Add a column for if the job is entry level or not 
+    :param x:      Dataframe we want ot add senioirty column to
+    :type x:       pd.DataFrame 
+    :author: Jake Kim
+    
+    """
+    assert isinstance(x, pd.DataFrame)
+    
+    senior = ['Senior', 'Director', 'Sr.', 'Sr', 'Chief', 'Lead', 'Manager', 'Executive', 'Exec', 'Exec.', 'Dir']
+    
+    seniority = list()
+    for i1 in range(x.shape[0]):
+        for i2 in range(len(senior)):
+            if seniority[i2] in x.loc[i1,'Job_title']:
+                seniority.append('Senior')
+            else:
+                seniority.append('Entry')
+    x['Seniority'] = seniority
+    
+    return x
+                
+##==========WORD CLOUD FUNCTIONS==========##
 
 def remove_non_keywords(in_str,kwd_list):
     """ 
