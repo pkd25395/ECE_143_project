@@ -122,7 +122,6 @@ def add_seniority(x):
                 seniority.append('Entry')
                 break
     
-    print(len(seniority))
     x['Seniority'] = seniority
     
     return x

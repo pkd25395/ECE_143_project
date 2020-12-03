@@ -31,7 +31,7 @@ try:
     #import seaborn as sns
     import matplotlib.pyplot as plt
     #ensure file bw_functions.py is in same directory as box_and_whisker.py
-    from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge, gen_and_disp_boxWhiskerPlot
+    from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge, gen_and_disp_boxWhiskerPlot, add_seniority
 except Exception as e:
     print("some modules are missing, try installing seaborn with 'conda install seaborn' and check that project_functions.py is in same directory")
 
@@ -69,6 +69,9 @@ df_combInd = pd.concat(frames_topInd)
 
 ##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
 df_minmaxInd = merge_MinMax_Salary(df_combInd) # project_functions
+#df_minmaxInd.to_csv('Data_Industry_Minmax.csv')
+
+#df_seniority=add_seniority(df_minmaxInd)
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY COMPANY===================##
 ## to print to console uncommend the next line and run script
@@ -106,3 +109,5 @@ df_minmaxCo.loc[filter]
 gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Industry","Industry","Salary","Min_Max") # project_functions
 # display Min and Max Salary vs Company
 gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max") # project_functions
+
+#gen_and_disp_boxWhiskerPlot(df_seniority,"Salary by Seniority","Industry","Salary","Seniority") # project_functions
