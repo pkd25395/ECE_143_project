@@ -1,31 +1,20 @@
 # ECE_143_project
-## ECE143, FA20, Team 19 Contributors   
-Harker Russell <hrussell@ucsd.edu>  
-
-Pratyush Dwivedi <pdwivedi@ucsd.edu>  
-
-Jake Kim <jyk005@ucsd.edu>  
-
-Ruihao Wei <r5wei@ucsd.edu>  
-
 ## Project Description
-### Analysis of Current Job Postings in Data Science Field
+![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
+### Analysis  and Visualization of Current Job Postings in Data Science Field
 
 This project creates data visualization for a dataset of glassdoor job postings in the data science field, as found in [this kaggle set](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data). The goal of this project is to help inform and provide insight to data science majors nearing graduation.
 
-![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)
-
 This code uses custom python function definitions (`project_functions.py`) to import, clean and concatenate four discrete datasets (from csv format to pandas dataframes) from different regions in python scripts.  
 
-<img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data_process.png" width="400"><img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/other_process.png" width="400">
+<img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data_process.png" width="600">
+<img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/other_process.png" width="600">
 
 Each script does visualization specific data manipulation to generate plots (i.e. one script for each style of visualization) to parse and present the data in more intuitive ways.  
  
 `project_plots.ipynb` can be ran step-by-step to illustrate the process.
      
 Please see instructions and requirements below.
-
-
 
 ## File Structure
 
@@ -102,4 +91,14 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - `conda console command`  
  - `pip console command`  
  - [next package documentation](https://insert-link-here)  
+
+ ## ECE143, FA20, Team 19 Contributors   
+Harker Russell <hrussell@ucsd.edu>  
+
+Pratyush Dwivedi <pdwivedi@ucsd.edu>  
+
+Jake Kim <jyk005@ucsd.edu>  
+
+Ruihao Wei <r5wei@ucsd.edu>  
+
  
