@@ -115,10 +115,14 @@ def add_seniority(x):
     seniority = list()
     for i1 in range(x.shape[0]):
         for i2 in range(len(senior)):
-            if seniority[i2] in x.loc[i1,'Job_title']:
+            if senior[i2] in x.loc[i1,'Job_title']:
                 seniority.append('Senior')
-            else:
+                break
+            elif i2 == len(senior) - 1:
                 seniority.append('Entry')
+                break
+    
+    print(len(seniority))
     x['Seniority'] = seniority
     
     return x

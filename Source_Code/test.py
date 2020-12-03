@@ -11,20 +11,21 @@ import pandas as pd
 from project_functions import clean_data, merge_field, salary_v_rating_scatter, salary_v_listings_scatter, add_seniority
 
 # Read csv files into dataframes
-sf = pd.read_csv(r'Source_Code/Data_Job_SF.csv')
-ny = pd.read_csv(r'Source_Code/Data_Job_NY.csv')
-tx = pd.read_csv(r'Source_Code/Data_Job_TX.csv')
-wa = pd.read_csv(r'Source_Code/Data_Job_WA.csv')
+sf = pd.read_csv(r'Data_Job_SF.csv')
+ny = pd.read_csv(r'Data_Job_NY.csv')
+tx = pd.read_csv(r'Data_Job_TX.csv')
+wa = pd.read_csv(r'Data_Job_WA.csv')
 
 # Filter the data and combine them
 sf_clean = clean_data(sf)
 wa_clean = clean_data(wa)
 tx_clean = clean_data(tx)
 ny_clean = clean_data(ny)
-sf_clean = clean_data(sf)
-wa_clean = clean_data(wa)
-tx_clean = clean_data(tx)
-ny_clean = clean_data(ny)
+
+sf_clean = add_seniority(sf)
+wa_clean = add_seniority(wa)
+tx_clean = add_seniority(tx)
+ny_clean = add_seniority(ny)
 
 df_clean = [sf_clean,wa_clean,tx_clean,ny_clean]
 
