@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from math import pi
 
 from altair import Chart
-#from bokeh.plotting import figure, output_file, show
+from bokeh.plotting import figure, output_file, show
 
 ##==========WORD CLOUD FUNCTIONS==========##
 
@@ -512,7 +512,10 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     p.circle(company_labels_x, company_labels_y,color=list(company_color.values()), radius=3)
     
     company_labels_x = [-70,-70,-70] * 5
-    p.text(company_labels_x, company_labels_y, text=["" + company for company in company_color.keys()],
+    
+    company_salary = {company:str(df[company].iloc[0])  for company in company_color.keys()}
+    
+    p.text(company_labels_x, company_labels_y, text=["" + company + ':  $' + company_salary[company] for company in company_color.keys()],
        text_font_size="9px", text_align="left", text_baseline="middle")
     
     show(p)
