@@ -1,8 +1,8 @@
+![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
 # ECE_143_project
 ## Project Description
   
 ### Analysis  and Visualization of Current Job Postings in Data Science Field
-![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
 This project creates data visualization for a dataset of glassdoor job postings in the data science field, as found in [this kaggle set](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data). The goal of this project is to help inform and provide insight to data science majors nearing graduation.
 
 This code uses custom python function definitions (`project_functions.py`) to import, clean and concatenate four discrete datasets (from csv format to pandas dataframes) from different regions in python scripts.  

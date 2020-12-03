@@ -52,33 +52,35 @@ df_combined = clean_and_merge(df_allFrames) # project_functions
 
 ##===================CREATE JOB DESCRIPTION STRINGS BY INDUSTRY===================##
 ## Aerospace
-str_Aero = create_JobDescription_string(df_combined,"Industry","Aerospace & Defense")
+str_Aero = create_JobDescription_string(df_combined,"Industry","Aerospace & Defense") # project_functions
 ## Finance 
-str_Finance = create_JobDescription_string(df_combined,"Industry","Finance")
+str_Finance = create_JobDescription_string(df_combined,"Industry","Finance") # project_functions
 ## Biotech
-str_Biotech = create_JobDescription_string(df_combined,"Industry","Biotech & Pharmaceuticals")
+str_Biotech = create_JobDescription_string(df_combined,"Industry","Biotech & Pharmaceuticals") # project_functions
 ## Business
-str_Business = create_JobDescription_string(df_combined,"Industry","Business Services")
+str_Business = create_JobDescription_string(df_combined,"Industry","Business Services") # project_functions
 ## IT
-str_IT = create_JobDescription_string(df_combined,"Industry","Information Technology")
+str_IT = create_JobDescription_string(df_combined,"Industry","Information Technology") # project_functions
 
-##===================REMOVE ALL NON-KEYWORDS FROM STRINGS===================##
+##===================CREATE LIST OF 'KEYWORDS'===================##
 keyword_list = ["models","statistics","probability","machine learning","data science","numpy","pandas","sql","scikit-learn","r","databases","database","team",
 "MSc","PhD","mathematics","computer science","physics","research","data","relational databases","python","c++","matlab","modeling","dbt","snowflake",
 "mode analytics","fivetran","Census","amplitude","segment","tensorflow","optimization","prediction","engineering","data engineering","neural networks",
 "bigquery","pyspark","degree","bachelor","bachelors","scala","data analysis","analysis","data visualization","algorithms","classification",
 "model","java","javascript","caffe","deep learning","data processing","hpc","hadoop","ms","bs","m.s.","b.s.","masters","master","stem","postgres",
 "software development","agile","querying","experience","skills","credentials","hands-on","communication","presentation","ownership"]
+
+##===================REMOVE ALL NON-KEYWORDS FROM STRINGS===================##
 ## Aerospace
-str_Aero = remove_non_keywords(str_Aero, keyword_list)
+str_Aero = remove_non_keywords(str_Aero, keyword_list) # project_functions
 ## Finance 
-str_Finance = remove_non_keywords(str_Finance, keyword_list)
+str_Finance = remove_non_keywords(str_Finance, keyword_list) # project_functions
 ## Biotech
-str_Biotech = remove_non_keywords(str_Biotech, keyword_list)
+str_Biotech = remove_non_keywords(str_Biotech, keyword_list) # project_functions
 ## Business
-str_Business = remove_non_keywords(str_Business, keyword_list)
+str_Business = remove_non_keywords(str_Business, keyword_list) # project_functions
 ## IT
-str_IT = remove_non_keywords(str_IT, keyword_list)
+str_IT = remove_non_keywords(str_IT, keyword_list) # project_functions
 
 ##===================CREATE & DISPLAY WORDCLOUDS FOR INDUSTRIES===================##
 ## Aerospace
@@ -123,7 +125,7 @@ str_Genentech = remove_non_keywords(str_Genentech, keyword_list)
 ## National Debt Relief
 str_National = remove_non_keywords(str_National, keyword_list)
 
-##===================CREATE & DISPLAY WORDCLOUDS FOR INDUSTRIES===================##
+##===================CREATE & DISPLAY WORDCLOUDS FOR COMPANIES===================##
 ## Facebook
 #generate_and_display_wordcloud(str_Facebook,"Facebook","cloud.png") #8iGbRApyT.png")
 """ Facebook is covid surge listing--not useful, therefore not plotted """
