@@ -23,15 +23,14 @@ Genentech                        118
 National Debt Relief             120
 """
 try:
-#import os
-#import sys
+    import numpy as np
     import pandas as pd
     #ensure file project_functions.py is in same dir as word_clouds.py
     from project_functions import remove_non_keywords, create_JobDescription_string, generate_and_display_wordcloud, clean_and_merge
 except Exception as e:
-    print("some modules are missing, check that project_functions.py is in same directory")
+    print("some modules are missing, check that project_functions.py is accessable")
 
-#import .csvs as dataframes
+##===================READ CSV DATA IN AS DATAFRAMES===================##
 col_list = ["Job_title","Company","State","City","Min_Salary","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]
 files_list =    ["Data_Job_NY.csv"
                 ,"Data_Job_SF.csv"
@@ -42,9 +41,10 @@ df_SF = pd.read_csv(files_list[1],usecols=col_list)
 df_TX = pd.read_csv(files_list[2],usecols=col_list)
 df_WA = pd.read_csv(files_list[3],usecols=col_list)
 
-# clean and merge data into single frame
+##===================CLEAN DATA===================##
+##===================JOIN ALL DATAFRAMES===================##
 df_allFrames = [df_NY, df_SF, df_TX, df_WA]
-df_combined = clean_and_merge(df_allFrames)
+df_combined = clean_and_merge(df_allFrames) # project_functions
 
 ##===============================================================================================##
 ## INDUSTRY
