@@ -35,6 +35,7 @@ try:
 except Exception as e:
     print("some modules are missing, try installing seaborn with 'conda install seaborn' and check that project_functions.py is in same directory")
 
+##===================READ CSV DATA IN AS DATAFRAMES===================##
 col_list = ["Job_title","Company","State","City","Min_Salary","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]
 files_list = ["Data_Job_NY.csv"
                 ,"Data_Job_SF.csv"
@@ -52,9 +53,9 @@ df_combined = clean_and_merge(df_allFrames) # project_functions
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY INDUSTRY===================##
 ## to print to console uncommend the next line and run script
-#print(count_members_by_column(df_minmax,"Industry")) # project_functions
+#print(count_members_by_column(df_combined,"Industry")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-#df_coCount = count_members_by_column(df_minmax,"Industry") # project_functions
+#df_coCount = count_members_by_column(df_combined,"Industry") # project_functions
 #df_coCount.to_csv('Data_Industry_Count.csv')
 
 ##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
