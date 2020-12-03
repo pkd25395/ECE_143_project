@@ -12,8 +12,18 @@ Ruihao Wei <r5wei@ucsd.edu>
 ### Analysis of Current Job Postings in Data Science Field
 
 This project creates data visualization for a dataset of glassdoor job postings in the data science field, as found in [this kaggle set](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data). The goal of this project is to help inform and provide insight to data science majors nearing graduation.
-     
-This code uses custom python function definitions (`project_functions.py`) to import, clean and concatenate four discrete datasets (from csv format to pandas dataframes) from different regions in python scripts. Each script does visualization specific data manipulation to generate plots (i.e. one script for each style of visualization) to parse and present the data in more intuitive ways. `project_plots.ipynb` can be ran step-by-step to illustrate the process.
+
+![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)
+
+This code uses custom python function definitions (`project_functions.py`) to import, clean and concatenate four discrete datasets (from csv format to pandas dataframes) from different regions in python scripts.  
+
+![data process photo](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data_process.png)
+
+![other process photo](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/other_process.png)
+
+Each script does visualization specific data manipulation to generate plots (i.e. one script for each style of visualization) to parse and present the data in more intuitive ways.  
+ 
+`project_plots.ipynb` can be ran step-by-step to illustrate the process.
      
 Please see instructions and requirements below.
 
