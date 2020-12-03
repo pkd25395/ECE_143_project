@@ -17,9 +17,7 @@ This project creates data visualization for a dataset of glassdoor job postings 
 
 This code uses custom python function definitions (`project_functions.py`) to import, clean and concatenate four discrete datasets (from csv format to pandas dataframes) from different regions in python scripts.  
 
-<img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data_process.png" width="48">
-
-<img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/other_process.png" width="48">
+<img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data_process.png" width="48"><img src="https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/other_process.png" width="48">
 
 Each script does visualization specific data manipulation to generate plots (i.e. one script for each style of visualization) to parse and present the data in more intuitive ways.  
  
