@@ -1,15 +1,21 @@
 # ECE_143_project
-## ECE143, FA20, Team 19:   
-***Harker Russell, Jake Kim, Pratyush Dwivedi, Ruihao Wei***
+## ECE143, FA20, Team 19 Contributors   
+Harker Russell <hrussell@ucsd.edu>  
+
+Pratyush Dwivedi <pdwivedi@ucsd.edu>  
+
+Jake Kim <jyk005@ucsd.edu>  
+
+Ruihao Wei <r5wei@ucsd.edu>  
 
 ## Project Description
 ### Analysis of Current Job Postings in Data Science Field
 
-This projects aim is to visualize current job postings in the data science field in order to help inform data science majors nearing graduation.\
+This project creates data visualization for a dataset of glassdoor job postings in the data science field, as found in [this kaggle set](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data). The goal of this project is to help inform and provide insight to data science majors nearing graduation.\
 
 This code produces ____ various plots given ___ (kaggle data list/desc/credit ). EX Plot image here.\ 
      
-This code uses ____ to ____ data. custom functions are in project_functions.py adn imported to scripts for each style of visualization. (image of workflow from presentation here)\
+This code uses custom python function definitions (`project_functions.py`) to import, clean and concatenate four discrete datasets (from csv format to pandas dataframes) from different regions in python scripts. Each script does visualization specific data manipulation to generate plots (i.e. one script for each style of visualization) to parse and present the data in more intuitive ways. `project_plots.ipynb` can be ran step-by-step to illustrate the process.\
      
 Please see instructions and requirements below.
 
