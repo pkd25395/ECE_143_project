@@ -430,11 +430,11 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     
     # set industry section color
     industry_color = OrderedDict([
-    ("Asrospace", "#FFFFE0"), # Yellow
+    ("Asrospace", "#F6EB09"), # Yellow
     ("Finance", "#FF69B4"), # Pink
     ("Biotech", "#9370DB"),  # Purple
     ("Business", "#00BFFF"), # Blue
-    ("InfoTech", "#F0FFF0"), # Green
+    ("InfoTech", "#63F941"), # Green
     ])
     
     # adjust graph board size
@@ -463,7 +463,7 @@ def plot_radial_column_chart(df,min_scale,max_scale):
                x_axis_type=None, y_axis_type=None,
                x_range=(-420, 420), y_range=(-420, 420),
                min_border=0, outline_line_color="black",
-               background_fill_color="#f0e1d2")
+               background_fill_color="white")
 
 
     p.xgrid.grid_line_color = None
@@ -534,7 +534,7 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     label_angle=np.array(-big_angle/2+angles)
     label_angle[label_angle < -np.pi/2] += np.pi # easier to read labels on the left side
     p.text(xr, yr, df['Industry'], angle=label_angle,
-       text_font_size="12px", text_align="center", text_baseline="middle")
+       text_font_size="20px", text_align="center", text_baseline="middle")
 
     # OK, these hand drawn legends are pretty clunky, will be improved in future release
     industry_legends_x = [-400,-400,-200,-200,0]
