@@ -456,6 +456,16 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     p.annular_wedge(0, 0, inner_radius-10, outer_radius+10,
                 -big_angle+angles, -big_angle+angles, color="black")
     
+    # circular axes and lables
+    labels = [scale for scale in range(0,max_scale * 2,2000)]
+    radii = [inner_radius + outer_radius*scale//max_scale for scale in range(0,max_scale - 1000,1000)]
+    p.circle(0, 0, radius=radii, fill_color=None, line_color="black")
+    
+
+    p.text(0, radii[:-1], ['$' + str(r) for r in labels[:-1]],
+       text_font_size="11px", text_align="center", text_baseline="middle")
+    
+    
     # plot the company bars
     
     company_index = 0
@@ -496,22 +506,22 @@ def plot_radial_column_chart(df,min_scale,max_scale):
        text_font_size="12px", text_align="center", text_baseline="middle")
 
     # OK, these hand drawn legends are pretty clunky, will be improved in future release
-    industry_legends_x = [-100 for n in range(len(industry_color))]
-    industry_legends_y = [400 - 50*n for n in range(len(industry_color))]
+    industry_legends_x = [-400,-400,-200,-200,0]
+    industry_legends_y = [400,350,400,350,400]
     p.circle(industry_legends_x, industry_legends_y, color=list(industry_color.values()), radius=5)
     
-    industry_legends_x = [-90 for n in range(len(industry_color))]
+    industry_legends_x = [ x + 10 for x in industry_legends_x]
     p.text(industry_legends_x, industry_legends_y, text=["Industry-" + industry for industry in industry_color.keys()],
            text_font_size="9px", text_align="left", text_baseline="middle")
     
     
     # company labels
-    company_labels_x = [-80,-80,-80] * 5
+    company_labels_x = [-400,-400,-400,-400,-400,-400,-200,-200,-200,-200,-200,-200,0,0,0]
  
-    company_labels_y = [390,380,370,340,330,320,290,280,270,240,230,220,190,180,170]
+    company_labels_y = [390,380,370,340,330,320,390,380,370,340,330,320,390,380,370]
     p.circle(company_labels_x, company_labels_y,color=list(company_color.values()), radius=3)
     
-    company_labels_x = [-70,-70,-70] * 5
+    company_labels_x = [x + 10 for x in company_labels_x] 
     
     company_salary = {company:str(df[company].iloc[0])  for company in company_color.keys()}
     
