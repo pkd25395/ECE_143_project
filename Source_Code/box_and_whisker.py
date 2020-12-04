@@ -111,9 +111,9 @@ df_minmaxCo.loc[filter]
 
 ##===================CREATE & DISPLAY BOX & WHISKER PLOTS===================##
 # display Min and Max Salary vs Industry
-gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Industry","Industry","Salary","Min_Max") # project_functions
+gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary (USD) by Industry","Industry","Salary","Min_Max") # project_functions
 # display Min and Max Salary vs Company
-gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max") # project_functions
+gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary (USD) by Company","Company","Salary","Min_Max") # project_functions
 
 #gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Seniority","Industry","Salary","Seniority") # project_functions
 
