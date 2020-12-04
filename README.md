@@ -2,7 +2,13 @@
 ## Team19 FA20 ECE143 Project Repository
 ![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
 ## Table of Contents
-**Add table of contents with links**
+
+- [**Project Description**](#project-description)
+- [**File Structure**](#file-structure)
+- [**How to run code**](#how-to-run-code)
+- [**Required Third Party Libraries and Modules**](#required-third-party-libraries-and-modules)
+- [**Contributors**](#contributors)
+- [**Acknowledgments**](#acknowledgements)
 
 ## Project Description
   
@@ -133,7 +139,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - [bokeh documentation](https://docs.bokeh.org/en/latest/docs/installation.html)
 
 
- ## ECE143, FA20, Team 19 Contributors   
+ ## Contributors   
 Harker Russell <hrussell@ucsd.edu>  
 
 Pratyush Dwivedi <pdwivedi@ucsd.edu>  
@@ -142,4 +148,4 @@ Jake Kim <jyk005@ucsd.edu>
 
 Ruihao Wei <r5wei@ucsd.edu>  
 
- 
+ # Acknowledgments
