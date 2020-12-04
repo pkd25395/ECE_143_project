@@ -54,8 +54,8 @@ df_combined = clean_and_merge(df_allFrames) # project_functions
 ## to print to console uncommend the next line and run script
 #print(count_members_by_column(df_combined,"Industry")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-df_coCount = count_members_by_column(df_combined,"Industry") # project_functions
-df_coCount.to_csv('Data_Industry_Count.csv')
+#df_coCount = count_members_by_column(df_combined,"Industry") # project_functions
+#df_coCount.to_csv('Data_Industry_Count.csv')
 
 ##===================CREATE DF W/ONLY TOP 5 INDUSTRIES WRT # OF POSTS===================##
 df_combFinance = df_combined[df_combined["Industry"]=="Aerospace & Defense"]
@@ -81,8 +81,8 @@ df_minmaxInd = merge_MinMax_Salary(df_combInd) # project_functions
 ## to print to console uncommend the next line and run script
 #print(count_members_by_column(df_combInd,"Company")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-df_coCount = count_members_by_column(df_combInd,"Company") # project_functions
-df_coCount.to_csv('Data_Company_Count.csv')
+#df_coCount = count_members_by_column(df_combInd,"Company") # project_functions
+#df_coCount.to_csv('Data_Company_Count.csv')
 
 ##===================CREATE DF W/ONLY TOP 5 COMPANIES WRT # OF POSTS===================##
 df_combAmazon = df_combInd[df_combInd["Company"]=="Amazon"]
