@@ -19,10 +19,10 @@ Please see instructions and requirements below.
 ## File Structure
 
 ***ECE_143_project***: Main repo directory
-1. **Plots**: Directory containing all plots generated for presentation. 
+1. **Plots**: Directory containing all plots generated for presentation.  
 1. **Source_Code**: Source code directory.  
 *Note:*\
-Each chart/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).
+Each chart/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).  
      - `__init__.py`: Empty file to make directory into a package (allows imports to `project_plots.ipynb` in higher level directory).  
      - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
      - `box_and_whisker.py`: Script that generates box and whisker plots as presented.  
@@ -31,8 +31,8 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      The count was done in series so it is included so that our process may be duplicated.  
      - `word_clouds.py`: Script that generates word clouds as presented.  
      - `cloud.png`: Image file used in `word_clouds.py` to create wordcloud mask.  
-     - `radial_column_chart.py`: Script that generates radial column chart as presented.
-     - `radar_chart`: Script that generates radar charts as presented.
+     - `radial_column_chart.py`: Script that generates radial column chart as presented.  
+     - `radar_chart`: Script that generates radar charts as presented.  
      - `Data_Job_NY.csv`: New York state'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_SF.csv`: San Francisco area 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_TX.csv`: Texas 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
@@ -40,15 +40,21 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      1. **Archive**: Folder for depricated code.
      2. **__pycache__**   
  - `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
+ - `team19_presentation.pdf`: pdf copy of project presentation.
  - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
 
 ## How to run code
+There are two methods to run this code:
+#### Run with Jupiter Notebook
+1. Open and run `project_plots.ipynb`.  
+2. Follow the markdown notes, install requirements (listed below) and run the code cell-by-cell.
+3. Plots and Figures will be generated as used in presentation.
+#### Run fron Source Code Scripts
 1. Ensure all required third party modules (listed below) are installed.
-2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files) as outlined above.
-     - *Modules required for generating scatter plots must be installed separately in jupyter notebook environment. 
+2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files) as outlined above. 
 3. Run scripts files to generate plots (e.g. to generate the word clouds used in our presentation, run `word_clouds.py`).  
-     - If not addressed here, read script comments which should be helpful if there are any lower-level issues or questions. 
-     - *Scatter plots are generated separately in `project_plots.ipynb` due to better compatibility between Jupyter Notebook and Altair
+     - If not addressed here, read script comments which are designed to be helpful if there are any lower-level issues or questions. 
+     - *Scatter plots were generated separately in `project_plots.ipynb` due to better compatibility between Jupyter Notebook and Altair
 
 ## Required Third Party Libraries and Modules
 1. **wordcloud**
