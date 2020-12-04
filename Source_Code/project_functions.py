@@ -357,11 +357,14 @@ def salary_v_rating_scatter(df_chart, legend, separate=False):
     df_chart = Chart(df_chart)
     
     if separate:
-        chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color=legend,column=legend)
+        chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',column=legend,color=legend)
     else:
         chart = df_chart.mark_point().encode(x='Avg_Salary',y='Rating',color=legend)
     
-    chart = chart.properties(title = 'Salary vs. Company Ratings')
+    chart = chart.properties(title = 'Salary vs. Company Ratings',height=500,width=600)
+    chart = chart.configure_header(titleFontSize=14,labelFontSize=14)
+    chart = chart.configure_axis(titleFontSize=14,labelFontSize=14)
+    chart = chart.configure_title(fontSize=14)
     
     return chart
 
@@ -408,7 +411,11 @@ def salary_v_listings_scatter(df_chart, legend, separate=False):
     else:
         chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend)
     
-    chart = chart.properties(title = 'Salary vs. # of Job Lstings')
+    chart = chart.properties(title = 'Salary vs. # of Job Lstings',height=500,width=600)
+    chart = chart.configure_header(titleFontSize=14,labelFontSize=14)
+    chart = chart.configure_axis(titleFontSize=14,labelFontSize=14)
+    chart = chart.configure_title(fontSize=14)
+    
         
     return chart
         
