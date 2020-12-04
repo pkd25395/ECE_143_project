@@ -18,6 +18,7 @@ Please see instructions and requirements below.
 
 ## File Structure
 
+### File Structure Detail
 ***ECE_143_project***: Main repo directory
 1. **Plots**: Directory containing all plots generated for presentation.  
 1. **Source_Code**: Source code directory.  
@@ -42,6 +43,13 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
  - `team19_presentation.pdf`: pdf copy of project presentation.
  - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
+
+ ### Traditional File Structure
+ ```
+ code_block?
+ ```
+
+
 
 ## How to run code
 There are two methods to run this code:
