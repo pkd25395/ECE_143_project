@@ -495,6 +495,9 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     labels = [100000,120000,140000,80000,60000,40000]
     p.circle(0, 0, radius=radii, fill_color=None, line_color="black")
     
+    p.text(0, radii, ['$' + str(r) for r in labels],
+       text_font_size="11px", text_align="center", text_baseline="middle")
+    
     
     # plot the company bars
     
