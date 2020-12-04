@@ -326,6 +326,7 @@ def gen_and_disp_boxWhiskerPlot(in_df,chart_title,x_col,y_col,hue_col):
 
     sns.set(font_scale=1.1)
     plt.figure(figsize=(12,8))
+    sns.set_style("whitegrid")
     sns.boxplot( x=in_df[x_col], y=in_df[y_col], hue=in_df[hue_col])
     plt.title(chart_title) #1300x850
     plt.show()
