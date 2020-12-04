@@ -70,7 +70,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
 
 
 ## How to run code
-There are two methods to run this code:
+**There are two methods to run this code:**  
 #### Run with Jupiter Notebook
 1. Open and run `project_plots.ipynb`.  
 2. Follow the markdown notes, install requirements (listed below) and run the code cell-by-cell.
