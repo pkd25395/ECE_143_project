@@ -18,30 +18,7 @@ Please see instructions and requirements below.
 
 ## File Structure
 
- ### Traditional File Structure
- ```
- .
- ├─ Plots                          # Directory containing all plots generated for presentation.
- ├─ Source_Code                    # Source code directory.
- │   ├── __init__.py               # Empty file to make directory into a package
- │   ├── project_functions.py      # All custom functions for this project
- │   ├── box_and_whisker.py        # Script that generates box and whisker plots as presented
- │   ├── word_clouds.py            # Script that generates word clouds as presented
- │   ├── cloud.png                 # Image used for mask in wordcloud function
- │   ├── radial_column_chart.py    # Script that generates radial column chart as presented
- │   ├── radar_chart.py            # Script that generates radar clouts as presented
- │   ├── Data_Job_NY.csv           # Original NY dataset
- │   ├── Data_Job_SF.csv           # Original SF dataset
- │   ├── Data_Job_TX.csv           # Original TX dataset
- │   ├── Data_Job_WA.csv           # Original WA dataset
- │   ├── Archive                   # Directory for depricated source code.
- │   └── __pycache__               # Cache
- ├─ project_plots.ipynb            # Jupyter Notebook for project
- ├─ team19_presentation.pdf        # PDF copy of project presentation
- └── README.md                     # Read-me file for project
- ```
-
- ### File Structure Detail
+### File Structure Detail
 ***ECE_143_project***: Main repo directory
 1. **Plots**: Directory containing all plots generated for presentation.  
 1. **Source_Code**: Source code directory.  
@@ -67,6 +44,28 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - `team19_presentation.pdf`: pdf copy of project presentation.
  - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
 
+ ### Traditional File Structure
+ ```
+ .
+ ├─ Plots                          # Directory containing all plots generated for presentation.
+ ├─ Source_Code                    # Source code directory.
+ │   ├── __init__.py               # Empty file to make directory into a package
+ │   ├── project_functions.py      # All custom functions for this project
+ │   ├── box_and_whisker.py        # Script that generates box and whisker plots as presented
+ │   ├── word_clouds.py            # Script that generates word clouds as presented
+ │   ├── cloud.png                 # Image used for mask in wordcloud function
+ │   ├── radial_column_chart.py    # Script that generates radial column chart as presented
+ │   ├── radar_chart.py            # Script that generates radar clouts as presented
+ │   ├── Data_Job_NY.csv           # Original NY dataset
+ │   ├── Data_Job_SF.csv           # Original SF dataset
+ │   ├── Data_Job_TX.csv           # Original TX dataset
+ │   ├── Data_Job_WA.csv           # Original WA dataset
+ │   ├── Archive                   # Directory for depricated source code.
+ │   └── __pycache__               # Cache
+ ├─ project_plots.ipynb            # Jupyter Notebook for project
+ ├─ team19_presentation.pdf        # PDF copy of project presentation
+ └── README.md                     # Read-me file for project
+ ```
 
 
 
@@ -112,19 +111,20 @@ There are two methods to run this code:
 7. **altair**  
  - `conda install -c conda-forge altair`
  - `pip install altair`  
- - [altair documentation](https://altair-viz.github.io/getting_started/installation.html) 
-8. **vega**  
+ - [altair documentation](https://altair-viz.github.io/getting_started/installation.html)
+8. **altair viewer**  
+ - `conda install -c conda-forge altair_viewer`  
+ - `pip install altair-viewer`  
+ - [altair viewer](https://github.com/altair-viz/altair_viewer/)  
+9. **vega**  
  - `conda install vega --channel conda-forge`  
  - `pip install vega`
  - [vega documentation](https://vega.github.io/vega/) 
-9. **bokeh**  
+10. **bokeh**  
  - `conda install bokeh`
  - `pip install bokeh`
  - [bokeh documentation](https://docs.bokeh.org/en/latest/docs/installation.html)
-10. **Next 3rd Party Package**  
- - `conda console command`  
- - `pip console command`  
- - [next package documentation](https://insert-link-here)  
+
 
  ## ECE143, FA20, Team 19 Contributors   
 Harker Russell <hrussell@ucsd.edu>  
