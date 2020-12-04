@@ -1,5 +1,5 @@
-![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
 # ECE_143_project
+![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
 ## Project Description
   
 ### Analysis  and Visualization of Current Job Postings in Data Science Field
@@ -10,6 +10,8 @@ This code uses custom python function definitions (`project_functions.py`) to im
 ![methods and process](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/processes.png)
 
 Each script does visualization specific data manipulation to generate plots (i.e. one script for each style of visualization) to parse and present the data in more intuitive ways.  
+
+![examples of plots](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/some_plots.png)
  
 `project_plots.ipynb` can be ran step-by-step to illustrate the process.
      
@@ -33,10 +35,11 @@ Please see instructions and requirements below.
  │   ├── Data_Job_SF.csv           # Original SF dataset
  │   ├── Data_Job_TX.csv           # Original TX dataset
  │   ├── Data_Job_WA.csv           # Original WA dataset
- │   ├── Archive                   # Directory for depricated source code.
+ │   ├── Archive                   # Directory for depricated source code
  │   └── __pycache__               # Cache
  ├─ project_plots.ipynb            # Jupyter Notebook for project
  ├─ team19_presentation.pdf        # PDF copy of project presentation
+ ├─ RM_Images                      # Directory containing images for readme
  └── README.md                     # Read-me file for project
  ```
 
@@ -66,6 +69,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
  - `team19_presentation.pdf`: pdf copy of project presentation.
  - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
+ - 1. **RM_Images**: Directory containing images for readme.
 
 
 ## How to run code
