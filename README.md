@@ -87,9 +87,10 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
 ## How to run code
 **There are two methods to run this code:**  
 #### Run with Jupiter Notebook
-1. Open and run `project_plots.ipynb`.  
-2. Follow the markdown notes, install requirements (listed below) and run the code cell-by-cell.
-3. Plots and Figures will be generated as used in presentation.
+1. Ensure all required third party modules (listed below) are installed.
+2. Open and run `project_plots.ipynb`.  
+3. Follow the markdown notes, install requirements (listed below) and run the code cell-by-cell.
+4. Plots and Figures will be generated as used in presentation.
 #### Run from Source Code Scripts
 1. Ensure all required third party modules (listed below) are installed.
 2. Ensure all files located in *Source Code* folder are kept in the same directory (including job data csv files) as outlined above. 
