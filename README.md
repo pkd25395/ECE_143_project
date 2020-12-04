@@ -33,7 +33,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      - `word_clouds.py`: Script that generates word clouds as presented.  
      - `cloud.png`: Image file used in `word_clouds.py` to create wordcloud mask.  
      - `radial_column_chart.py`: Script that generates radial column chart as presented.  
-     - `radar_chart`: Script that generates radar charts as presented.  
+     - `radar_chart.py`: Script that generates radar charts as presented.  
      - `Data_Job_NY.csv`: New York state'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_SF.csv`: San Francisco area 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_TX.csv`: Texas 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
@@ -46,7 +46,25 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
 
  ### Traditional File Structure
  ```
- code_block?
+ .
+ ├─ Plots                          # Directory containing all plots generated for presentation.
+ ├─ Source_Code                    # Source code directory.
+ │   ├── __init__.py               # Empty file to make directory into a package
+ │   ├── project_functions.py      # All custom functions for this project
+ │   ├── box_and_whisker.py        # Script that generates box and whisker plots as presented
+ │   ├── word_clouds.py            # Script that generates word clouds as presented
+ │   ├── cloud.png                 # Image used for mask in wordcloud function
+ │   ├── radial_column_chart.py    # Script that generates radial column chart as presented
+ │   ├── radar_chart.py            # Script that generates radar clouts as presented
+ │   ├── Data_Job_NY.csv           # Original NY dataset
+ │   ├── Data_Job_SF.csv           # Original SF dataset
+ │   ├── Data_Job_TX.csv           # Original TX dataset
+ │   ├── Data_Job_WA.csv           # Original WA dataset
+ │   ├── Archive                   # Directory for depricated source code.
+ │   └── __pycache__               # Cache
+ ├─ project_plots.ipynb            # Jupyter Notebook for project
+ ├─ team19_presentation.pdf        # PDF copy of project presentation
+ └── README.md                     # Read-me file for project
  ```
 
 
