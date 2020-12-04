@@ -48,7 +48,7 @@ df_WA = pd.read_csv(files_list[3],usecols=col_list)
 
 ##===================CLEAN DATA===================##
 ##===================JOIN ALL DATAFRAMES===================##
-df_allFrames = [df_NY, df_SF, df_TX, df_WA]
+df_allFrames = [df_SF, df_TX, df_WA]
 df_combined = clean_and_merge(df_allFrames) # project_functions
 
 ##===================Uncomment below to COUNT NUMBER OF POSTS BY INDUSTRY===================##
@@ -69,10 +69,12 @@ df_combInd = pd.concat(frames_topInd,ignore_index=True)
 
 ##===================ADD JOB SENIORITY COLUMN===================##
 df_combInd=add_seniority(df_combInd)
+# print(df_combInd)
+#df_combInd.to_csv('Data_Industry_Senior.csv')
 
 ##===================MERGE DF SALARY COLUMNS INTO ONE, CREATE MIN_MAX COL===================##
 df_minmaxInd = merge_MinMax_Salary(df_combInd) # project_functions
-
+# print(df_minmaxInd)
 #df_minmaxInd.to_csv('Data_Industry_Minmax.csv')
 
 
@@ -114,3 +116,4 @@ gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Industry","Industry","Salary
 gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary by Company","Company","Salary","Min_Max") # project_functions
 
 gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Seniority","Industry","Salary","Seniority") # project_functions
+
