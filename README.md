@@ -1,6 +1,9 @@
 # ECE_143_project
 ## Team19 FA20 ECE143 Project Repository
 ![data to vis](https://github.com/pkd25395/ECE_143_project/blob/main/RM_Images/data-to-vis.png)  
+## Table of Contents
+**Add table of contents with links**
+
 ## Project Description
   
 ### Analysis  and Visualization of Current Job Postings in Data Science Field
@@ -70,7 +73,7 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
  - `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
  - `team19_presentation.pdf`: pdf copy of project presentation.
  - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
- - 1. **RM_Images**: Directory containing images for readme.
+ 3. **RM_Images**: Directory containing images for readme.
 
 
 ## How to run code
