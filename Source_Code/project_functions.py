@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import altair as alt
+import seaborn as sns
 from collections import OrderedDict
 from math import log, sqrt
 import matplotlib.pyplot as plt
@@ -424,17 +425,18 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     # set company bar color
     companys = [column for column in df.columns]
     companys = companys[1::]
-    colors = ["#0d3362","#c64737", "black" ] * 5
+    colors = ["#EC9115","#c64737", "black" ] * 5
     company_color = OrderedDict({companys[i]:colors[i] for i in range(len(companys))})
-    print()
+
     
     # set industry section color
+    pal = sns.color_palette('pastel').as_hex()
     industry_color = OrderedDict([
-    ("Asrospace", "#F6EB09"), # Yellow
-    ("Finance", "#FF69B4"), # Pink
-    ("Biotech", "#9370DB"),  # Purple
-    ("Business", "#00BFFF"), # Blue
-    ("InfoTech", "#63F941"), # Green
+    ("Asrospace", pal[0]), # light red
+    ("Finance", pal[1]), # Pink
+    ("Biotech", pal[2]),  # Purple
+    ("Business", pal[3]), # Blue
+    ("InfoTech", pal[4]), # Green
     ])
     
     # adjust graph board size
@@ -486,15 +488,12 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     
     # circular axes and lables
 
+    
     labels = [scale for scale in range(0,180000,20000)]
-    radii = [inner_radius + outer_radius*scale//max_scale for scale in range(0,max_scale - 1000,1000)]
+    #radii = [inner_radius + outer_radius*scale//max_scale for scale in range(0,max_scale - 1000,1000)]
+    radii = [232,255,273,207,175,135]
+    labels = [100000,120000,140000,80000,60000,40000]
     p.circle(0, 0, radius=radii, fill_color=None, line_color="black")
-    
-
-    
-
-    p.text(0, radii[:-1], ['$' + str(r) for r in labels[:-1]],
-       text_font_size="11px", text_align="center", text_baseline="middle")
     
     
     # plot the company bars
