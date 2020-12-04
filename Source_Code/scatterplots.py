@@ -34,12 +34,12 @@ time, so to look at the next plot you need to close the tab it rendered on.
 """
 
 ##=================== Salary vs. Ratings Scatterplot by Industry ===================##
-mdict = merge_field('Industry',df_clean)
-df_chart = pd.concat([mdict['Business Services'],mdict['Information Technology'],mdict['Biotech & Pharmaceuticals']],
-                      ignore_index=True)
+# mdict = merge_field('Industry',df_clean)
+# df_chart = pd.concat([mdict['Business Services'],mdict['Information Technology'],mdict['Biotech & Pharmaceuticals']],
+#                       ignore_index=True)
 
-chart = salary_v_rating_scatter(df_chart,'Industry',separate=True)
-chart.show()
+# chart = salary_v_rating_scatter(df_chart,'Industry',separate=True)
+# chart.show()
 
 ##=================== Salary vs. Ratings Scatterplot by Company ===================##
 # df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
@@ -61,14 +61,19 @@ chart.show()
 
 
 #=================== Salary vs. Listings Scatterplot ===================##
-# # Choose how we want data to be organize
-# mdict = merge_field('Company',df_clean)
+# Choose how we want data to be organize
+mdict = merge_field('Industry',df_clean)
 
-# # Choose what entries we specifcally want to plot
+# Choose what entries we specifcally want to plot
+# Company
 # df_chart = pd.concat([mdict['Genentech'], mdict['National Debt Relief'], mdict['Leidos'], mdict['BAE Systems USA'],
 #                       mdict['Facebook'], mdict['Amazon'], mdict['Booz Allen Hamilton']],
 #                     ignore_index=True)
+# Inudstry
+df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
+                      mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
+                      ignore_index=True)
 
-# # Create and display plot
-# chart = salary_v_listings_scatter(df_chart, 'Company')
-# chart.show()
+# Create and display plot
+chart = salary_v_listings_scatter(df_chart, 'Industry')
+chart.show()

@@ -362,11 +362,11 @@ def salary_v_rating_scatter(df_chart, legend, separate=False):
         chart = df_chart.mark_point().encode(x=alt.X('Avg_Salary', title='Avg Salary (USD)'),y='Rating',color=legend)
     
     chart = chart.properties(title = 'Salary vs. Company Ratings',height=700,width=900)
-    chart = chart.configure_header(titleFontSize=14,labelFontSize=14)
-    chart = chart.configure_axis(titleFontSize=14,labelFontSize=14,tickCount=10)
-    chart = chart.configure_title(fontSize=14)
+    chart = chart.configure_header(titleFontSize=18,labelFontSize=18)
+    chart = chart.configure_axis(titleFontSize=18,labelFontSize=18,tickCount=10)
+    chart = chart.configure_title(fontSize=18)
     chart = chart.configure_point(size=75)
-    chart = chart.configure_legend(titleFontSize=14,labelFontSize=12)
+    chart = chart.configure_legend(titleFontSize=18,labelFontSize=16)
     
     return chart
 
