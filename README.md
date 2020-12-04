@@ -148,4 +148,9 @@ Jake Kim <jyk005@ucsd.edu>
 
 Ruihao Wei <r5wei@ucsd.edu>  
 
- # Acknowledgments
+ ## Acknowledgments
+Thanks to the teaching and support staff of UC at San Diego's FA20 ECE143 Python for Data Analysis:\
+Professor: Jose Unpingco\
+TA: Aditya Kulkarni\
+TA: Yashdeep Singh
+
