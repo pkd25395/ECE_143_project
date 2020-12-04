@@ -84,7 +84,7 @@ for i in range(top_companies_num):
 
 
 ##================Calculate the salarys and create the dataframe ===========================#
-df_top_salary = OrderedDict({'Industry':['Asrospace','Finance','Biotech','Business','InfoTech']})
+df_top_salary = OrderedDict({'Industry':['Aerospace','Finance','Biotech','Business','InfoTech']})
 
 df_top_salary_Aerospace = {}
 for company in top_company_Aerospace:

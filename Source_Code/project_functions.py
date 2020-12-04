@@ -440,7 +440,7 @@ def plot_radial_column_chart(df,min_scale,max_scale):
     # set industry section color
     pal = sns.color_palette('pastel').as_hex()
     industry_color = OrderedDict([
-    ("Asrospace", pal[0]), # light red
+    ("Aerospace", pal[0]), # light red
     ("Finance", pal[1]), # Pink
     ("Biotech", pal[2]),  # Purple
     ("Business", pal[3]), # Blue
