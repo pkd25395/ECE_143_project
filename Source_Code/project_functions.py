@@ -245,14 +245,14 @@ def merge_MinMax_Salary(in_df):
     assert "Job_Type" in in_df, "no 'Job_Type' column in input dataframe 'in_df'"
 
     # create new dataframe without max salary and industry column
-    in_df_minmax_low = in_df[["Job_title","Company","State","City","Min_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type","Seniority"]].copy()
+    in_df_minmax_low = in_df[["Job_title","Company","State","City","Min_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]].copy()
     # rename Min_Salary to be Salary
     in_df_minmax_low.rename(columns={"Min_Salary":"Salary"},inplace=True)
     # add Min_Max column full of "min" indicating Salary is min salary 
     in_df_minmax_low["Min_Max"]="min"
     
     # create new dataframe without min salary and industry columns
-    in_df_minmax_high = in_df[["Job_title","Company","State","City","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type","Seniority"]].copy()
+    in_df_minmax_high = in_df[["Job_title","Company","State","City","Max_Salary","Job_Desc","Industry","Rating","Date_Posted","Valid_until","Job_Type"]].copy()
     # rename Max_Salary to be Salary
     in_df_minmax_high.rename(columns={"Max_Salary":"Salary"},inplace=True)
     # add Min_Max column full of "max" indicating Salary is max salary 
