@@ -18,32 +18,6 @@ Please see instructions and requirements below.
 
 ## File Structure
 
-### File Structure Detail
-***ECE_143_project***: Main repo directory
-1. **Plots**: Directory containing all plots generated for presentation.  
-1. **Source_Code**: Source code directory.  
-*Note:*\
-Each chart/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).  
-     - `__init__.py`: Empty file to make directory into a package (allows imports to `project_plots.ipynb` in higher level directory).  
-     - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
-     - `box_and_whisker.py`: Script that generates box and whisker plots as presented.  
-     *Note:*\
-     The code used to count 'top 5' industries by job posts are in this script, commented out.\
-     The count was done in series so it is included so that our process may be duplicated.  
-     - `word_clouds.py`: Script that generates word clouds as presented.  
-     - `cloud.png`: Image file used in `word_clouds.py` to create wordcloud mask.  
-     - `radial_column_chart.py`: Script that generates radial column chart as presented.  
-     - `radar_chart.py`: Script that generates radar charts as presented.  
-     - `Data_Job_NY.csv`: New York state'raw' csv file of data scraped from glassdoor--needed to run scripts.  
-     - `Data_Job_SF.csv`: San Francisco area 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
-     - `Data_Job_TX.csv`: Texas 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
-     - `Data_Job_WA.csv`: Washington state 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
-     1. **Archive**: Folder for depricated code.
-     2. **__pycache__**   
- - `project_plots.ipynb`: jupyter notebook which shows all the visualizations generated for the Team 19 presentation.  
- - `team19_presentation.pdf`: pdf copy of project presentation.
- - `README.md`: Read me file outlining file structure, instructions to run code and required third-party libraries and modules.
-
  ### Traditional File Structure
  ```
  .
