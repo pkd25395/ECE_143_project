@@ -573,7 +573,7 @@ def plot_radial_column_chart(df,min_scale,max_scale):
         
 #==============================RadarChart=======================================#
 
-def plot_job_title_radar(ind, data, yt, yl):
+def plot_job_title_radar(ind, data, yt, yl, al):
     '''
     This function plots the radar chart for top 5 job title in the industry ind
     ind : string indicating name of industry
@@ -598,10 +598,18 @@ def plot_job_title_radar(ind, data, yt, yl):
     ff = sortdic[:10]
 
     fdict = {}
+    tdict = {}
+    uls = ['OT/ICS Systems Engineer', 'Principal Scientist, Protein/Antibody Engineering (Protein Sciences)',
+           'Senior Salesforce Developer', 'Paid Search Director', 'Computer Scientist']
     for i in ff:
         fdict[i[0]] = i[1]
+        tdict[i[0]] = i[1]
 
-    fig = plt.figure()
+    for j in tdict.keys():
+        if (j in uls):
+            del fdict[j]
+
+    fig = plt.figure(figsize=(12,12))
     ax = plt.subplot(polar="True")
     catg = list(fdict.keys())[:5]
     vals = list(fdict.values())[:5]
@@ -613,14 +621,14 @@ def plot_job_title_radar(ind, data, yt, yl):
     plt.polar(angles, vals, marker='o', linewidth=1)
     plt.fill(angles, vals, alpha=0.2)
 
-    plt.xticks(angles[:-1], catg)
+    plt.xticks(angles[:-1], catg, fontsize = 'xx-large', weight= 30, ha = al)
     if (yt):
         plt.yticks(yt, color="grey")
     if (yl != -1):
         plt.ylim(0, yl)
 
-    title = f'Top 5 job posted in {ind}'
-    plt.title(title)
+    title = f'Most demanded job profiles in {ind}'
+    plt.title(title, y=-0.1,size = 'xx-large', weight=30)
 
     plt.show()
         

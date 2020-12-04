@@ -39,8 +39,8 @@ mdict = merge_field('Industry',df_clean)
 
 ##===============Plot Data =======================##
 
-plot_job_title_radar('Information Technology',mdict['Information Technology'],[0,10,20,30,40,50,60],70)
-plot_job_title_radar('Business Services',mdict['Business Services'],[0,5,10,15,20],25)
-plot_job_title_radar('Biotech & Pharmaceuticals',mdict['Biotech & Pharmaceuticals'],[0,1,2,3],4)
-plot_job_title_radar('Finance',mdict['Finance'],[0,5,10,15,20,25,30],35)
-plot_job_title_radar('Aerospace & Defense',mdict['Aerospace & Defense'],[0,2,4,6,8,10],12)
+plot_job_title_radar('Information Technology',mdict['Information Technology'],[0,10,20,30,40,50,60],70,'left')
+plot_job_title_radar('Business Services',mdict['Business Services'],[0,5,10,15,20],25,'left')
+plot_job_title_radar('Biotech & Pharmaceuticals',mdict['Biotech & Pharmaceuticals'],[0,1,2,3],4,'left')
+plot_job_title_radar('Finance',mdict['Finance'],[0,2,4,6],8,'left')
+plot_job_title_radar('Aerospace & Defense',mdict['Aerospace & Defense'],[0,2,4,6,8,10],12,'left')
