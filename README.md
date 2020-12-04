@@ -38,6 +38,7 @@ Please see instructions and requirements below.
  │   ├── project_functions.py      # All custom functions for this project
  │   ├── box_and_whisker.py        # Script that generates box and whisker plots as presented
  │   ├── word_clouds.py            # Script that generates word clouds as presented
+ │   ├── scatterplots.py           # Script that generate scatterplots as presented
  │   ├── cloud.png                 # Image used for mask in wordcloud function
  │   ├── radial_column_chart.py    # Script that generates radial column chart as presented
  │   ├── radar_chart.py            # Script that generates radar clouts as presented
@@ -68,7 +69,8 @@ Each chart/plot has it's own script (e.g. box & whisker plots are generated when
      The count was done in series so it is included so that our process may be duplicated.  
      - `word_clouds.py`: Script that generates word clouds as presented.  
      - `cloud.png`: Image file used in `word_clouds.py` to create wordcloud mask.  
-     - `radial_column_chart.py`: Script that generates radial column chart as presented.  
+     - `radial_column_chart.py`: Script that generates radial column chart as presented.
+     - `scatterplots.py`: Script that generates scatterplots as presented.
      - `radar_chart.py`: Script that generates radar charts as presented.  
      - `Data_Job_NY.csv`: New York state'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_SF.csv`: San Francisco area 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
