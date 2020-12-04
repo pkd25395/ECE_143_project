@@ -42,27 +42,27 @@ time, so to look at the next plot you need to close the tab it rendered on.
 # chart.show()
 
 ##=================== Salary vs. Ratings Scatterplot by Company ===================##
-# df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
-#                       mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
-#                       ignore_index=True)
+df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
+                      mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
+                      ignore_index=True)
 
-# # Choose how we want data to be organize
-# mdict = merge_field('Company',df_clean)
+# Choose how we want data to be organize
+mdict = merge_field('Company',df_clean)
 
-# # Choose what entries we specifcally want to plot
-# df_chart = pd.concat([mdict['Genentech'], mdict['Leidos'], 
-#                       mdict['Amazon'], mdict['Facebook'], mdict['Booz Allen Hamilton'],
-#                       mdict['Capital One'], mdict['BAE Systems USA']],
-#                     ignore_index=True)
+# Choose what entries we specifcally want to plot
+df_chart = pd.concat([mdict['Genentech'], mdict['Leidos'], 
+                      mdict['Amazon'], mdict['Facebook'], mdict['Booz Allen Hamilton'],
+                      mdict['Capital One'], mdict['BAE Systems USA']],
+                    ignore_index=True)
 
-# # Create and display plot
-# chart = salary_v_rating_scatter(df_chart, 'Company')
-# chart.show()
+# Create and display plot
+chart = salary_v_rating_scatter(df_chart, 'Company')
+chart.show()
 
 
 #=================== Salary vs. Listings Scatterplot ===================##
 # Choose how we want data to be organize
-mdict = merge_field('Industry',df_clean)
+# mdict = merge_field('Industry',df_clean)
 
 # Choose what entries we specifcally want to plot
 # Company
@@ -70,10 +70,10 @@ mdict = merge_field('Industry',df_clean)
 #                       mdict['Facebook'], mdict['Amazon'], mdict['Booz Allen Hamilton']],
 #                     ignore_index=True)
 # Inudstry
-df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
-                      mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
-                      ignore_index=True)
+# df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
+#                       mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
+#                       ignore_index=True)
 
-# Create and display plot
-chart = salary_v_listings_scatter(df_chart, 'Industry')
-chart.show()
+# # Create and display plot
+# chart = salary_v_listings_scatter(df_chart, 'Industry')
+# chart.show()
