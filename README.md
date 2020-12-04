@@ -23,15 +23,16 @@ Please see instructions and requirements below.
 1. **Source_Code**: Source code directory.  
 *Note:*\
 Each chart/plot has it's own script (e.g. box & whisker plots are generated when `box_and_whisker.py` is ran).
-     - `__init__.py`: Empty file to make directory package (allows imports to `project_plots.ipynb` higher level directory).  
+     - `__init__.py`: Empty file to make directory into a package (allows imports to `project_plots.ipynb` in higher level directory).  
      - `project_functions.py`: All custom functions are located in this file, and imported from this file for use in scripts.  
-     - `box_and_whisker.py`: Script that generates box and whisker plots.  
+     - `box_and_whisker.py`: Script that generates box and whisker plots as presented.  
      *Note:*\
      The code used to count 'top 5' industries by job posts are in this script, commented out.\
      The count was done in series so it is included so that our process may be duplicated.  
      - `word_clouds.py`: Script that generates word clouds as presented.  
      - `cloud.png`: Image file used in `word_clouds.py` to create wordcloud mask.  
-     - `radial_column.py`: Script that generates radial column chart as presented.!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!RENAME!!!!  
+     - `radial_column_chart.py`: Script that generates radial column chart as presented.
+     - `radar_chart`: Script that generates radar charts as presented.
      - `Data_Job_NY.csv`: New York state'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_SF.csv`: San Francisco area 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
      - `Data_Job_TX.csv`: Texas 'raw' csv file of data scraped from glassdoor--needed to run scripts.  
