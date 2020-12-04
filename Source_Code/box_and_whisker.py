@@ -27,8 +27,7 @@ National Debt Relief                  60
 try:
     import numpy as np
     import pandas as pd
-    # conda install seaborn
-    #import seaborn as sns
+    # 'conda install seaborn' if issues regaring this package
     import matplotlib.pyplot as plt
     #ensure file bw_functions.py is in same directory as box_and_whisker.py
     from project_functions import merge_MinMax_Salary, count_members_by_column, clean_and_merge, gen_and_disp_boxWhiskerPlot, add_seniority
