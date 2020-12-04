@@ -8,19 +8,19 @@ terms from qualifications desired from companies looking for data scientists
 
 REDO THIS FOR ONLY for TOP 5 Industries: 
 INDUSTRY                            COUNT
-Aerospace & Defense                  252.0
-Finance                              302.0
-Biotech & Pharmaceuticals            518.0
-Business Services                    620.0
-Information Technology              1016.0
+Aerospace & Defense                 126
+Finance                             151
+Biotech & Pharmaceuticals           259
+Business Services                   310
+Information Technology              508
 
 AND FOR TOP 5 COMPANIES of those Industries:
-COMPANY                         COUNT
-Facebook                          42*Not very useful for wordcloud due to Covid Surge Description
-Amazon                            44*Not very useful for wordcloud due to Covid Surge Description
-Leidos                            46*Not very useful for wordcloud due to Covid Surge Description
-Genentech                        118
-National Debt Relief             120
+COMPANY                             COUNT
+Facebook                              21*Not very useful for wordcloud due to Covid Surge Description
+Amazon                                22*Not very useful for wordcloud due to Covid Surge Description
+Leidos                                23*Not very useful for wordcloud due to Covid Surge Description
+Genentech                             59
+National Debt Relief                  60
 """
 try:
     import numpy as np

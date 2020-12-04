@@ -10,19 +10,19 @@ between different companies within those industries.
 
 REDO THIS FOR ONLY for TOP 5 Industries: 
 INDUSTRY                            COUNT
-Aerospace & Defense                  252.0
-Finance                              302.0
-Biotech & Pharmaceuticals            518.0
-Business Services                    620.0
-Information Technology              1016.0
+Aerospace & Defense                 126
+Finance                             151
+Biotech & Pharmaceuticals           259
+Business Services                   310
+Information Technology              508
 
 AND FOR TOP 5 COMPANIES of those Industries:
 COMPANY                             COUNT
-Facebook                              42
-Amazon                                44
-Leidos                                46
-Genentech                            118
-National Debt Relief                 120
+Facebook                              21
+Amazon                                22
+Leidos                                23
+Genentech                             59
+National Debt Relief                  60
 '''
 try:
     import numpy as np
@@ -55,8 +55,8 @@ df_combined = clean_and_merge(df_allFrames) # project_functions
 ## to print to console uncommend the next line and run script
 #print(count_members_by_column(df_combined,"Industry")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-#df_coCount = count_members_by_column(df_combined,"Industry") # project_functions
-#df_coCount.to_csv('Data_Industry_Count.csv')
+df_coCount = count_members_by_column(df_combined,"Industry") # project_functions
+df_coCount.to_csv('Data_Industry_Count.csv')
 
 ##===================CREATE DF W/ONLY TOP 5 INDUSTRIES WRT # OF POSTS===================##
 df_combFinance = df_combined[df_combined["Industry"]=="Aerospace & Defense"]
@@ -82,8 +82,8 @@ df_minmaxInd = merge_MinMax_Salary(df_combInd) # project_functions
 ## to print to console uncommend the next line and run script
 #print(count_members_by_column(df_combInd,"Company")) # project_functions
 ## to write count to csv uncomment next 2 lines and run script
-#df_coCount = count_members_by_column(df_combInd,"Company") # project_functions
-#df_coCount.to_csv('Data_Company_Count.csv')
+df_coCount = count_members_by_column(df_combInd,"Company") # project_functions
+df_coCount.to_csv('Data_Company_Count.csv')
 
 ##===================CREATE DF W/ONLY TOP 5 COMPANIES WRT # OF POSTS===================##
 df_combAmazon = df_combInd[df_combInd["Company"]=="Amazon"]
@@ -115,5 +115,4 @@ gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary (USD) by Industry","Industry","
 # display Min and Max Salary vs Company
 gen_and_disp_boxWhiskerPlot(df_minmaxCo,"Salary (USD) by Company","Company","Salary","Min_Max") # project_functions
 
-#gen_and_disp_boxWhiskerPlot(df_minmaxInd,"Salary by Seniority","Industry","Salary","Seniority") # project_functions
 
