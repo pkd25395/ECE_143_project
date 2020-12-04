@@ -62,13 +62,13 @@ time, so to look at the next plot you need to close the tab it rendered on.
 
 ##=================== Salary vs. Listings Scatterplot by Industry ===================##
 # Choose how we want data to be organize
-mdict = merge_field('Industry',df_clean)
+mdict = merge_field('Company',df_clean)
 
 # Choose what entries we specifcally want to plot
-df_chart = pd.concat([mdict['Information Technology'], mdict['Business Services'], mdict['Biotech & Pharmaceuticals'],
-                      mdict['Aerospace & Defense'], mdict['Finance'], mdict['Health Care']],
+df_chart = pd.concat([mdict['Genentech'], mdict['National Debt Relief'], mdict['Leidos'], mdict['BAE Systems USA'],
+                      mdict['Facebook'], mdict['Amazon'], mdict['Booz Allen Hamilton']],
                     ignore_index=True)
 
 # Create and display plot
-chart = salary_v_listings_scatter(df_chart, 'Industry')
+chart = salary_v_listings_scatter(df_chart, 'Company')
 chart.show()

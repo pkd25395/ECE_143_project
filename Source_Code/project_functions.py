@@ -407,14 +407,15 @@ def salary_v_listings_scatter(df_chart, legend, separate=False):
     df_chart = Chart(df_chart)
     
     if separate:
-        chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend,column=legend)
+        chart = df_chart.mark_point().encode(x='Listings',y=alt.Y('Avg_Salary', title='Avg Salary (USD)'),color=legend,column=legend)
     else:
-        chart = df_chart.mark_point().encode(x='Listings',y='Avg_Salary',color=legend)
+        chart = df_chart.mark_point().encode(x='Listings',y=alt.Y('Avg_Salary', title='Avg Salary (USD)'),color=legend)
     
-    chart = chart.properties(title = 'Salary vs. # of Job Lstings',height=500,width=600)
+    chart = chart.properties(title = 'Salary vs. # of Job Lstings',height=700,width=900)
     chart = chart.configure_header(titleFontSize=14,labelFontSize=14)
-    chart = chart.configure_axis(titleFontSize=14,labelFontSize=14)
+    chart = chart.configure_axis(titleFontSize=14,labelFontSize=14,tickCount=10)
     chart = chart.configure_title(fontSize=14)
+    chart = chart.configure_legend(titleFontSize=14,labelFontSize=12)
     
         
     return chart
