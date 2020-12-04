@@ -9,7 +9,7 @@ import pandas as pd
 from project_functions import clean_data, merge_field, salary_v_rating_scatter, salary_v_listings_scatter
 import altair as alt
 
-#alt.renderers.enable('notebook')
+##============== Load in necessary data =================##
 
 sf = pd.read_csv(r'Data_Job_SF.csv')
 ny = pd.read_csv(r'Data_Job_NY.csv')
@@ -26,8 +26,14 @@ mdict = merge_field('Industry',df_clean)
 # chart = salary_v_rating_scatter(mdict['Finance'],'Industry')
 # chart.show()
 
+"""
+Choose what you want to plot by uncommenting what you want to plot. This is 
+helpful because this is not in a notebook so it renders in a browser one at a
+time, so to look at the next plot you need to close the tab it rendered on.
 
-# ##=================== Salary vs. Ratings Scatterplot by Industry ===================##
+"""
+
+##=================== Salary vs. Ratings Scatterplot by Industry ===================##
 # mdict = merge_field('Industry',df_clean)
 # df_chart = pd.concat([mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
 #                       ignore_index=True)
@@ -35,7 +41,7 @@ mdict = merge_field('Industry',df_clean)
 # chart = salary_v_rating_scatter(df_chart,'Industry',separate=True)
 # chart.show()
 
-# ##=================== Salary vs. Ratings Scatterplot by Company ===================##
+##=================== Salary vs. Ratings Scatterplot by Company ===================##
 # df_chart = pd.concat([mdict['Information Technology'], mdict['Finance'], mdict['Business Services'], 
 #                       mdict['Aerospace & Defense'], mdict['Biotech & Pharmaceuticals']],
 #                       ignore_index=True)
